@@ -12,3 +12,4 @@
 - All ingredient quantities are in grams (g).
 - "Spec" and "recipe" are interchangeable; use "recipe" canonically in all output and file names.
 - Default mode is idea and testing. Do not move toward finalizing or graduating a recipe unless explicitly told to.
+- List any temperatures in both Celsius and Fahrenheight

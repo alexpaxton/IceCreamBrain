@@ -1,0 +1,7 @@
+Sweetener,Relative_Sweetness,FPD,Notes,Source
+Sucrose,100,1.0,Standard reference sweetener,reference.md
+Glucose / Dextrose,74,1.9,Monosaccharide; twice the FPD of sucrose per gram,reference.md
+Fructose,110,1.9,Monosaccharide; found in fruit and honey,reference.md
+Galactose,60,1.9,Monosaccharide; rarely used in direct form,reference.md
+Lactose,16,0.5,Disaccharide naturally present in milk; almost no perceptible sweetness,reference.md
+Honey (average),130,1.46,Acts like flavored invert sugar; ~74% total solids; actual sweetness varies by variety,https://www.dreamscoops.com/ice-cream-science/sugar-in-ice-cream/
