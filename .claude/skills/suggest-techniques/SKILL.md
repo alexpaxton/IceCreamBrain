@@ -20,7 +20,7 @@ description: Given one or more ingredients with their categories, checks the tec
 | A Base or Both ingredient has starch content that would push total base starch above 1.5% | Enzyme starch conversion — alpha-amylase breaks starch into sugars before churning, eliminating chalky or gummy texture | `handling-starches` |
 | Recipe is dairy-free and needs a non-dairy base liquid | Dairy alternative — produces a non-dairy liquid with equivalent macros to the combined cream + milk portion | `create-dairy-alternative` |
 | A base liquid needs its fat% raised (e.g. oat milk being used in place of cream) | Fat boost — emulsifies oil into the liquid to raise fat content to a target% | `boost-fat-content` |
-| A Flavoring or Both ingredient's primary flavor compounds are predominantly fat-soluble (LogP > 2) with low water and alcohol solubility per `ingredient-extraction` data | Oil extraction — extracts flavor into oil via sous vide, blending, or cold infusion; method chosen based on heat stability and physical structure of the ingredient | `oil-extraction` |
+| A Flavoring or Both ingredient's primary flavor compounds are predominantly fat-soluble (LogP > 2) with low water and alcohol solubility per `ingredient-lookup-vocs` data | Oil extraction — extracts flavor into oil via sous vide, blending, or cold infusion; method chosen based on heat stability and physical structure of the ingredient | `oil-extraction` |
 
 ---
 
@@ -42,7 +42,7 @@ For each Base or Both ingredient:
 
 For each Flavoring or Both ingredient:
 
-- **Oil extraction check**: if `ingredient-extraction` data is available, check the Fat (LogP) column. If dominant compounds have LogP > 2 and low water/alcohol solubility, flag for `oil-extraction`. If `ingredient-extraction` has not been run yet, note that this check should be revisited after it runs.
+- **Oil extraction check**: if `ingredient-lookup-vocs` data is available, check the Fat (LogP) column. If dominant compounds have LogP > 2 and low water/alcohol solubility, flag for `oil-extraction`. If `ingredient-lookup-vocs` has not been run yet, note that this check should be revisited after it runs.
 
 ---
 

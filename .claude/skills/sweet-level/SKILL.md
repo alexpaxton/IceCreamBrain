@@ -27,19 +27,27 @@ description: Given a sweetness percent (0–100) and total sugar weight in grams
 
 ## Step 1 — Gather inputs
 
-If any required input is missing, ask for it before proceeding. If `sweetener` is not provided, skip Steps 2–3 and go straight to Step 4a.
+If any required input is missing, ask for it before proceeding.
 
 ---
 
-## Step 2 — Check sweetener reference table
+## Step 2 — Run the calculation script
 
-Read `.claude/skills/sweet-level/sweetener-reference.csv`. Columns: `Sweetener, Relative_Sweetness, FPD, Notes, Source`.
+Run `.claude/skills/sweet-level/sweet_level.py` with:
 
-- Match the requested sweetener case-insensitively.
-- Treat "dextrose" as matching "Glucose / Dextrose".
-- If a specific honey variety is given (e.g. "manuka honey"), treat it as a distinct row — do not match "Honey (average)".
-- **If found:** use `Relative_Sweetness` and `FPD` directly. Skip Step 3.
-- **If not found:** continue to Step 3.
+```
+python3 .claude/skills/sweet-level/sweet_level.py <sweetness_pct> <total_weight_g> [sweetener_name]
+```
+
+- Omit `sweetener_name` for the default sucrose + glucose split.
+- Pass the sweetener name (case-insensitive) when an alternative sweetener is in use.
+
+**Exit codes:**
+- `0` — success; stdout contains the formatted result; skip to Step 4
+- `1` — input error (bad arguments)
+- `2` — sweetener not in reference table; stderr contains `NOT_FOUND:<name>` — continue to Step 3 to look it up, then re-run
+
+The script handles all edge cases (glucose_g < 0, alt_g > total_weight), FPD calculation, and FPD adjustment suggestions. Do not redo this math manually.
 
 ---
 
@@ -63,68 +71,21 @@ Sweetener name,Relative_Sweetness,FPD,Brief note,https://source-url
 
 ---
 
-## Step 4 — Calculate sweetener quantities
+## Step 4 — FPD reference (for context only)
 
-### 4a — Default (sucrose + glucose only)
+The script enforces acceptable range 1.15–1.60. Below 1.15 the ice cream may freeze hard; above 1.60 it may be gummy or too soft. Reference points:
 
-```
-sucrose_g = total_weight × (sweetness_pct / 100)
-glucose_g = total_weight × (1 − sweetness_pct / 100)
-```
-
-### 4b — Alternative sweetener
-
-```
-target_sucrose_g   = total_weight × (sweetness_pct / 100)
-alt_g              = target_sucrose_g × (100 / alt_relative_sweetness)
-glucose_g          = total_weight − alt_g
-```
-
-**Edge cases:**
-- If `glucose_g < 0`: the alternative sweetener alone exceeds the target sweetness at this weight. Cap `alt_g = total_weight`, set `glucose_g = 0`, and warn: *"[Sweetener] is sweet enough that [alt_g_capped]g hits the sweetness target — no glucose needed. Consider reducing total weight if you want to leave room for glucose's texture benefits."*
-- If `alt_g > total_weight`: the sweetener is too weak to reach the target at this weight. Set `alt_g = total_weight`, `glucose_g = 0`, and warn: *"[Sweetener] can't reach [sweetness_pct]% sweetness at [total_weight]g — you'd need [calculated_needed]g, which exceeds the budget. Maximum achievable sweetness at this weight: [max_pct]%."*
-
----
-
-## Step 5 — Freezing point depression check
-
-Calculate the weighted FPD index for this sugar blend:
-
-```
-FPD_index = (Σ sweetener_g × FPD_value) / total_weight
-```
-
-For example, sucrose + glucose split:
-```
-FPD_index = (sucrose_g × 1.0 + glucose_g × 1.9) / total_weight
-```
-
-**Reference points:**
 | FPD_index | Meaning |
 |---|---|
 | 1.0 | Pure sucrose — freezes hard |
-| ~1.2 | Typical recipe default (75% sucrose / 25% glucose) |
+| ~1.2 | Typical recipe default |
 | 1.9 | Pure glucose — freezes very soft |
 
-**Acceptable range: 1.15–1.60**
-
-- Below 1.15: too sucrose-heavy; ice cream may freeze hard. Suggest swapping some sucrose for glucose.
-- Above 1.60: heavily monosaccharide-dominant; texture may be gummy or too soft.
-- In range: confirm and proceed.
-
-**If out of range — suggest glucose adjustment:**
-
-To hit a target FPD_index `T`:
-```
-glucose_adj_g = (T × total_weight − sucrose_g × 1.0 − other_sweetener_g × FPD_other) / (1.9 − 1.0)
-sucrose_adj_g = total_weight − glucose_adj_g − other_sweetener_g
-```
-
-Present the adjusted quantities alongside an updated sweetness_pct for the new split. Do not silently apply the adjustment — present it as a suggestion and let the user confirm.
+Do not silently apply an FPD adjustment — present it as a suggestion and let the user confirm.
 
 ---
 
-## Step 6 — Output
+## Step 5 — Output
 
 ### Called standalone (user invoked directly, or no recipe context in conversation)
 

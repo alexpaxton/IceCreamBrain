@@ -1,6 +1,6 @@
 ---
 name: create-recipe
-description: Creates a simplified test recipe based on a flavor idea. Saves to recipes-in-testing/ with a v1 suffix. Format is a concept paragraph, ingredient list (targeting 1L), tools list, and procedure. Calls categorize-ingredient for unusual ingredients, ingredient-extraction for new flavorings, and handling-starches if starch is present.
+description: Creates a simplified test recipe based on a flavor idea. Saves to recipes-in-testing/ with a v1 suffix. Format is a concept paragraph, ingredient list (targeting 1L), tools list, and procedure. Calls categorize-ingredient for unusual ingredients, ingredient-lookup-vocs for new flavorings, and handling-starches if starch is present.
 ---
 
 # Create Recipe
@@ -50,7 +50,7 @@ For any ingredient that isn't obviously pure dairy, sweetener, or stabilizer, in
 | `suggest-techniques` flags starch treatment needed | `handling-starches` |
 | `suggest-techniques` flags fat boost needed | `boost-fat-content` |
 | Any ingredient is a store-bought product | `product-macros` |
-| Any Flavoring/Both ingredient not in the `ingredient-extraction` reference doc | `ingredient-extraction` |
+| Any Flavoring/Both ingredient not in the `ingredient-lookup-vocs` reference doc | `ingredient-lookup-vocs` |
 
 For `sweet-level`: use the total sugar weight from the proportion guide below and a default `sweetness_pct` of 75 (matching the standard 3:1 sucrose:glucose ratio) unless the user specifies otherwise or mentions an alternative sweetener. Splice the returned ingredient rows into the recipe table in place of the sugar/glucose lines. Append the FPD note after the ingredient table.
 
@@ -74,7 +74,7 @@ Do not generate any recipe content until the user confirms.
 Run whichever apply. Independent lookups can run in parallel.
 
 - **`categorize-ingredient`** — batch all ambiguous ingredients in one call before dispatching downstream skills
-- **`ingredient-extraction`** — for Flavoring/Both ingredients not already in the reference doc; use the compound data to inform steeping medium and temperature in the procedure
+- **`ingredient-lookup-vocs`** — for Flavoring/Both ingredients not already in the reference doc; use the compound data to inform steeping medium and temperature in the procedure
 - **`handling-starches`** — if starch_pct > 1.5%; its enzyme treatment step will be inserted into the procedure
 - **`create-dairy-alternative`** — if dairy-free; its output defines the base ingredient list and any special prep
 - **`product-macros`** — if a store-bought product is involved; ask the user to provide package photos before proceeding
@@ -123,7 +123,7 @@ version: 1
 - Tools: list only what's actually used in the procedure
 - Procedure: bold each step label; cover only what's specific to this recipe
   - Omit standard steps the maker already knows: combining base liquids, tempering eggs, straining, chilling over ice bath, churning
-  - Include: steeping approach and duration, infusion medium (informed by `ingredient-extraction` compound data), enzyme treatment if applicable, any non-obvious timing or temperature, special ingredient prep
+  - Include: steeping approach and duration, infusion medium (informed by `ingredient-lookup-vocs` compound data), enzyme treatment if applicable, any non-obvious timing or temperature, special ingredient prep
 - If `handling-starches` was invoked, include the enzyme treatment as a procedure step
 - If `create-dairy-alternative` was invoked, describe the non-dairy base preparation as the first procedure step
 

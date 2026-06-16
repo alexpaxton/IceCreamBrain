@@ -82,7 +82,7 @@ Set or update to today's date whenever a recipe file is modified after initial c
 
 **`flavors`** — YAML list of smell/taste notes derived from the volatile organic compounds in the recipe's flavoring ingredients
 
-For each flavoring ingredient in the recipe, check the `ingredient-extraction` reference doc for its documented VOC flavor/aroma notes. Collect every distinct note across all flavoring ingredients and list them as individual tags. These are free-form descriptors taken directly from the compound profiles — not a fixed vocabulary.
+For each flavoring ingredient in the recipe, check the `ingredient-lookup-vocs` reference doc for its documented VOC flavor/aroma notes. Collect every distinct note across all flavoring ingredients and list them as individual tags. These are free-form descriptors taken directly from the compound profiles — not a fixed vocabulary.
 
 ```yaml
 flavors:
@@ -93,7 +93,7 @@ flavors:
 ```
 
 - Identify the flavoring ingredients (i.e. those contributing aroma/taste, not base dairy/sweeteners/stabilizers). If an ingredient's role is ambiguous, run `categorize-ingredient` to confirm before deciding whether to pull VOC notes from it.
-- Pull the smell/taste notes from their VOC profiles in the `ingredient-extraction` reference doc; run `ingredient-extraction` for any ingredient not yet documented
+- Pull the smell/taste notes from their VOC profiles in the `ingredient-lookup-vocs` reference doc; run `ingredient-lookup-vocs` for any ingredient not yet documented
 - For ingredients classified as **Both**, include their VOC notes in `flavors` — they contribute flavor even though they also affect the base
 - Deduplicate and list all notes
 - Use lowercase, hyphenate multi-word notes (e.g. `stone-fruit`, `dried-fruit`)

@@ -1,6 +1,6 @@
 ---
 name: categorize-ingredient
-description: Determines whether an ingredient functions as a flavoring, a base ingredient, or both in a given ice cream recipe. Routes to the correct downstream skills: ingredient-extraction for flavorings, ingredient-macros and handling-starches for base ingredients.
+description: Determines whether an ingredient functions as a flavoring, a base ingredient, or both in a given ice cream recipe. Routes to the correct downstream skills: ingredient-lookup-vocs for flavorings, ingredient-macros and handling-starches for base ingredients.
 ---
 
 # Categorize Ingredient
@@ -84,7 +84,7 @@ For each ingredient:
 
 - Rationale: [1–2 sentences]
 - Skills to invoke:
-  - `ingredient-extraction` — yes / no
+  - `ingredient-lookup-vocs` — yes / no
   - `ingredient-macros`     — yes / no
   - `handling-starches`     — yes (if Base or Both AND likely starchy) / no
 ```
@@ -95,7 +95,7 @@ For each ingredient:
 
 If called with a full ingredient list, classify all in one pass and present a summary table:
 
-| Ingredient | Weight | % | Category | ingredient-extraction | ingredient-macros | handling-starches |
+| Ingredient | Weight | % | Category | ingredient-lookup-vocs | ingredient-macros | handling-starches |
 |------------|--------|---|----------|-----------------------|-------------------|-------------------|
 | Heavy cream | 300g | 30% | Base | — | ✓ (quick-ref) | — |
 | Whole milk | 400g | 40% | Base | — | ✓ (quick-ref) | — |

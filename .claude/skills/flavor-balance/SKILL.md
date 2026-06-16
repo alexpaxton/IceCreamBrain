@@ -1,6 +1,6 @@
 ---
 name: flavor-balance
-description: Given a set of flavoring ingredients, calls ingredient-extraction for each, compares their flavor compound profiles, and produces a report classifying the combination as complementary (high compound overlap) or contrasting (low or no overlap), with a breakdown of which ingredients share which compounds and which flavor notes will be emphasized.
+description: Given a set of flavoring ingredients, calls ingredient-lookup-vocs for each, compares their flavor compound profiles, and produces a report classifying the combination as complementary (high compound overlap) or contrasting (low or no overlap), with a breakdown of which ingredients share which compounds and which flavor notes will be emphasized.
 ---
 
 # Flavor Balance
@@ -19,9 +19,9 @@ Extract the list of ingredients from the user's message. Minimum two ingredients
 
 ---
 
-## Step 2 — Run ingredient-extraction for each ingredient
+## Step 2 — Run ingredient-lookup-vocs for each ingredient
 
-Invoke the `ingredient-extraction` skill for every ingredient in the list. Run all lookups **in parallel** — do not wait for one to complete before starting the next.
+Invoke the `ingredient-lookup-vocs` skill for every ingredient in the list. Run all lookups **in parallel** — do not wait for one to complete before starting the next.
 
 Collect the full compound profile for each ingredient: compound names, flavor descriptors (the role/description), and PubChem CIDs where available.
 

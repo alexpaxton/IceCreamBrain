@@ -1,6 +1,6 @@
 ---
 name: oil-extraction
-description: Technique skill. Extracts flavor compounds from an ingredient into oil to produce a flavored oil for use in a recipe. Chooses between three methods — sous vide warm extraction, blend extraction, or cold infusion — based on the ingredient's heat stability and physical structure, informed by ingredient-extraction compound data.
+description: Technique skill. Extracts flavor compounds from an ingredient into oil to produce a flavored oil for use in a recipe. Chooses between three methods — sous vide warm extraction, blend extraction, or cold infusion — based on the ingredient's heat stability and physical structure, informed by ingredient-lookup-vocs compound data.
 technique: true
 ---
 
@@ -18,11 +18,11 @@ This skill is a **technique**, not a recipe. It produces a flavored oil that is 
 
 ## Step 1 — Confirm compound solubility
 
-If `ingredient-extraction` data is already available for the ingredient, read the compound table. Confirm that the dominant flavor compounds have:
+If `ingredient-lookup-vocs` data is already available for the ingredient, read the compound table. Confirm that the dominant flavor compounds have:
 - Fat (LogP) column: LogP > 2 (strongly fat-soluble), or qualitatively "oil-soluble"
 - Water column: low (Insoluble or Slightly soluble)
 
-If `ingredient-extraction` has not been run, invoke it now. Oil extraction is only the right technique when fat is the primary extraction medium — if the compounds are also water- or alcohol-soluble, mention that those vectors may be more practical or complementary.
+If `ingredient-lookup-vocs` has not been run, invoke it now. Oil extraction is only the right technique when fat is the primary extraction medium — if the compounds are also water- or alcohol-soluble, mention that those vectors may be more practical or complementary.
 
 ---
 
@@ -32,7 +32,7 @@ Work through this decision tree in order:
 
 ### Is the ingredient heat-stable?
 
-Check the **Temp notes** column in the `ingredient-extraction` compound table. The ingredient is heat-stable if the dominant compounds:
+Check the **Temp notes** column in the `ingredient-lookup-vocs` compound table. The ingredient is heat-stable if the dominant compounds:
 - Do not volatilize below 100°C (boiling point well above custard cooking temps)
 - Are not flagged as degrading or transforming at 65–70°C
 - Have no acid-sensitivity or enzyme-sensitivity warnings that heat would accelerate

@@ -13,7 +13,7 @@ description: Given a food ingredient, look up its macronutrient breakdown (water
 - User is building a recipe and wants precise macronutrient data for a specific ingredient
 - `categorize-ingredient` has classified an ingredient as **Base** or **Both**
 
-This skill applies to **base ingredients** — those that contribute meaningfully to the recipe's macro profile (water, fat, sugars, protein). Pure flavorings at trace amounts (≤ 2% of recipe) do not need this skill; their macro contribution is negligible. For ingredients classified as **Both** by `categorize-ingredient`, run this skill alongside `ingredient-extraction`.
+This skill applies to **base ingredients** — those that contribute meaningfully to the recipe's macro profile (water, fat, sugars, protein). Pure flavorings at trace amounts (≤ 2% of recipe) do not need this skill; their macro contribution is negligible. For ingredients classified as **Both** by `categorize-ingredient`, run this skill alongside `ingredient-lookup-vocs`.
 
 ## Steps
 
