@@ -1,0 +1,3256 @@
+{
+  "ingredients": {
+    "allspice": {
+      "id": "allspice",
+      "name": "Allspice",
+      "scientific_name": "Pimenta dioica",
+      "variety": "dried berry",
+      "gcms_summary": "Eugenol 54\u201374%, \u03b2-Myrcene 10\u201316%, Chavicol (4-Vinylphenol) 5\u201312.5%, Methyl Eugenol 7\u201312%, \u03b2-Caryophyllene ~6.5%, D-Limonene 2\u201311%, 1,8-Cineole and Linalool 1\u20132% each. Eugenol so dominates odor activity that the others serve primarily as modifiers \u2014 the \"clove + pepper + cinnamon\" impression is almost entirely eugenol with caryophyllene and myrcene adding spice and depth. Guatemalan fruit EO study (PMC7597960) identified 18 compounds \u22650.1%: \u03b1-Humulene and (E)-\u03b2-Ocimene each ~1.2\u20131.3%; minor sesquiterpenes (\u03b1-Ylangene, \u03b4-Amorphene, Germacrene D, \u03b3-Muurolene, Caryophyllene oxide) and monoterpenes (Terpinen-4-ol, 1,8-Cineole, Terpinolene, \u03b3-Terpinene) at <1% each.",
+      "compounds": [
+        {
+          "compound_id": "eugenol",
+          "percentage": 0.64,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": 0.13,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-eugenol",
+          "percentage": 0.095,
+          "notes": null
+        },
+        {
+          "compound_id": "chavicol",
+          "percentage": 0.0875,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": 0.065,
+          "notes": null
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": 0.016,
+          "notes": null
+        },
+        {
+          "compound_id": "e-beta-ocimene",
+          "percentage": 0.013,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-ylangene",
+          "percentage": 0.012,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-humulene",
+          "percentage": 0.012,
+          "notes": null
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": 0.01,
+          "notes": null
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": 0.008,
+          "notes": null
+        },
+        {
+          "compound_id": "delta-amorphene",
+          "percentage": 0.008,
+          "notes": null
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.065,
+          "notes": null
+        },
+        {
+          "compound_id": "germacrene-d",
+          "percentage": 0.004,
+          "notes": null
+        },
+        {
+          "compound_id": "caryophyllene-oxide",
+          "percentage": 0.004,
+          "notes": null
+        },
+        {
+          "compound_id": "terpinolene",
+          "percentage": 0.003,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": 0.002,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-muurolene",
+          "percentage": 0.002,
+          "notes": null
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12471713/",
+        "https://link.springer.com/article/10.1007/s11694-025-03135-7",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7597960/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8196113/"
+      ]
+    },
+    "basil": {
+      "id": "basil",
+      "name": "Basil (Sweet)",
+      "scientific_name": "Ocimum basilicum",
+      "variety": "Sweet/European/Italian chemotype only. Thai, clove, and other chemotypes differ significantly (eugenol- or methyl eugenol-dominant) and require separate profiling.",
+      "gcms_summary": "Linalool 60\u201380%, Methyl chavicol (estragole) 10\u201325%, 1,8-Cineole 6\u201312%. Secondary compounds consistently present but at <5% each: Eugenol 2\u201310% (varies widely; trace in pure linalool types, higher in linalool+eugenol subtype), \u03b2-Caryophyllene 1\u20135%, (E)-\u03b2-Ocimene 1\u20132%, \u03b2-Myrcene and \u03b2-Pinene ~1% each, Germacrene D ~0.5\u20131%, Camphor ~0.3\u20131%. Composition varies significantly by cultivar, geography, and harvest stage.",
+      "compounds": [
+        {
+          "compound_id": "linalool",
+          "percentage": 0.7,
+          "notes": "Isomerizes in acidic conditions \u2014 add any acid only after straining and cooling"
+        },
+        {
+          "compound_id": "estragole",
+          "percentage": 0.175,
+          "notes": null
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": 0.09,
+          "notes": null
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Highly variable: trace in pure linalool type; up to 10% in linalool+eugenol subtype"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": 0.025,
+          "notes": null
+        },
+        {
+          "compound_id": "e-beta-ocimene",
+          "percentage": 0.015,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": 0.01,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": 0.01,
+          "notes": null
+        },
+        {
+          "compound_id": "germacrene-d",
+          "percentage": 0.008,
+          "notes": null
+        },
+        {
+          "compound_id": "camphor",
+          "percentage": 0.005,
+          "notes": null
+        }
+      ],
+      "warnings": "Acid caution: linalool isomerizes in acidic conditions \u2014 never add acid before straining and cooling.",
+      "sources": [
+        "https://www.hort.purdue.edu/newcrop/proceedings1999/v4-499.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865694/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7830006/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877822/"
+      ]
+    },
+    "black-sesame": {
+      "id": "black-sesame",
+      "name": "Sesame Seeds (Black)",
+      "scientific_name": "Sesamum indicum",
+      "variety": "roasted, black variety",
+      "gcms_summary": "Character defined by Maillard reaction products formed during toasting. 4-Vinylguaiacol (OAV 160) dominates the burnt-clove-smoky impression. Furaneol (OAV 80) provides caramel sweetness. 2,5-Dimethylpyrazine and alkylpyrazines (2-ethyl-6-methylpyrazine, 2,6-diethylpyrazine) deliver roasted/nutty notes. Thiazoles (2,4-dimethylthiazole, 4-methylthiazole) add coffee-roasted and meaty dimensions. 3-Methylbutanal (Strecker degradation from leucine/isoleucine) contributes high-OAV malty-fruity notes. Syringol and guaiacol provide smoky-phenolic depth from lignin degradation during roasting. 2-Furfurylthiol (threshold ~0.01 ppb) adds coffee-roasted sulfurous character. Sesamol forms from sesamolin degradation above ~180\u00b0C (356\u00b0F) and provides the characteristic earthy-phenolic sesame base note. Black vs. white: Black seeds contain statistically lower levels of 2,5-dimethylpyrazine and ethyl acetate than white sesame; overall profile is similar but black sesame reads as earthier and more bitter.",
+      "compounds": [
+        {
+          "compound_id": "4-vinylguaiacol",
+          "percentage": null,
+          "notes": "Highest OAV (160) in roasted sesame"
+        },
+        {
+          "compound_id": "furaneol",
+          "percentage": null,
+          "notes": "OAV 80; formed from d-fructose via Maillard reaction during roasting"
+        },
+        {
+          "compound_id": "2-5-dimethylpyrazine",
+          "percentage": null,
+          "notes": "Representative alkylpyrazine; roasty-nutty backbone"
+        },
+        {
+          "compound_id": "2-furfurylthiol",
+          "percentage": null,
+          "notes": "Threshold ~0.01 ppb; coffee-roasted sulfurous character; oxidizes rapidly \u2014 use fresh sesame"
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": "Strecker degradation product of leucine/isoleucine; high OAV; malty-fruity; essentially all lost above 90\u00b0C (194\u00b0F) in open vessel"
+        },
+        {
+          "compound_id": "guaiacol",
+          "percentage": null,
+          "notes": "Smoky-phenolic depth from lignin degradation during roasting"
+        },
+        {
+          "compound_id": "sesamol",
+          "percentage": null,
+          "notes": "Forms from sesamolin degradation above ~180\u00b0C (356\u00b0F); characteristic earthy-phenolic sesame base"
+        },
+        {
+          "compound_id": "syringol",
+          "percentage": null,
+          "notes": "Smoky-phenolic note from lignin degradation; co-occurs with guaiacol"
+        },
+        {
+          "compound_id": "2-4-dimethylthiazole",
+          "percentage": null,
+          "notes": "Coffee-roasted Maillard thiazole; volatile \u2014 retained in fat matrix of sesame paste"
+        },
+        {
+          "compound_id": "2-ethyl-6-methylpyrazine",
+          "percentage": null,
+          "notes": "Roasted-potato alkylpyrazine; elevated at 200\u00b0C (392\u00b0F) roasting temperature"
+        },
+        {
+          "compound_id": "2-6-diethylpyrazine",
+          "percentage": null,
+          "notes": "Hazelnut-nutty alkylpyrazine"
+        },
+        {
+          "compound_id": "4-methylthiazole",
+          "percentage": null,
+          "notes": "Meaty-roasted thiazole; low threshold; volatile"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Minor aroma-active compound in roasted sesame; almond-cherry note"
+        },
+        {
+          "compound_id": "2-pentyl-furan",
+          "percentage": null,
+          "notes": "Beany-earthy background; generated from linoleic acid oxidation"
+        },
+        {
+          "compound_id": "methional",
+          "percentage": null,
+          "notes": "Cooked-potato savory depth; heat-labile above 60\u00b0C (140\u00b0F) \u2014 largely absent in cooked preparations"
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": "Trace sweet-vanilla background; formed from ferulic acid via Maillard pathways"
+        },
+        {
+          "compound_id": "indole",
+          "percentage": null,
+          "notes": "Trace floral; from tryptophan degradation during roasting; dose-sensitive"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10878863/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9315883/",
+        "https://pubs.acs.org/doi/10.1021/jf970172o"
+      ]
+    },
+    "cinnamon": {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "scientific_name": "Cinnamomum verum (Ceylon) or C. cassia/aromaticum (Cassia)",
+      "variety": "Ceylon (C. verum): (E)-Cinnamaldehyde 65\u201380%, Eugenol 4\u20135%, \u03b2-Caryophyllene 3\u20134%, Linalool 2\u20137%, (E)-Cinnamyl acetate 0.5\u20132.7%, 1,8-Cineole 0.8\u20135.4%. Cassia (C. cassia): (E)-Cinnamaldehyde 85\u201393%, eugenol trace. Simpler, more intensely \"cinnamon,\" less nuance.",
+      "gcms_summary": "Ceylon (C. verum) bark EO: (E)-Cinnamaldehyde 65\u201380%, \u03b2-Caryophyllene 3\u20136.5%, Linalool 2\u20137%, Eugenol 4\u20135%, (E)-Cinnamyl acetate 0.5\u20132.7%, 1,8-Cineole 0.8\u20135.4%, p-Cymene 1.4\u20131.9%, \u03b4-Cadinene ~1.4%, D-Limonene ~1.2%, \u03b1-Humulene 0.2\u20131.7%, \u03b1-Pinene 0.65\u20131.3%, Benzyl benzoate 0.5\u20130.75%. Cassia (C. cassia) bark EO: Cinnamaldehyde 85\u201393%; nearly all other compounds at trace levels. Cassia also contains coumarin (5\u201316 mg/g dry bark, not present as aroma volatile), essentially absent in Ceylon.",
+      "compounds": [
+        {
+          "compound_id": "e-cinnamaldehyde",
+          "percentage": null,
+          "notes": "65\u201380% Ceylon; 85\u201393% Cassia; dominant character compound"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": "3\u20136.5% in Ceylon; trace in Cassia"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "2\u20137% in Ceylon; trace in Cassia"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "4\u20135% Ceylon; trace in Cassia"
+        },
+        {
+          "compound_id": "e-cinnamyl-acetate",
+          "percentage": null,
+          "notes": "0.5\u20132.7% Ceylon; slower to extract from bark matrix than cinnamaldehyde; trace in Cassia"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "0.8\u20135.4% Ceylon; adds eucalyptus/cooling dimension"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "1.4\u20131.9% Ceylon"
+        },
+        {
+          "compound_id": "delta-cadinene",
+          "percentage": null,
+          "notes": "~1.4% Ceylon"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": "~1.2% Ceylon"
+        },
+        {
+          "compound_id": "alpha-humulene",
+          "percentage": null,
+          "notes": "0.2\u20131.7% Ceylon"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "0.65\u20131.3% Ceylon"
+        },
+        {
+          "compound_id": "benzyl-benzoate",
+          "percentage": null,
+          "notes": "0.5\u20130.75% Ceylon; aroma fixative; very low volatility, no practical handling implications"
+        },
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": "Cassia only: 5\u201316 mg/g dry bark; present as a non-volatile marker, not a primary aroma compound; trace (<1 mg/kg) in Ceylon \u2014 see warnings"
+        }
+      ],
+      "warnings": "Coumarin warning: Cassia contains 5\u201316 mg coumarin per tsp (3g); EFSA TDI is 0.1 mg/kg/day \u2014 one tsp Cassia can approach or exceed this limit. Ceylon contains only trace coumarin (<1 mg/kg). Use Ceylon in any recipe where cinnamon is a primary or high-dose flavor.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12250438/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7210559/",
+        "https://www.healthline.com/nutrition/ceylon-vs-cassia-cinnamon"
+      ]
+    },
+    "fennel-bulb": {
+      "id": "fennel-bulb",
+      "name": "Fennel (Bulb)",
+      "scientific_name": "Foeniculum vulgare",
+      "variety": "fresh vegetable (Florence/finocchio). Trans-anethole 29\u201356%, D-Limonene 31\u201354% (co-dominant; ratio varies by cultivar, some show limonene exceeding anethole). Fenchyl acetate 2.4\u20137.9%, \u03b3-Terpinene 0.7\u20133.4%, Estragole 0.8\u20131.7%, \u03b1-Pinene 0.5\u20132.3%, \u03b2-Myrcene 0.7\u20131.2%, Fenchone 0\u20130.8%.",
+      "gcms_summary": "Trans-anethole and D-Limonene are co-dominant in fennel bulb EO across 16 cultivars (Purdue study); their ratio varies considerably and limonene can exceed anethole in some types. This contrasts with fennel seed where anethole alone is 34\u201383%. Fenchyl acetate (2.4\u20137.9%) provides a sweet fir-pine modifier. Fenchone and estragole are present but minor. trans-2-Hexenal defines the fresh green top note of the raw vegetable. Bulb yields only ~0.05% EO vs. 2\u20136% in seed \u2014 dramatically lower aromatic concentration per gram.",
+      "compounds": [
+        {
+          "compound_id": "trans-anethole",
+          "percentage": null,
+          "notes": "29\u201356% across cultivars; dominant anise character"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": "31\u201354% across cultivars; often approaches or exceeds anethole \u2014 more prominent than in seed"
+        },
+        {
+          "compound_id": "fenchyl-acetate",
+          "percentage": null,
+          "notes": "2.4\u20137.9%; sweet fir-pine modifier specific to bulb; fat-soluble"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": null,
+          "notes": "0.7\u20133.4%"
+        },
+        {
+          "compound_id": "estragole",
+          "percentage": null,
+          "notes": "0.8\u20131.7%; minor in bulb vs. seed"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "0.5\u20132.3%"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "0.7\u20131.2%"
+        },
+        {
+          "compound_id": "fenchone",
+          "percentage": null,
+          "notes": "0\u20130.8%; trace and variable; much lower than in seed"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Defines fresh green top note of raw bulb; absent in seed; lost entirely above 60\u00b0C (140\u00b0F) \u2014 cold infusion only to retain"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://hort.purdue.edu/newcrop/proceedings1993/V2-579.html",
+        "https://pubs.acs.org/doi/abs/10.1021/jf050340+",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8394540/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8326332/"
+      ]
+    },
+    "fennel-seed": {
+      "id": "fennel-seed",
+      "name": "Fennel (Seed)",
+      "scientific_name": "Foeniculum vulgare",
+      "variety": "Chemotype note: Sweet fennel (anethole-dominant cultivars): Trans-anethole 34\u201398%, Fenchone 4\u201317%, Estragole 0.2\u20137%, Limonene 0.3\u201310%, \u03b1-Pinene 2\u20135%. Wild/bitter fennel (subsp. piperitum): Estragole can reach 72%; anethole drops sharply. Composition varies significantly by variety and geographic origin.",
+      "gcms_summary": "54 compounds identified across 12 varieties (PMC7931402). Sweet fennel is overwhelmingly anethole-dominant. Fenchone provides the bitter/camphorous modifier. Estragole adds sweet-anise complexity and is the dominant compound in wild subspecies. Minor monoterpenes (sabinene, \u03b1-pinene, \u03b2-pinene, \u03b3-terpinene) add fresh top notes. p-Anisaldehyde and fenchyl acetate are trace but aroma-active.",
+      "compounds": [
+        {
+          "compound_id": "trans-anethole",
+          "percentage": 0.585,
+          "notes": "34\u201383% in sweet cultivars; up to 98% in some; dominant anise character"
+        },
+        {
+          "compound_id": "estragole",
+          "percentage": 0.27,
+          "notes": "1\u201353% in sweet cultivars; dominant (up to 72%) in wild bitter subspecies"
+        },
+        {
+          "compound_id": "fenchone",
+          "percentage": 0.085,
+          "notes": "4\u201317%; camphorous-bitter modifier; higher in bitter fennel"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.085,
+          "notes": "5\u201312% in sweet cultivars"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "2\u20135%; fresh piney top note"
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": "~1\u20132%; spicy-woody minor terpene"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": null,
+          "notes": "~1\u20132%"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": null,
+          "notes": "~1%"
+        },
+        {
+          "compound_id": "p-anisaldehyde",
+          "percentage": null,
+          "notes": "Trace; sweet anise-hawthorn modifier; aroma-active despite low concentration"
+        },
+        {
+          "compound_id": "fenchyl-acetate",
+          "percentage": null,
+          "notes": "Trace\u2013minor; sweet fir-pine ester; detected across multiple fennel varieties"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7931402/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11667025/",
+        "https://jrpsm.asnrukh.ac.ir/article_209071.html?lang=en",
+        "https://www.inchem.org/documents/icsc/icsc/eics0918.htm"
+      ]
+    },
+    "fig-leaf": {
+      "id": "fig-leaf",
+      "name": "Fig (Leaf)",
+      "scientific_name": "Ficus carica",
+      "variety": null,
+      "gcms_summary": "Over 121 volatile constituents identified; sesquiterpenes are the dominant class in leaves. \u03b2-Damascenone (~10%) is the key character-impact compound (rose/cooked-apple/jammy). Benzyl alcohol (~4.6%) provides sweet-floral roundness. Germacrene D, \u03b2-Caryophyllene, \u03c4-Elemene, \u03b2-Elemene, and \u03b1-Ylangene are the major sesquiterpenes; this sesquiterpene-heavy profile is leaf-specific (differs sharply from fig fruit). trans-2-Hexenal defines the green top note. Psoralen (~10%) and Bergapten (~2%) are furanocoumarins \u2014 phototoxic, non-flavor \u2014 see warnings.",
+      "compounds": [
+        {
+          "compound_id": "beta-damascenone",
+          "percentage": 0.1,
+          "notes": "Key character-impact compound; rose/cooked-apple/jammy"
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": "~4.6%; sweet-floral smoothing agent"
+        },
+        {
+          "compound_id": "germacrene-d",
+          "percentage": null,
+          "notes": "Major sesquiterpene; woody-herbal-earthy"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": "Major sesquiterpene; warm-woody-spicy"
+        },
+        {
+          "compound_id": "beta-elemene",
+          "percentage": null,
+          "notes": "Leaf-specific sesquiterpene; herbal-waxy"
+        },
+        {
+          "compound_id": "alpha-ylangene",
+          "percentage": null,
+          "notes": "Leaf-exclusive sesquiterpene; woody, minor aroma significance"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Defines fresh green top note; nearly all lost above 60\u00b0C (140\u00b0F) \u2014 cold infusion only to retain"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Minor; almond-cherry background note"
+        }
+      ],
+      "warnings": "Furanocoumarin caution: Fig leaves contain psoralen and bergapten \u2014 phototoxic compounds that cause severe UV-activated skin burns on contact. Handle with gloves; do not use leaf infusion on skin. These are non-volatile and remain in the infused liquid.",
+      "sources": [
+        "https://www.intechopen.com/chapters/67457",
+        "https://pubmed.ncbi.nlm.nih.gov/28474390/"
+      ]
+    },
+    "green-peas": {
+      "id": "green-peas",
+      "name": "Pea (Green)",
+      "scientific_name": "Pisum sativum",
+      "variety": "frozen garden peas",
+      "gcms_summary": "39\u201347 compounds identified including aldehydes, alcohols, ketones, and furans. Character defined by methoxypyrazines (IBMP, IPMP) at ultra-low thresholds \u2014 together produce the classic green pea note at ng/L concentrations. Hexanal and trans-2-hexenal are high-OAV C6 aldehydes from lipoxygenase activity on membrane lipids; blanching deactivates lipoxygenase and fixes their levels. 1-Octen-3-ol adds earthy-fungal dimension. Nonanal adds waxy-fatty-floral background. 2-Pentylfuran provides the beany-legume background note from lipid oxidation.",
+      "compounds": [
+        {
+          "compound_id": "ibmp",
+          "percentage": null,
+          "notes": "Defining character compound; ng/L threshold"
+        },
+        {
+          "compound_id": "ipmp",
+          "percentage": null,
+          "notes": "Secondary methoxypyrazine; green bell pepper character"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "High OAV; from lipoxygenase activity on linoleic acid; blanch before processing to fix flavor"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Sharp green C6 aldehyde; from lipoxygenase pathway; essentially all lost above 80\u00b0C (176\u00b0F)"
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": "Earthy-mushroom-fungal note"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Waxy-fatty-floral background"
+        },
+        {
+          "compound_id": "2-pentyl-furan",
+          "percentage": null,
+          "notes": "Beany-earthy legume note from lipid oxidation"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pubs.acs.org/doi/abs/10.1021/jf980026y",
+        "https://hindawi.com/journals/jfq/2021/6533083",
+        "https://www.researchgate.net/publication/230107422_Volatile_Flavor_Components_from_Green_Peas_Pisum_Sativum"
+      ]
+    },
+    "jasmine-tea": {
+      "id": "jasmine-tea",
+      "name": "Tea (Jasmine)",
+      "scientific_name": "Jasminum sambac",
+      "variety": "green tea scented with jasmine flowers",
+      "gcms_summary": "78 volatile components identified (29 terpenes, 28 esters, 6 alcohols, 8 N-containing compounds). Linalool is the dominant odorant by OAV; benzyl acetate, benzyl alcohol, methyl anthranilate, and indole are the core jasmine character contributors. Geraniol, nerolidol, and eugenol are secondary floral and spicy-depth modifiers. \u03b1-Farnesene and (Z)-3-hexenyl benzoate are additional floral-green ester contributors. Short-chain aldehydes (BP 64\u201393\u00b0C / 147\u2013199\u00b0F) are essentially fully lost in warm brewing.",
+      "compounds": [
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Dominant odorant by OAV; cool brewed tea immediately \u2014 do not re-heat"
+        },
+        {
+          "compound_id": "benzyl-acetate",
+          "percentage": null,
+          "notes": "Core jasmine character; sweet-fruity-floral ester"
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": "Major; sweet-floral smoothing agent; rounds benzyl acetate"
+        },
+        {
+          "compound_id": "methyl-anthranilate",
+          "percentage": null,
+          "notes": "Sweet grape-floral; classic jasmine modifier"
+        },
+        {
+          "compound_id": "indole",
+          "percentage": null,
+          "notes": "Fecal above threshold; characteristic jasmine note at trace; concentration increases with over-steeping \u2014 2\u20133 min max"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Secondary floral-rose note"
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "Woody-floral depth; fat-soluble (LogP 5.68)"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Spicy-clove background; minor modifier"
+        }
+      ],
+      "warnings": "Brew at 75\u201380\u00b0C (167\u2013176\u00b0F) for 2\u20133 min; strain immediately; cool to <20\u00b0C (68\u00b0F) without re-heating. Shares linalool with lychee, making them complementary partners.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8779377/",
+        "https://pubmed.ncbi.nlm.nih.gov/12166975/",
+        "https://onlinelibrary.wiley.com/doi/10.1002/ffj.3571"
+      ]
+    },
+    "lemongrass": {
+      "id": "lemongrass",
+      "name": "Lemongrass",
+      "scientific_name": "Cymbopogon citratus",
+      "variety": null,
+      "gcms_summary": "Geranial (\u03b1-citral) 36\u201341%, Neral (\u03b2-citral) 28\u201334%, \u03b2-Myrcene 14\u201317%, Geraniol 2\u20136%, D-Limonene 1\u20135%, Linalool ~1\u20132%. Citral (neral + geranial combined) accounts for 70\u201385% of the essential oil.",
+      "compounds": [
+        {
+          "compound_id": "geranial",
+          "percentage": 0.385,
+          "notes": null
+        },
+        {
+          "compound_id": "neral",
+          "percentage": 0.31,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": 0.155,
+          "notes": null
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": 0.04,
+          "notes": null
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.03,
+          "notes": null
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "~1\u20132%; minor floral modifier"
+        }
+      ],
+      "warnings": "Acid caution: citral undergoes acid-catalyzed cyclization to off-flavor monoterpenes (p-cymene, p-cresol) \u2014 never add acidic ingredients until the infused cream is strained and cooled.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11856542/",
+        "https://www.flavorist.com/lemongrass-as-a-natural-flavoring-a-comprehensive-technical-guide/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9351765/"
+      ]
+    },
+    "litsea-cubeba": {
+      "id": "litsea-cubeba",
+      "name": "Litsea Cubeba",
+      "scientific_name": "Litsea cubeba",
+      "variety": "fruit essential oil",
+      "gcms_summary": "Geranial 44\u201350%, Neral 34\u201337%, Citral combined 78\u201387%, Citronellal 0.6\u20136.2% (variable by region/chemotype), D-Limonene 0.7\u20135.3%, Linalool 1.2\u20131.6%, Geraniol ~1.1%. Sensory character: sweet, fresh lemon-citral, green, grassy, slightly fruity \u2014 sweeter and less herbal than lemongrass due to lower myrcene content.",
+      "compounds": [
+        {
+          "compound_id": "geranial",
+          "percentage": 0.47,
+          "notes": null
+        },
+        {
+          "compound_id": "neral",
+          "percentage": 0.355,
+          "notes": null
+        },
+        {
+          "compound_id": "citronellal",
+          "percentage": 0.034,
+          "notes": null
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.03,
+          "notes": null
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "1.2\u20131.6%; floral roundness modifier"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "~1.1%; rose-citrus floral note"
+        }
+      ],
+      "warnings": "Same acid caution as lemongrass: citral and citronellal undergo acid-catalyzed cyclization \u2014 no acid before straining and cooling.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6268156/",
+        "https://www.thegoodscentscompany.com/data/es1032592.html"
+      ]
+    },
+    "lychee": {
+      "id": "lychee",
+      "name": "Lychee",
+      "scientific_name": "Litchi chinensis",
+      "variety": "fresh or pur\u00e9ed fruit",
+      "gcms_summary": "AEDA of fresh lychee (PMC9322243) identified 31 key odorants. Methional (FD 1024) is highest-FD compound; geraniol (FD 512) and furaneol (FD 128) follow. Nerol (FD 64) contributes softer rose-floral notes alongside geraniol; (E,Z)-2,6-nonadienal (FD 32) adds a green-cucumber dimension; nerolidol (FD 32) provides a woody-floral base. Citronellol and linalool are lower-FD but aroma-active. cis-Rose oxide is the defining character compound (highest OAV; only the (\u2212)-cis isomer is odor-active at ~0.5 ppb threshold). \u03b2-Damascenone was not detected in this study.",
+      "compounds": [
+        {
+          "compound_id": "cis-rose-oxide",
+          "percentage": null,
+          "notes": "Defining character compound (highest OAV); only the (\u2212)-cis isomer is odor-active at ~0.5 ppb"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "FD 512"
+        },
+        {
+          "compound_id": "furaneol",
+          "percentage": null,
+          "notes": "FD 128"
+        },
+        {
+          "compound_id": "nerol",
+          "percentage": null,
+          "notes": "FD 64; softer, more delicate rose-floral note than geraniol"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "FD 32"
+        },
+        {
+          "compound_id": "ez-2-6-nonadienal",
+          "percentage": null,
+          "notes": "FD 32; green, cucumber-melon note"
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "FD 32; woody, floral-green base note"
+        },
+        {
+          "compound_id": "citronellol",
+          "percentage": null,
+          "notes": "Aroma-active; rose-waxy character"
+        },
+        {
+          "compound_id": "methional",
+          "percentage": null,
+          "notes": "FD 1024 (highest); heat-labile \u2014 negligible in cooked preparations"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9322243/",
+        "https://pubmed.ncbi.nlm.nih.gov/10563950/"
+      ]
+    },
+    "nutmeg": {
+      "id": "nutmeg",
+      "name": "Nutmeg",
+      "scientific_name": "Myristica fragrans",
+      "variety": "seed kernel",
+      "gcms_summary": "Sabinene 10\u201350%, \u03b1-Pinene 7\u201320%, \u03b2-Pinene 5\u201315%, \u03b3-Terpinene 5\u201315%, Terpinen-4-ol 5\u201318%, Myristicin 5\u201315%, Eugenol 0\u201318% (highly variable; mean ~7%), Elemicin 1\u20133%, \u03b2-Myrcene 1\u20135%, \u03b1-Terpineol 1\u20133%, \u03b1-Terpinene <2%, Linalool trace\u20132%. Oil divides into ~88% monoterpenes and ~12% phenylpropanoids. Myristicin is the character-defining phenylpropanoid; elemicin and eugenol co-contribute the spice-clove notes.",
+      "compounds": [
+        {
+          "compound_id": "sabinene",
+          "percentage": 0.15,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": 0.135,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": 0.075,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": 0.075,
+          "notes": null
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": 0.105,
+          "notes": null
+        },
+        {
+          "compound_id": "myristicin",
+          "percentage": 0.1,
+          "notes": "Character-defining phenylpropanoid"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": 0.09,
+          "notes": "Highly variable; mean ~7%"
+        },
+        {
+          "compound_id": "elemicin",
+          "percentage": 0.02,
+          "notes": "Secondary phenylpropanoid; milder clove-spice note"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": 0.03,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": 0.02,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-terpinene",
+          "percentage": null,
+          "notes": "Trace\u2013minor"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Trace\u20132%"
+        }
+      ],
+      "warnings": "Volatile oils begin escaping within minutes of grinding \u2014 use freshly grated nutmeg.",
+      "sources": [
+        "https://www.flavorist.com/nutmeg-as-a-natural-flavoring-a-comprehensive-technical-guide/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5222521/",
+        "https://webbook.nist.gov/cgi/cbook.cgi?ID=C97530&Mask=7"
+      ]
+    },
+    "oolong-tea": {
+      "id": "oolong-tea",
+      "name": "Tea (Oolong)",
+      "scientific_name": "Camellia sinensis",
+      "variety": "partially oxidized leaf",
+      "gcms_summary": "Key odorants by OAV: Nerolidol (OAV 108\u2013184), Indole (OAV 96\u2013138), Linalool (OAV 63\u201387), \u03b2-Damascenone (OAV 29\u201359), Geraniol (floral backbone). Short-chain aldehydes (2-methylpropanal, 3-methylbutanal) have very high OAVs but boiling points of 64\u201393\u00b0C \u2014 they volatilize in any warm infusion. Phenylacetaldehyde (Strecker aldehyde) contributes honey-rose-hyacinth character. Methyl salicylate is a signature compound of Dancong/Wuyi styles. Phenethyl alcohol adds rose-honey body. The persistent floral-fruity character is defined by nerolidol, linalool, damascenone, and indole.",
+      "compounds": [
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "OAV 108\u2013184; strongly fat-soluble \u2014 steep leaves directly in dairy, not in water"
+        },
+        {
+          "compound_id": "indole",
+          "percentage": null,
+          "notes": "OAV 96\u2013138; dose carefully"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "OAV 63\u201387; do not boil"
+        },
+        {
+          "compound_id": "beta-damascenone",
+          "percentage": null,
+          "notes": "OAV 29\u201359; strongly fat-soluble \u2014 steep leaves directly in dairy"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Floral backbone"
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": "Honey-rose-hyacinth; Strecker degradation product of phenylalanine formed during tea processing"
+        },
+        {
+          "compound_id": "methyl-salicylate",
+          "percentage": null,
+          "notes": "Characteristic wintergreen note; more prominent in Dancong and Wuyi oolong styles"
+        },
+        {
+          "compound_id": "phenethyl-alcohol",
+          "percentage": null,
+          "notes": "Rose-honey character; increases with oxidation level"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Almond-cherry; present in most oolong varieties"
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": "BP 92.5\u00b0C (198.5\u00b0F) \u2014 nearly all lost in warm infusion; malty note present only in cold-brew preparations"
+        }
+      ],
+      "warnings": "Steep leaves directly in dairy, not in water first. Nerolidol (LogP 5.68) and \u03b2-Damascenone (LogP 3.4\u20134.0) are strongly fat-soluble and extract poorly into water.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/26257073/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10486682/",
+        "https://www.nature.com/articles/s41538-025-00663-w"
+      ]
+    },
+    "pea-shoots": {
+      "id": "pea-shoots",
+      "name": "Pea (Shoot)",
+      "scientific_name": "Pisum sativum",
+      "variety": "young leaves and tendrils",
+      "gcms_summary": "IBMP and IPMP are the character-defining green pea methoxypyrazines at ppt concentrations (IBMP threshold ~2 ppt). Hexanal (high-OAV, enzymatic), trans-2-Hexenal, and cis-3-hexenol (leaf alcohol) form the sharp green/grassy top notes \u2014 all C6 lipoxygenase products. 1-Octen-3-ol adds mushroom-earthy depth. Nonanal and 2-pentyl-furan contribute secondary green-beany notes. Lipoxygenase in raw shoots generates additional hexanal and hexenol on cell damage; blanching deactivates this enzyme.",
+      "compounds": [
+        {
+          "compound_id": "ibmp",
+          "percentage": null,
+          "notes": "Character-defining methoxypyrazine; green pea note at ppt"
+        },
+        {
+          "compound_id": "ipmp",
+          "percentage": null,
+          "notes": "Co-contributor green pea methoxypyrazine; slightly less potent than IBMP"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Blanch before infusion to deactivate lipoxygenase"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "C6 leaf aldehyde; essentially all lost above 80\u00b0C (176\u00b0F) \u2014 cold infusion only"
+        },
+        {
+          "compound_id": "cis-3-hexenol",
+          "percentage": null,
+          "notes": "Leaf alcohol; fresh cut-grass note; enzymatically generated from linolenic acid"
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": "Mushroom-earthy; lipoxygenase product"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Waxy-floral background note"
+        },
+        {
+          "compound_id": "2-pentyl-furan",
+          "percentage": null,
+          "notes": "Green-beany note"
+        },
+        {
+          "compound_id": "hexanol",
+          "percentage": null,
+          "notes": "Mild green-fatty background note"
+        }
+      ],
+      "warnings": "Blanch before infusion to deactivate lipoxygenase and prevent enzymatic hexanal generation.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8834122/"
+      ]
+    },
+    "sichuan-peppercorn": {
+      "id": "sichuan-peppercorn",
+      "name": "Peppercorn (Sichuan)",
+      "scientific_name": "Zanthoxylum bungeanum",
+      "variety": "dried red pericarp. Variety note: Green peppercorn (young Z. bungeanum or Z. schinifolium) is linalool/limonene-dominant (citrus-forward); mature red (dried Z. bungeanum) is linalyl acetate/myrcene-dominant (floral-herbal) with higher sanshool content.",
+      "gcms_summary": "Linalool is the dominant odorant (OAV 10\u2013223 across varieties), with D-Limonene (OAV 28\u2013167) and \u03b2-Myrcene (OAV 24\u2013129) as strong secondary contributors. Linalyl Acetate (OAV 6\u2013121) more pronounced in red varieties. Geraniol, geranyl acetate, terpinen-4-ol, sabinene, and \u03b2-Pinene are documented secondary EO constituents across 40\u2013100+ compounds identified by GC-MS. (E,E)-2,4-Decadienal carries the highest measured OAV (1163\u20132015) but is primarily generated by thermal oxidation at \u2265130\u00b0C \u2014 absent in cold or warm (<80\u00b0C) infusions.",
+      "compounds": [
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "OAV 10\u2013223; dominant odorant"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": "OAV 28\u2013167"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "OAV 24\u2013129"
+        },
+        {
+          "compound_id": "linalyl-acetate",
+          "percentage": null,
+          "notes": "OAV 6\u2013121; more pronounced in red varieties"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Floral-rose secondary odorant; higher in some red varieties"
+        },
+        {
+          "compound_id": "geranyl-acetate",
+          "percentage": null,
+          "notes": "Rose-fruity ester; present alongside geraniol"
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": "Spicy-woody monoterpene; common in spice EOs"
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": null,
+          "notes": "Earthy-pepper background note"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": null,
+          "notes": "Fresh-pine secondary monoterpene"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "Spicy-herbaceous; minor"
+        },
+        {
+          "compound_id": "ee-2-4-decadienal",
+          "percentage": null,
+          "notes": "OAV 1163\u20132015 only if pan-toasted at \u2265130\u00b0C (266\u00b0F); absent in cold or warm infusions"
+        },
+        {
+          "compound_id": "hydroxy-alpha-sanshool",
+          "percentage": null,
+          "notes": "Non-volatile feel compound; produces characteristic m\u00e1 tingling sensation; extract into cream fat, not water; use quickly \u2014 oxidizes on storage"
+        }
+      ],
+      "warnings": "Hydroxy-\u03b1-sanshool degrades in aqueous systems at 70\u00b0C and is acid-labile \u2014 extract into fat, not water. (E,E)-2,4-Decadienal is only generated if toasting at \u2265130\u00b0C.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11854310/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4835500/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9180787/"
+      ]
+    },
+    "sugar-snap-peas": {
+      "id": "sugar-snap-peas",
+      "name": "Pea (Sugar Snap)",
+      "scientific_name": "Pisum sativum var. macrocarpon",
+      "variety": "edible pod",
+      "gcms_summary": "Essentially the same primary volatiles as pea shoots: IBMP and IPMP drive the methoxypyrazine character; hexanal, trans-2-hexenal, cis-3-hexenol, and 1-octen-3-ol define the green/mushroom backdrop. The pod adds 2-pentyl-furan (beany-earthy) and higher relative IPMP. Nonanal and hexanol are secondary lipoxygenase products. Lipoxygenase in raw pods generates additional hexanal on cell damage \u2014 blanch to deactivate.",
+      "compounds": [
+        {
+          "compound_id": "ibmp",
+          "percentage": null,
+          "notes": "Character-defining methoxypyrazine"
+        },
+        {
+          "compound_id": "ipmp",
+          "percentage": null,
+          "notes": "Higher relative proportion than in pea shoots; co-contributor methoxypyrazine"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Blanch before processing to deactivate lipoxygenase"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Essentially all lost above 80\u00b0C (176\u00b0F) \u2014 cold infusion only"
+        },
+        {
+          "compound_id": "cis-3-hexenol",
+          "percentage": null,
+          "notes": "Fresh cut-grass note; C6 lipoxygenase product"
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": "Mushroom-earthy; lipoxygenase product"
+        },
+        {
+          "compound_id": "2-pentyl-furan",
+          "percentage": null,
+          "notes": "Beany-earthy note from pod; more prominent than in pea shoots"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Waxy-floral background note"
+        },
+        {
+          "compound_id": "hexanol",
+          "percentage": null,
+          "notes": "Mild green-fatty background note"
+        }
+      ],
+      "warnings": "Do not blend snap peas with cream \u2014 high-speed blending of snap peas + dairy churns butter via mechanical fat-globule disruption. Add as puree (blend pods alone, no dairy in blender) or as cold steep slices.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8834122/",
+        "https://www.sciencedirect.com/science/article/pii/S2666833523000291",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8838068/"
+      ]
+    },
+    "saffron": {
+      "id": "saffron",
+      "name": "Saffron",
+      "scientific_name": "Crocus sativus",
+      "variety": "dried stigmas (threads). Quality is graded by ISO 3632 using three absorbance values: crocin (color/Style I \u2265200), picrocrocin (bitterness/\u226570), safranal (aroma/20\u201350). Higher-grade saffron has proportionally more of all three.",
+      "gcms_summary": "Safranal dominates the volatile fraction (up to 70%) and is the primary aroma compound; it forms during drying via hydrolysis of the glycoside picrocrocin. Lanierone (2-hydroxy-4,4,6-trimethyl-2,5-cyclohexadien-1-one) has the highest flavor dilution factor. 4-Ketoisophorone is a documented secondary volatile with earthy-herbaceous character. Picrocrocin (~4% dry weight) is the primary bitter taste compound and safranal precursor. Crocin (6\u201316% dry weight) provides color. Minor volatiles include linalool, geraniol, and \u03b2-ionone. Fresh stigmas are nearly odorless; the characteristic saffron flavor develops during the drying process.",
+      "compounds": [
+        {
+          "compound_id": "safranal",
+          "percentage": 0.7,
+          "notes": "Steep at 60\u201370\u00b0C (140\u2013158\u00b0F), not boiling; prolonged high heat degrades aroma"
+        },
+        {
+          "compound_id": "lanierone",
+          "percentage": null,
+          "notes": "Highest AEDA flavor dilution factor; co-extracted with safranal during warm water bloom"
+        },
+        {
+          "compound_id": "4-ketoisophorone",
+          "percentage": null,
+          "notes": "Secondary volatile; earthy-herbaceous-spicy co-character; biosynthetically related to safranal"
+        },
+        {
+          "compound_id": "picrocrocin",
+          "percentage": 0.04,
+          "notes": "Water-only extraction; stable at custard temps; slowly hydrolyzes to safranal on prolonged heating"
+        },
+        {
+          "compound_id": "crocin",
+          "percentage": 0.11,
+          "notes": "Responsible for color; water-only extraction; fat extract is colorless and flavorless \u2014 always bloom in water or milk"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Minor floral background volatile"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Minor floral volatile"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "Minor violet-fruity volatile; trace level"
+        }
+      ],
+      "warnings": "Bloom threads in warm liquid (60\u201370\u00b0C) for 20\u201330 min before adding to base. Never bloom in fat/cream alone \u2014 crocin (color) and picrocrocin (bitterness) are both strongly water-preferring (LogP \u22120.5 to \u22122.5) and will not extract into fat. Prolonged boiling degrades safranal aroma and hydrolyzes picrocrocin prematurely.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8618029/",
+        "https://www.scienceofcooking.com/science_of_saffron.htm",
+        "https://pubs.acs.org/doi/10.1021/jf049808j"
+      ]
+    },
+    "sumac": {
+      "id": "sumac",
+      "name": "Sumac",
+      "scientific_name": "Rhus coriaria",
+      "variety": "dried ground fruit (spice). Volatile profile varies significantly by geographic origin; Palestinian sumac is \u03b1-pinene-dominant, Egyptian is cymene/limonene-forward. The non-volatile acid and tannin content defines the characteristic flavor and is more consistent across origins.",
+      "gcms_summary": "74\u2013263 volatile compounds identified across origins. Sesquiterpene hydrocarbons are the dominant volatile class (40\u201358% of fresh fruit), followed by monoterpene hydrocarbons (17\u201334%). Key volatiles: \u03b1-pinene, (E)-\u03b2-caryophyllene, nonanal, p-anisaldehyde. However, the characteristic culinary flavor of sumac is defined primarily by non-volatile compounds: malic acid (3\u20135% dry weight; dominant organic acid) and gallotannins (~4% dry weight; astringency). The volatile terpenes provide a secondary aromatic backdrop. Upon roasting, furfural and nonanal become enriched (up to 34.3% and significantly elevated respectively).",
+      "compounds": [
+        {
+          "compound_id": "malic-acid",
+          "percentage": 0.04,
+          "notes": "Primary flavor compound; defines the characteristic sourness; water-only extraction recovers nearly all"
+        },
+        {
+          "compound_id": "gallic-acid",
+          "percentage": null,
+          "notes": "Represents the gallotannin fraction (~4% dry weight); hot water extracts more than cold; contributes astringency"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": 0.167,
+          "notes": "Dominant volatile in Palestinian sumac; highly volatile \u2014 keep infusion covered and below 60\u00b0C (140\u00b0F) to retain"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": "Major sesquiterpene class across origins; strongly fat-soluble"
+        },
+        {
+          "compound_id": "germacrene-d",
+          "percentage": null,
+          "notes": "Secondary sesquiterpene; woody-earthy; strongly fat-soluble"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": "Dominant in Egyptian sumac; citrus-forward character"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Resinous-herbal monoterpene; minor"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "Spicy-herbaceous monoterpene; elevated in some origins"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Enriched in roasted sumac; waxy-citrus background"
+        },
+        {
+          "compound_id": "p-anisaldehyde",
+          "percentage": null,
+          "notes": "Distinctive sweet-floral aromatic modifier; heat-stable"
+        },
+        {
+          "compound_id": "furfural",
+          "percentage": null,
+          "notes": "Formed on roasting (up to 34.3% of roasted volatile fraction); absent or trace in unroasted sumac"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6035716/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8912007/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9414570/"
+      ]
+    },
+    "pineapple": {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "scientific_name": "Ananas comosus",
+      "variety": "fresh or frozen pulp. Variety note: OAV rankings shift by cultivar \u2014 ethyl 2-methylbutanoate dominates in many commercial types (OAV up to 3707); furaneol dominates in others (OAV up to 2549). Both are always present and together define the recognizable pineapple character.",
+      "gcms_summary": "Nearly 480 volatiles identified; ~40 contribute meaningfully. Esters dominate (84% of volatiles), followed by lactones and terpenes. The character is defined by two compounds: ethyl 2-methylbutanoate (fruity-fresh top note) and furaneol (caramel-sweet body note). Allyl hexanoate is a highly characteristic pineapple ester; methyl 2-methylbutanoate is the methyl analogue of the dominant ester. Ethyl hexanoate, \u03b4-octalactone, \u03b3-octalactone, methyl hexanoate, ethyl butanoate, decanal, and ethyl 3-(methylthio)propanoate are secondary modifiers.",
+      "compounds": [
+        {
+          "compound_id": "ethyl-2-methylbutanoate",
+          "percentage": null,
+          "notes": "OAV up to 3707; highest OAV compound in many cultivars \u2014 very volatile (BP 133\u00b0C / 271\u00b0F), add cold only"
+        },
+        {
+          "compound_id": "furaneol",
+          "percentage": null,
+          "notes": "OAV up to 2549; water-soluble, heat-stable; sweet caramel-pineapple body"
+        },
+        {
+          "compound_id": "allyl-hexanoate",
+          "percentage": null,
+          "notes": "Classic pineapple-character ester; tropical fruity"
+        },
+        {
+          "compound_id": "methyl-2-methylbutanoate",
+          "percentage": null,
+          "notes": "Intensely fruity methyl ester complement to ethyl 2-methylbutanoate; volatile \u2014 BP 113\u00b0C (235\u00b0F), add cold"
+        },
+        {
+          "compound_id": "ethyl-hexanoate",
+          "percentage": null,
+          "notes": "OAV 64\u2013140; banana-pineapple fruity modifier"
+        },
+        {
+          "compound_id": "methyl-hexanoate",
+          "percentage": null,
+          "notes": "Fruity-soapy; methyl analogue of ethyl hexanoate"
+        },
+        {
+          "compound_id": "ethyl-butanoate",
+          "percentage": null,
+          "notes": "Fruity, apple-like; contributes fresh ester note"
+        },
+        {
+          "compound_id": "delta-octalactone",
+          "percentage": null,
+          "notes": "OAV ~158 in some cultivars; coconut-creamy background"
+        },
+        {
+          "compound_id": "gamma-octalactone",
+          "percentage": null,
+          "notes": "Coconut-peach lactone; heat-stable"
+        },
+        {
+          "compound_id": "decanal",
+          "percentage": null,
+          "notes": "OAV 16\u201332; citrus-floral modifier, more prominent in core tissue"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Minor floral background terpene"
+        },
+        {
+          "compound_id": "ethyl-3-methylthiopropanoate",
+          "percentage": null,
+          "notes": "OAV 5\u201313; meaty-sulfurous character note; very low threshold \u2014 trace amount is authentic, excess is off-putting"
+        }
+      ],
+      "warnings": "Bromelain caution: raw pineapple juice contains bromelain (a cysteine protease) that degrades gelatin, egg proteins, and dairy proteins. Do not add raw juice to a custard base or any gelatin-set preparation \u2014 the proteins will fail to set. Heat-treat (>70\u00b0C for 5+ min) or use commercially pasteurized juice/concentrate to deactivate. Ethyl 2-methylbutanoate is extremely volatile \u2014 any heated extraction will lose the top note; blend cold pineapple puree in after cooking and cooling.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6264279/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3397533/",
+        "https://pubmed.ncbi.nlm.nih.gov/36827381/"
+      ]
+    },
+    "almond-extract": {
+      "id": "almond-extract",
+      "name": "Almond (Extract)",
+      "scientific_name": "Prunus dulcis var. amara (bitter almond) or Prunus armeniaca / P. persica (apricot/peach kernel)",
+      "variety": "Commercial extract = benzaldehyde dissolved in food-grade ethanol (~32\u201335% alcohol). Source material is bitter almond, apricot kernel, or peach pit \u2014 all rich in amygdalin, which hydrolyzes to benzaldehyde + HCN; HCN is removed in processing. Imitation extract uses synthetic benzaldehyde.",
+      "gcms_summary": "Benzaldehyde dominates (~63\u201390% of volatile fraction depending on source material and method). Benzyl alcohol is a secondary smoothing note (~1\u201310%). Benzoic acid (~15% of bitter almond essential oil) is the third major constituent. Benzyl benzoate is a high-boiling fixative present in bitter almond oil; linalool is a trace floral background note. The alcohol carrier in commercial extract (ethanol) is not a flavor compound but significantly affects how benzaldehyde disperses in a dairy base.",
+      "compounds": [
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Volatile above 60\u00b0C (140\u00b0F) \u2014 always add extract after cooking and cooling"
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": "Smoothing secondary note; heat-stable"
+        },
+        {
+          "compound_id": "benzoic-acid",
+          "percentage": null,
+          "notes": "Non-volatile; ~15% of bitter almond EO by weight"
+        },
+        {
+          "compound_id": "benzyl-benzoate",
+          "percentage": null,
+          "notes": "Fixative; high boiling point (323\u00b0C / 613\u00b0F) \u2014 locks in other aromatics"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Trace floral background note"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037700/",
+        "https://www.flavorist.com/almond-what-every-flavorist-needs-to-know-according-to-the-sfc/"
+      ]
+    },
+    "vanilla-bean": {
+      "id": "vanilla-bean",
+      "name": "Vanilla (Bean)",
+      "scientific_name": "Vanilla planifolia",
+      "variety": "Cured bean (Madagascar/Bourbon, Mexican, or Indonesian). Tahitian vanilla (V. tahitensis) has a distinctly different profile with prominent anisaldehyde and anisyl alcohol and requires separate profiling.",
+      "gcms_summary": "Vanillin dominates (~70\u201385% of the phenolic fraction by weight in cured beans) and is the single most aroma-active compound. p-Hydroxybenzaldehyde is the second most abundant phenolic \u2014 sweet and floral. Vanillic acid and guaiacol are minor by mass but high in aroma significance; guaiacol and 4-methylguaiacol (creosol) provide the smoky-woody phenolic depth that distinguishes natural vanilla from synthetic vanillin. Coumarin and eugenol contribute tonka-spice modulation. Vanillyl alcohol and p-anisaldehyde are minor sweet-phenolic notes; benzaldehyde is trace. Over 200 volatiles identified total; profile varies significantly by curing method and origin.",
+      "compounds": [
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": "Defines character; LogP 1.17 \u2014 extracts into both fat and water phases equally well"
+        },
+        {
+          "compound_id": "4-hydroxybenzaldehyde",
+          "percentage": null,
+          "notes": "Second most abundant phenolic; sweet-floral"
+        },
+        {
+          "compound_id": "vanillic-acid",
+          "percentage": null,
+          "notes": "Phenolic acid; non-volatile at cooking temps; water-extractable"
+        },
+        {
+          "compound_id": "guaiacol",
+          "percentage": null,
+          "notes": "Key aroma-active phenol \u2014 absent in synthetic vanillin; smoky-woody"
+        },
+        {
+          "compound_id": "4-methylguaiacol",
+          "percentage": null,
+          "notes": "Smoky, clove-like phenolic co-character; alongside guaiacol distinguishes natural extract"
+        },
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": "Sweet, tonka-like; more prominent in Bourbon (Madagascar) vanilla; trace in Mexican"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Clove-spice modifier; variable by origin; higher in Mexican vanilla"
+        },
+        {
+          "compound_id": "vanillyl-alcohol",
+          "percentage": null,
+          "notes": "Sweet, mildly phenolic; non-volatile; contributes rounding effect in extracts"
+        },
+        {
+          "compound_id": "p-anisaldehyde",
+          "percentage": null,
+          "notes": "Sweet anise modifier; minor in V. planifolia, more prominent in Tahitian vanilla"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Trace almond-cherry note; minor constituent"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0308814605007429",
+        "https://pubmed.ncbi.nlm.nih.gov/23470766/"
+      ]
+    },
+    "green-cardamom": {
+      "id": "green-cardamom",
+      "name": "Cardamom (Green)",
+      "scientific_name": "Elettaria cardamomum",
+      "variety": "dried seed pods (inner seeds). Ratio of \u03b1-terpinyl acetate to 1,8-cineole varies by geographic origin \u2014 some studies show cineole-dominant (55%:29%); others show terpinyl acetate-dominant (46%:26%). Use freshly ground seeds; husk contributes far less oil than the seeds.",
+      "gcms_summary": "\u03b1-Terpinyl acetate and 1,8-cineole together account for 75\u201385% of the essential oil; their ratio is origin-dependent (see variety note). \u03b1-Terpinyl acetate (28\u201346%) provides the characteristic sweet floral cardamom note; 1,8-cineole (26\u201355%) adds eucalyptus cooling character. Minor contributors: terpinen-4-ol ~3%, \u03b1-terpineol ~3%, D-limonene ~2.5%, linalool ~1\u20134%, sabinene ~1\u20132%, \u03b2-pinene ~1\u20132%, neryl acetate ~1%, methyl eugenol ~0.5%, linalyl acetate ~0.5%.",
+      "compounds": [
+        {
+          "compound_id": "alpha-terpinyl-acetate",
+          "percentage": null,
+          "notes": "Defines the characteristic floral cardamom note; 28\u201346% depending on origin"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "26\u201355% depending on origin; eucalyptus/cooling character"
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": 0.033,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": 0.031,
+          "notes": null
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.025,
+          "notes": null
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Floral-lavender note; ~1\u20134% depending on origin"
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": "Spicy-woody; ~1\u20132%"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": null,
+          "notes": "Fresh-woody; ~1\u20132%"
+        },
+        {
+          "compound_id": "neryl-acetate",
+          "percentage": null,
+          "notes": "Fresh floral ester; cis-isomer complement to \u03b1-terpinyl acetate; ~1%"
+        },
+        {
+          "compound_id": "methyl-eugenol",
+          "percentage": null,
+          "notes": "Sweet clove-spice; ~0.5%; more prominent in some Indian origins"
+        },
+        {
+          "compound_id": "linalyl-acetate",
+          "percentage": null,
+          "notes": "Floral-fruity ester; ~0.5%; lavender-like modifier"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6278479/"
+      ]
+    },
+    "wasabi": {
+      "id": "wasabi",
+      "name": "Wasabi (Root)",
+      "scientific_name": "Wasabia japonica / Eutrema japonicum",
+      "variety": null,
+      "gcms_summary": "AITC (primary pungent volatile), 3-BITC (secondary pungent), 6-MSITC (sweet-vegetable complexity unique to real wasabi), and PEITC (minor peppery note from gluconasturtiin). All are enzymatically generated (not pre-formed): myrosinase enzyme, released on cell damage, converts glucosinolate precursors to isothiocyanates. Non-ITC volatiles identified in wasabi are minor trace aliphatics (hexanal, nonanal) with no meaningful aroma contribution relative to the ITCs.",
+      "compounds": [
+        {
+          "compound_id": "aitc",
+          "percentage": null,
+          "notes": "Primary pungent volatile; enzymatically generated from sinigrin; ~80% of total ITC"
+        },
+        {
+          "compound_id": "3-bitc",
+          "percentage": null,
+          "notes": "Secondary pungent isothiocyanate; from 3-butenyl glucosinolate"
+        },
+        {
+          "compound_id": "6-msitc",
+          "percentage": null,
+          "notes": "Sweet-vegetable complexity unique to real wasabi; more thermally stable than AITC; from glucohesperin"
+        },
+        {
+          "compound_id": "phenethyl-isothiocyanate",
+          "percentage": null,
+          "notes": "Minor ITC from gluconasturtiin; peppery-rose character; more fat-soluble than AITC"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Trace aliphatic aldehyde; minor background note; not aroma-defining"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Trace waxy-floral aldehyde; minor background note; not aroma-defining"
+        }
+      ],
+      "warnings": "Heat above ~60\u00b0C permanently deactivates myrosinase \u2014 root must be grated and rested 3\u20135 minutes at room temperature before any heat contact. If root is heated before grating, no isothiocyanates form at all.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570882/",
+        "https://en.wikipedia.org/wiki/Wasabi",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11313713/",
+        "https://pubs.acs.org/doi/10.1021/jf970488w",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0021979714007048"
+      ]
+    },
+    "coconut": {
+      "id": "coconut",
+      "name": "Coconut",
+      "scientific_name": "Cocos nucifera",
+      "variety": null,
+      "gcms_summary": "Lactones dominate the characteristic coconut note (delta-octalactone, delta-decalactone, gamma-nonalactone). In coconut milk, esters (ethyl decanoate, ethyl octanoate) account for ~60% of volatiles by relative area, lactones ~29%. Aldehydes (nonanal, octanal) add fatty-fresh top notes. Percentage figures are relative abundances in raw coconut milk headspace; lactone absolute concentrations are low but well above odor thresholds.",
+      "compounds": [
+        {
+          "compound_id": "delta-octalactone",
+          "percentage": null,
+          "notes": "Primary character compound; OAV high in coconut meat and flesh"
+        },
+        {
+          "compound_id": "delta-decalactone",
+          "percentage": null,
+          "notes": "Sweet-creamy lactone; co-defines coconut/peach character alongside delta-octalactone"
+        },
+        {
+          "compound_id": "gamma-nonalactone",
+          "percentage": null,
+          "notes": "Coconut-peach lactone note; found across coconut varieties"
+        },
+        {
+          "compound_id": "ethyl-decanoate",
+          "percentage": 0.91,
+          "notes": "Highest-OAV ester in raw coconut milk headspace (OAV ~91)"
+        },
+        {
+          "compound_id": "ethyl-octanoate",
+          "percentage": null,
+          "notes": "Key floral ester; OAV ~67 in raw coconut milk"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Highest OAV compound overall in raw coconut milk (OAV ~109); waxy-aldehydic background"
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": "Bright citrus-fatty top note; OAV ~69 in raw coconut milk"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40554280/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9394352/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10831152/"
+      ]
+    },
+    "cucumber": {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "scientific_name": "Cucumis sativus",
+      "variety": null,
+      "gcms_summary": "(E,Z)-2,6-nonadienal and (E)-2-nonenal together account for >80% of the perceived aroma impact (by relative concentration in headspace). Both are C9 aldehydes derived from linolenic acid via the lipoxygenase pathway. C6 lipoxygenase products (hexanal, cis-3-hexenol, trans-2-hexenal) add green/grassy freshness. Nonanal and octanal provide waxy-fatty background; (E,E)-2,4-heptadienal is a minor fresh-fatty contributor.",
+      "compounds": [
+        {
+          "compound_id": "ez-2-6-nonadienal",
+          "percentage": null,
+          "notes": "Defining character compound; highest-impact aroma volatile in fresh cucumber across cultivars"
+        },
+        {
+          "compound_id": "e-2-nonenal",
+          "percentage": null,
+          "notes": "Second most impactful; fatty-green C9 aldehyde"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Waxy-fatty background; contributes cool aldehyde note"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "C6 lipoxygenase product; green, grassy-fatty note"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "C6 leaf aldehyde; sharp green top note; lost above ~80\u00b0C (176\u00b0F)"
+        },
+        {
+          "compound_id": "cis-3-hexenol",
+          "percentage": null,
+          "notes": "Leaf alcohol; fresh cut-grass note; C6 lipoxygenase product"
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": "Minor waxy-orange background note"
+        },
+        {
+          "compound_id": "ee-2-4-heptadienal",
+          "percentage": null,
+          "notes": "Minor fresh-fatty contributor"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9027996/",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9558236/",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/643731"
+      ]
+    },
+    "coffee-bean": {
+      "id": "coffee-bean",
+      "name": "Coffee (Bean)",
+      "scientific_name": "Coffea arabica / Coffea canephora",
+      "variety": "Arabica or Robusta; roast level shifts compound ratios significantly",
+      "gcms_summary": "Roasted coffee contains 800\u20131000+ identified volatiles. 2-Furfurylthiol is the single most impactful compound (OAV 100s\u20131000s; threshold 0.01 ppb). Furaneol, guaiacol, and 4-vinylguaiacol contribute caramel and smoky-phenolic dimensions. Multiple pyrazines (2,5-dimethylpyrazine, trimethylpyrazine, 2-ethyl-5-methylpyrazine) provide the roasty-nutty-earthy character \u2014 all increase with darker roast. Phenylacetaldehyde (Strecker of phenylalanine) adds honey-rose character. 3-Methylbutanal (Strecker of leucine) adds malty notes but is largely lost in hot preparations. Furfural contributes caramel-almond roast notes. Beta-damascenone is a trace but impactful fruity modifier. Methional is heat-labile and largely absent from cooked preparations.",
+      "compounds": [
+        {
+          "compound_id": "2-furfurylthiol",
+          "percentage": null,
+          "notes": "Defining character compound; sub-ppm but far above its 0.01 ppb threshold; oxidizes quickly \u2014 freshness critical"
+        },
+        {
+          "compound_id": "furaneol",
+          "percentage": null,
+          "notes": "Caramel-sweet base note; highly water-soluble, survives custard cooking"
+        },
+        {
+          "compound_id": "4-vinylguaiacol",
+          "percentage": null,
+          "notes": "Spicy-clove note; especially prominent in lighter roasts"
+        },
+        {
+          "compound_id": "guaiacol",
+          "percentage": null,
+          "notes": "Smoky-phenolic depth; increases with roast degree"
+        },
+        {
+          "compound_id": "2-5-dimethylpyrazine",
+          "percentage": null,
+          "notes": "Nutty-roasty; increases with darker roast"
+        },
+        {
+          "compound_id": "trimethylpyrazine",
+          "percentage": null,
+          "notes": "Nutty-earthy-cocoa roast note; more prominent at medium-dark and dark roast"
+        },
+        {
+          "compound_id": "2-ethyl-5-methylpyrazine",
+          "percentage": null,
+          "notes": "Potato-nutty-earthy pyrazine; Maillard-generated during roasting"
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": "Honey-rose-hyacinth; Strecker degradation product of phenylalanine"
+        },
+        {
+          "compound_id": "furfural",
+          "percentage": null,
+          "notes": "Caramel-almond note; Maillard product from pentose sugars"
+        },
+        {
+          "compound_id": "beta-damascenone",
+          "percentage": null,
+          "notes": "Trace but impactful fruity-floral depth modifier; very low odor threshold"
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": "Malty Strecker aldehyde; BP 92.5\u00b0C (198.5\u00b0F) \u2014 mostly lost in any hot preparation"
+        },
+        {
+          "compound_id": "methional",
+          "percentage": null,
+          "notes": "Savory cooked-potato depth in fresh brew; destroyed above 60\u00b0C (140\u00b0F) \u2014 not significant in cooked preparations"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5960070/",
+        "https://pubs.acs.org/doi/10.1021/jf901136e"
+      ]
+    },
+    "coriander-seed": {
+      "id": "coriander-seed",
+      "name": "Coriander (Seed)",
+      "scientific_name": "Coriandrum sativum",
+      "variety": null,
+      "gcms_summary": "Linalool is overwhelmingly dominant (56\u201375% of essential oil) \u2014 the seed is essentially a linalool delivery vehicle with supporting terpene complexity. Camphor (~2%), \u03b1-Pinene (~3\u20135%), and linalyl acetate (~2%) provide medicinal, piney, and floral-woody secondary character. \u03b3-Terpinene (~5\u201310%) and \u03b2-Pinene (~2\u20134%) add citrus-herbal and fresh-woody support. p-Cymene (~2%), terpinen-4-ol (~2%), geraniol (~1%), and d-limonene (~2%) round out the profile.",
+      "compounds": [
+        {
+          "compound_id": "linalool",
+          "percentage": 0.65,
+          "notes": "Dominant (56\u201375%); defines the sweet floral-citrus character of coriander seed"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": 0.075,
+          "notes": "Citrus-herbal; ~5\u201310%; one of the main supporting monoterpenes"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": 0.04,
+          "notes": "Fresh piney top note; ~3\u20135%"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": 0.03,
+          "notes": "Fresh-woody; ~2\u20134%"
+        },
+        {
+          "compound_id": "camphor",
+          "percentage": 0.026,
+          "notes": "Medicinal-minty depth; differentiates seed from pure linalool; ~2%"
+        },
+        {
+          "compound_id": "linalyl-acetate",
+          "percentage": 0.024,
+          "notes": "Woody-herbal ester; adds floral dimension to linalool; ~2%"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": 0.02,
+          "notes": "Spicy-herbaceous; ~2%"
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": 0.02,
+          "notes": "Earthy-pepper note; ~1\u20132%"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.02,
+          "notes": "Fresh citrus; ~1\u20133%"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Minor rose-citrus note; ~1%; concentration varies by cultivar"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://link.springer.com/article/10.1007/s00217-006-0425-7",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0308814624017783"
+      ]
+    },
+    "coriander-leaf": {
+      "id": "coriander-leaf",
+      "name": "Coriander (Leaf)",
+      "scientific_name": "Coriandrum sativum",
+      "variety": null,
+      "gcms_summary": "Completely different profile from the seed. C10\u2013C12 alpha,beta-unsaturated aldehydes define the characteristic soapy-citrus-coriander aroma (and are responsible for the 'soapy' perception in genetic non-tasters). (E)-2-Decenal is the dominant volatile by mass; (E)-2-Dodecenal has the highest character-impact by GC-olfactometry. Linalool is present (12\u201330%) and contributes floral lift. Beta-ionone and eugenol are trace character-impact odorants. In fresh leaf headspace, (Z)-3-hexenyl acetate (~70%) dominates as a handling artifact but (Z/E)-decenal isomers drive the recognizable cilantro smell.",
+      "compounds": [
+        {
+          "compound_id": "e-2-decenal",
+          "percentage": 0.315,
+          "notes": "Dominant by mass in essential oil (16\u201347%); characteristic coriander-waxy-citrus note"
+        },
+        {
+          "compound_id": "e-2-dodecenal",
+          "percentage": 0.064,
+          "notes": "Top character-impact odorant by GC-olfactometry; intensely soapy-mandarin-coriander"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": 0.21,
+          "notes": "Floral backbone (12\u201330% of essential oil); shared with seed but here supports, doesn't define"
+        },
+        {
+          "compound_id": "decanal",
+          "percentage": 0.12,
+          "notes": "Citrus-fatty bridge between the decenal character and linalool floral (5\u201319% of essential oil)"
+        },
+        {
+          "compound_id": "cis-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": "~70% of fresh leaf headspace (handling artifact on bruising); fresh-grass, tomato-leaf note; volatile above 60\u00b0C (140\u00b0F)"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Sharp leafy green aldehyde; C6 lipoxygenase product; essentially all lost above 80\u00b0C (176\u00b0F)"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Green-fatty C6 lipoxygenase product; minor background note"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "Trace; violet-woody character-impact odorant by GC-olfactometry"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Trace; spicy-clove character-impact note in fresh leaf"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16013833/",
+        "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.820644/full"
+      ]
+    },
+    "ataulfo-mango": {
+      "id": "ataulfo-mango",
+      "name": "Mango (Ataulfo)",
+      "scientific_name": "Mangifera indica",
+      "variety": "Ataulfo",
+      "gcms_summary": "108 volatile compounds identified; dominated by monoterpenes (\u03b4-3-carene, terpinolene, \u03b1-pinene, \u03b2-myrcene, d-limonene) plus fruity esters (ethyl butanoate) and creamy lactones (\u03b3-octalactone, \u03b2-ionone). \u03b4-3-Carene is the single most abundant volatile. Odor-active fraction identified 28 compounds by AEDA; esters and lactones punch above their quantitative weight.",
+      "compounds": [
+        {
+          "compound_id": "delta-3-carene",
+          "percentage": null,
+          "notes": "Dominant terpene by GC-MS; sweet-piney top note; fat-soluble (LogP 4.38) \u2014 keep puree cold to preserve"
+        },
+        {
+          "compound_id": "terpinolene",
+          "percentage": null,
+          "notes": "Second major monoterpene; fresh citrus-pine character"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Warm-balsamic backbone terpene; fat-soluble (LogP 4.17\u20134.82)"
+        },
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": "Bright citrus lift; fat-soluble (LogP 3.97\u20134.57)"
+        },
+        {
+          "compound_id": "ethyl-butanoate",
+          "percentage": null,
+          "notes": "Key tropical-fruity ester; extremely volatile (BP 120\u00b0C) \u2014 do not heat puree"
+        },
+        {
+          "compound_id": "gamma-octalactone",
+          "percentage": null,
+          "notes": "Creamy coconut-peach lactone; heat-stable (BP 234\u00b0C)"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "Violet-fruity character-impact odorant; heat-stable, fat-soluble (LogP 4.0)"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://link.springer.com/article/10.1007/s11696-020-01217-y",
+        "https://www.scielo.org.mx/pdf/jmcs/v51n3/v51n3a4.pdf",
+        "https://www.scentspiracy.com/blog/the-chemistry-of-mango"
+      ]
+    },
+    "strawberry": {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "scientific_name": "Fragaria \u00d7 ananassa",
+      "variety": "Cultivated; variety strongly affects VOC profile",
+      "gcms_summary": "360+ volatiles identified. Furaneol (DMHF) and mesifurane (DMMF) define the caramel-candy and jam-musty backbone. Esters provide brightness: ethyl butanoate (fruity top note), methyl butanoate (apple-fruity), butyl acetate (banana-pear), methyl hexanoate (pineapple-apple), ethyl hexanoate (winy-apple), hexyl acetate (fresh-fruity). Gamma-decalactone adds peach-creamy depth. Linalool and nerolidol add floral dimension. Methyl anthranilate is a variety-dependent grape-floral note. Trans-2-hexenal is the green leafy modifier.",
+      "compounds": [
+        {
+          "compound_id": "furaneol",
+          "percentage": null,
+          "notes": "Primary character compound; dominant in ripe fruit; sweet caramel-candy"
+        },
+        {
+          "compound_id": "mesifurane",
+          "percentage": null,
+          "notes": "Co-defines the jam/toffee note alongside furaneol"
+        },
+        {
+          "compound_id": "ethyl-butanoate",
+          "percentage": null,
+          "notes": "Key fruity top note; very volatile \u2014 add cold"
+        },
+        {
+          "compound_id": "methyl-butanoate",
+          "percentage": null,
+          "notes": "Apple-strawberry fruity ester; BP 102\u00b0C (216\u00b0F) \u2014 volatile, add cold"
+        },
+        {
+          "compound_id": "butyl-acetate",
+          "percentage": null,
+          "notes": "Banana-pear fruity ester; BP 126\u00b0C (259\u00b0F)"
+        },
+        {
+          "compound_id": "methyl-hexanoate",
+          "percentage": null,
+          "notes": "Fresh pineapple-apple ester"
+        },
+        {
+          "compound_id": "ethyl-hexanoate",
+          "percentage": null,
+          "notes": "Winy-apple ester"
+        },
+        {
+          "compound_id": "hexyl-acetate",
+          "percentage": null,
+          "notes": "Fruity-floral fresh ester; BP 171\u00b0C (340\u00b0F)"
+        },
+        {
+          "compound_id": "gamma-decalactone",
+          "percentage": null,
+          "notes": "Creamy peach-sweet underpinning"
+        },
+        {
+          "compound_id": "gamma-octalactone",
+          "percentage": null,
+          "notes": "Coconut-peach lactone; secondary depth note"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Floral depth; increases with ripeness"
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "Floral-woody background note; fat-soluble"
+        },
+        {
+          "compound_id": "methyl-anthranilate",
+          "percentage": null,
+          "notes": "Grape-like floral note; variety-dependent; prominent in some wild strawberry types"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Green leafy modifier; C6 lipoxygenase product; lost above 80\u00b0C (176\u00b0F)"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pubs.acs.org/doi/10.1021/acs.jafc.8b01115",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3921181/"
+      ]
+    },
+    "thai-basil": {
+      "id": "thai-basil",
+      "name": "Basil (Thai)",
+      "scientific_name": "Ocimum basilicum var. thyrsiflora",
+      "variety": "Estragole + citral chemotype. Distinct from sweet basil (linalool-dominant) and holy basil (eugenol-dominant). Eugenol and methyl eugenol absent or trace.",
+      "gcms_summary": "Estragole (methyl chavicol, 60\u201380%) is the dominant compound; geranial and neral (citral, ~10\u201325% combined) are the major secondary contributors producing a lemon-anise profile. \u03b2-Caryophyllene (~3\u20135%) is a minor woody note. Linalool (2\u20135%), \u03b2-myrcene (~2%), (E)-\u03b2-ocimene (~1%), and trace eugenol round out the profile. The estragole + citral combination is the defining chemotype \u2014 distinct from all other Ocimum varieties used in cooking.",
+      "compounds": [
+        {
+          "compound_id": "estragole",
+          "percentage": null,
+          "notes": "Dominant compound (60\u201380%); sweet anise-licorice character"
+        },
+        {
+          "compound_id": "geranial",
+          "percentage": null,
+          "notes": "Major lemon note (\u03b1-citral); acid-catalyzed cyclization to off-flavors \u2014 no acid before straining"
+        },
+        {
+          "compound_id": "neral",
+          "percentage": null,
+          "notes": "Major lemon note (\u03b2-citral); co-present with geranial; same acid sensitivity"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": "Woody-spice note; ~3\u20135%"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Minor floral note; ~2\u20135%; well below its level in sweet basil"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Herbal-resinous minor terpene; ~2%"
+        },
+        {
+          "compound_id": "trans-beta-ocimene",
+          "percentage": null,
+          "notes": "Fresh herbal monoterpene; ~1%"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Trace clove-spice note; much less than in sweet or holy basil"
+        }
+      ],
+      "warnings": "Acid caution: geranial and neral undergo acid-catalyzed cyclization to off-flavor monoterpenes \u2014 same risk as lemongrass. No acid before straining and cooling.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262289/"
+      ]
+    },
+    "holy-basil": {
+      "id": "holy-basil",
+      "name": "Basil (Holy)",
+      "scientific_name": "Ocimum tenuiflorum",
+      "variety": "Significant chemotype variation. Eugenol chemotype (green/red type, culinary standard for Thai krapao): eugenol 33\u201376%. Methyl eugenol chemotype (some purple varieties): methyl eugenol up to 82%. Camphor/cineole type also exists. Profile differs fundamentally from sweet basil (linalool) and Thai basil (estragole+citral).",
+      "gcms_summary": "Eugenol chemotype: eugenol 33\u201376%, \u03b2-caryophyllene 9\u201321%, \u03b2-elemene 10\u201316%. Methyl eugenol chemotype: methyl eugenol up to 82%, \u03b2-caryophyllene ~21%, eugenol ~34%. Camphor type: camphor ~32%, 1,8-cineole ~19%, \u03b1-bisabolene ~17%. Reads as clove-peppery-herbal rather than anise or floral.",
+      "compounds": [
+        {
+          "compound_id": "eugenol",
+          "percentage": 0.55,
+          "notes": "Dominant in culinary (eugenol) chemotype; 33\u201376% range"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": 0.15,
+          "notes": "9\u201321% range; across all chemotypes"
+        },
+        {
+          "compound_id": "beta-elemene",
+          "percentage": 0.13,
+          "notes": "10\u201316% range in eugenol chemotype; strongly fat-soluble"
+        },
+        {
+          "compound_id": "methyl-eugenol",
+          "percentage": null,
+          "notes": "Minor in eugenol chemotype; dominant (up to 82%) in methyl eugenol chemotype"
+        },
+        {
+          "compound_id": "camphor",
+          "percentage": null,
+          "notes": "Dominant in camphor/cineole chemotype (~32%); present in trace amounts in other types"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "~19% in camphor chemotype; cooling eucalyptus note; minor in eugenol type"
+        },
+        {
+          "compound_id": "alpha-bisabolene",
+          "percentage": null,
+          "notes": "~17% in camphor chemotype; woody-balsamic sesquiterpene"
+        },
+        {
+          "compound_id": "germacrene-d",
+          "percentage": null,
+          "notes": "Sesquiterpene; minor in eugenol type; woody-earthy"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Minor floral note; present across chemotypes at low levels"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6262289/",
+        "https://www.researchgate.net/publication/257567572_Chemical_characterization_of_aroma_compounds_in_essential_oil_isolated_from_Holy_Basil_Ocimum_tenuiflorum_L_grown_in_India",
+        "https://www.researchgate.net/publication/354745710_Variation_in_aroma_level_of_holy_basil_Ocimum_tenuiflorum_L_leaves_is_related_to_volatile_composition_but_not_trichome_characteristics"
+      ]
+    },
+    "ginger": {
+      "id": "ginger",
+      "name": "Ginger",
+      "scientific_name": "Zingiber officinale",
+      "variety": "Fresh rhizome; dried/processed ginger has significantly different volatile profile",
+      "gcms_summary": "Sesquiterpenes dominate: zingiberene (~18\u201330%) is the signature compound; \u03b2-sesquiphellandrene (~10\u201315%) and ar-curcumene (~5\u20138%) contribute woody-spicy warmth. Monoterpenoid aldehydes (geranial ~8%, neral ~5%) deliver the lemon-citrus brightness; 1,8-cineole (~7%) adds cooling eucalyptus; camphene (~9%) gives piney camphor. Geraniol, nerolidol, and citronellal are secondary contributors. Linalool, \u03b2-myrcene, \u03b2-phellandrene, and \u03b1-pinene round out the profile at low levels. OAV data: geranial and neral are highest-impact aroma compounds despite lower abundance than zingiberene (which has high OAV threshold).",
+      "compounds": [
+        {
+          "compound_id": "zingiberene",
+          "percentage": 0.2,
+          "notes": "Dominant sesquiterpene; defines spicy ginger character"
+        },
+        {
+          "compound_id": "beta-sesquiphellandrene",
+          "percentage": 0.12,
+          "notes": "Second major sesquiterpene; woody-spicy ginger background note; very fat-soluble"
+        },
+        {
+          "compound_id": "camphene",
+          "percentage": 0.09,
+          "notes": "Piney/camphoraceous secondary note"
+        },
+        {
+          "compound_id": "geranial",
+          "percentage": 0.08,
+          "notes": "Sharp lemon note; highest OAV impact despite modest abundance; acid-sensitive"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": 0.07,
+          "notes": "Cooling eucalyptus note; highly volatile"
+        },
+        {
+          "compound_id": "ar-curcumene",
+          "percentage": 0.065,
+          "notes": "Sesquiterpene; citrusy-spicy warmth; also present in turmeric; very fat-soluble"
+        },
+        {
+          "compound_id": "neral",
+          "percentage": 0.05,
+          "notes": "Softer lemon than geranial; degrades to geranial under heat; high OAV impact"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Rose-citrus note; minor but perceptible"
+        },
+        {
+          "compound_id": "beta-phellandrene",
+          "percentage": null,
+          "notes": "Citrusy-spicy; common in ginger EO"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Green-herbal backbone"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "Piney, minor"
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "Floral-woody; trace in fresh ginger"
+        },
+        {
+          "compound_id": "citronellal",
+          "percentage": null,
+          "notes": "Lemon-citronella; minor"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Floral rounding agent"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7374682/",
+        "https://pubs.acs.org/doi/abs/10.1021/acs.jafc.7b00559"
+      ]
+    },
+    "banana": {
+      "id": "banana",
+      "name": "Banana",
+      "scientific_name": "Musa acuminata / Musa \u00d7 paradisiaca",
+      "variety": "Commercial Cavendish. Profile here reflects FlavorDB entity 167 (87 compounds) supplemented with GC-MS literature.",
+      "gcms_summary": "Ester-dominated profile. Isoamyl acetate is the dominant volatile in ripe Cavendish banana (~5\u201330% of headspace by GC-MS) and the defining character compound \u2014 its absence from FlavorDB entity 167 is a data gap, not absence from the fruit. Isoamyl butyrate, isoamyl propanoate, and butyl acetate round out the ester suite; ethyl butanoate provides fresh top note; isopentyl hexanoate and isoamyl isovalerate add tropical fruit body. Isoamyl alcohol is the fusel alcohol backbone from which most banana esters are biosynthetically derived. Eugenol, hexanal, and trans-2-hexenal contribute minor complexity in ripe fruit; 2-heptanone adds musty undertone.",
+      "compounds": [
+        {
+          "compound_id": "isoamyl-acetate",
+          "percentage": null,
+          "notes": "Primary character compound; dominant volatile in ripe Cavendish (~5\u201330% of headspace); absent from FlavorDB entity \u2014 added from GC-MS literature; BP 142\u00b0C (288\u00b0F) \u2014 highly volatile"
+        },
+        {
+          "compound_id": "isoamyl-butyrate",
+          "percentage": null,
+          "notes": "Most banana-specific descriptor in FlavorDB profile; fruity-banana"
+        },
+        {
+          "compound_id": "isoamyl-propanoate",
+          "percentage": null,
+          "notes": "Third major ester in Cavendish headspace; banana-pear; BP 159\u2013161\u00b0C (318\u2013322\u00b0F) \u2014 volatile"
+        },
+        {
+          "compound_id": "ethyl-butanoate",
+          "percentage": null,
+          "notes": "Extremely volatile (BP 120\u00b0C / 248\u00b0F) \u2014 do not heat banana; add puree cold only"
+        },
+        {
+          "compound_id": "butyl-acetate",
+          "percentage": null,
+          "notes": "Minor banana ester; fruity-pear modifier"
+        },
+        {
+          "compound_id": "isopentyl-hexanoate",
+          "percentage": null,
+          "notes": "Heat-stable; contributes tropical fruit body"
+        },
+        {
+          "compound_id": "isoamyl-isovalerate",
+          "percentage": null,
+          "notes": "Sweet-jammy tropical modifier"
+        },
+        {
+          "compound_id": "isoamyl-alcohol",
+          "percentage": null,
+          "notes": "Fusel alcohol; biosynthetic precursor to all isoamyl esters; low levels contribute banana depth, high levels harsh/solvent"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Spicy-clove trace; minor in ripe banana but detectable OAV; increases in overripe fruit"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Green-grassy; minor in ripe banana, more prominent in underripe"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Green note; minor"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Floral trace; minor in Cavendish"
+        },
+        {
+          "compound_id": "2-heptanone",
+          "percentage": null,
+          "notes": "Musty-fruity undertone; minor; BP 151\u00b0C (304\u00b0F) \u2014 volatile"
+        }
+      ],
+      "warnings": "All key character esters (isoamyl acetate BP 142\u00b0C / 288\u00b0F, ethyl butanoate BP 120\u00b0C / 248\u00b0F) are highly volatile \u2014 any heat destroys the top note. Use banana as cold puree only; never cook. Raw puree darkens rapidly from enzymatic browning; use immediately or acidulate with ascorbic acid.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=167"
+      ]
+    },
+    "peach": {
+      "id": "peach",
+      "name": "Peach",
+      "scientific_name": "Prunus persica",
+      "variety": "Yellow/white freestone; variety and ripeness strongly affect lactone content",
+      "gcms_summary": "Gamma-decalactone and delta-decalactone are the signature 'peach' compounds; linalool and beta-ionone add floral depth; hexanal and (E)-2-hexenal give fresh-green character in less-ripe fruit; benzaldehyde (from pits) adds almond note in some preparations. Lactone content peaks at full ripeness; green C6 aldehydes dominate unripe fruit.",
+      "compounds": [
+        {
+          "compound_id": "gamma-decalactone",
+          "percentage": null,
+          "notes": "Primary peach-character lactone; peaks at full ripeness"
+        },
+        {
+          "compound_id": "delta-decalactone",
+          "percentage": null,
+          "notes": "Creamy peach-sweet; co-present with gamma form"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Floral; prominent in white peach varieties"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "Violet/fruity trace; potent odorant"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Green note; high in unripe fruit, declines with ripening"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Sharp green-leafy; fades as lactones develop"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9957197/",
+        "https://link.springer.com/article/10.1007/s00217-018-3145-x"
+      ]
+    },
+    "orange": {
+      "id": "orange",
+      "name": "Orange",
+      "scientific_name": "Citrus sinensis",
+      "variety": null,
+      "gcms_summary": "VOC profile from FlavorDB (entity_id: 194). D-Limonene dominates (~90% of peel oil). Character-impact compounds include valencene (sweet orange sesquiterpene) and \u03b2-sinensal (aldehydic sweet-orange). Methyl anthranilate contributes floral-grape note. Geranial (citral) adds lemon brightness. Linalool, geraniol, and citronellol provide floral depth. FlavorDB lists 90+ compounds; list may not capture all minor volatiles.",
+      "compounds": [
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geranial",
+          "percentage": null,
+          "notes": "citral fraction (\u03b1-citral); geranial and neral both present"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "citronellol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "valencene",
+          "percentage": null,
+          "notes": "sesquiterpene character-impact compound of sweet orange"
+        },
+        {
+          "compound_id": "beta-sinensal",
+          "percentage": null,
+          "notes": "aldehydic character-impact compound"
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "terpinolene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "camphene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "delta-3-carene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-elemene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-anthranilate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "thymol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-hexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-octanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-2-methylbutanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ee-2-4-decadienal",
+          "percentage": null,
+          "notes": "only relevant if toasted or oxidized"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=194"
+      ]
+    },
+    "lime": {
+      "id": "lime",
+      "name": "Lime",
+      "scientific_name": "Citrus aurantiifolia",
+      "variety": null,
+      "gcms_summary": "VOC profile from FlavorDB (entity_id: 241). D-Limonene is the dominant terpene. \u03b2-Pinene, \u03b3-terpinene, and terpinolene provide fresh piney-citrus character. Linalool and \u03b1-terpineol add floral depth. 1,8-Cineole and terpinen-4-ol contribute herbal-eucalyptus notes. FlavorDB lists 85+ compounds.",
+      "compounds": [
+        {
+          "compound_id": "d-limonene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "terpinolene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-bisabolene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-piperitone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "indole",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": null
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=241"
+      ]
+    },
+    "yuzu": {
+      "id": "yuzu",
+      "name": "Yuzu",
+      "scientific_name": "Citrus junos",
+      "variety": null,
+      "gcms_summary": "VOC profile from GC-MS literature (PMC8434063; Miyazawa et al., J. Agric. Food Chem. 2009). Limonene (~78%) and \u03b3-terpinene (~12%) dominate both juice and peel. p-Cymene (~2.3%), \u03b2-pinene (~1.3%), and \u03b2-myrcene (~1.1%) are secondary. GC-olfactometry AEDA identified yuzunone ((6Z,8E)-undeca-6,8,10-trien-3-one) as the single most characteristic odorant unique to yuzu \u2014 not found in other Citrus species. Seven novel character-impact compounds: oct-1-en-3-one, (E)-non-4-enal, (E)-dec-4-enal, 4-methyl-4-mercaptopentan-2-one, (E)-non-6-enal, yuzunone, and yuzuol.",
+      "compounds": [
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.783,
+          "notes": "avg of juice (78.25%) and peel (78.40%) from PMC8434063"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": 0.129,
+          "notes": "avg of juice (14.43%) and peel (11.43%)"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": 0.024,
+          "notes": "avg of juice (2.38%) and peel (2.33%)"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": 0.013,
+          "notes": "avg of juice (1.13%) and peel (1.48%)"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": 0.011,
+          "notes": "avg of juice (0.78%) and peel (1.40%); also high FD value in AEDA"
+        },
+        {
+          "compound_id": "alpha-phellandrene",
+          "percentage": 0.007,
+          "notes": "avg of juice (0.96%) and peel (0.44%); high FD value in AEDA"
+        },
+        {
+          "compound_id": "terpinolene",
+          "percentage": 0.005,
+          "notes": "juice only in PMC8434063"
+        },
+        {
+          "compound_id": "cis-beta-ocimene",
+          "percentage": 0.004,
+          "notes": "peel only in PMC8434063"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "character-impact compound with high FD value in AEDA"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "high FD value in AEDA character-impact analysis"
+        },
+        {
+          "compound_id": "yuzunone",
+          "percentage": null,
+          "notes": "highest-FD character-impact compound unique to yuzu; green-balsamic-peely character"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8434063/",
+        "https://pubmed.ncbi.nlm.nih.gov/19203264/"
+      ]
+    },
+    "buddhas-hand": {
+      "id": "buddhas-hand",
+      "name": "Buddha's Hand Citron",
+      "scientific_name": "Citrus medica var. sarcodactylis",
+      "variety": null,
+      "gcms_summary": "VOC profile from SPME-GC/MS and EO/hydrolate GC/MS (PMC8911557). Limonene (~76% exocarp, 67% EO) and \u03b3-terpinene (~16\u201320%) dominate. \u03b2-Pinene (~2.5%) and \u03b1-pinene (~1.5%) are main secondary monoterpenes. cis-\u03b2-Ocimene (~1.2%) adds a fresh herbal note. The hydrolate (water fraction) is rich in oxygenated terpenes: \u03b1-terpineol (44.7%) and terpinen-4-ol (21.6%) \u2014 relevant for water or steam infusion. No juice; only peel is used. The violet/osmanthus character associated with buddha's hand is attributed in horticultural sources to \u03b2-ionone.",
+      "compounds": [
+        {
+          "compound_id": "d-limonene",
+          "percentage": 0.758,
+          "notes": "exocarp by SPME-GC/MS; 66.9% in EO"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": 0.165,
+          "notes": "exocarp; 20.0% in EO"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": 0.025,
+          "notes": "exocarp"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": 0.016,
+          "notes": "exocarp"
+        },
+        {
+          "compound_id": "cis-beta-ocimene",
+          "percentage": 0.012,
+          "notes": "exocarp"
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": "dominant in hydrolate (44.7%); water infusion extracts this preferentially"
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": null,
+          "notes": "21.6% in hydrolate"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "minor; detected in EO"
+        },
+        {
+          "compound_id": "geranial",
+          "percentage": null,
+          "notes": "\u03b1-citral; minor in EO"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "horticultural attribution of violet/osmanthus aroma note; high OAV despite low GC-MS quantitation"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8911557/"
+      ]
+    },
+    "pink-peppercorn": {
+      "id": "pink-peppercorn",
+      "name": "Peppercorn (Pink)",
+      "scientific_name": "Schinus molle",
+      "variety": "Schinus molle (Peruvian pepper) profiled; S. terebinthifolius (Brazilian pepper) is also sold as pink peppercorn and may differ significantly in VOC ratios",
+      "gcms_summary": "Highly variable by origin. Ethiopian samples (49 compounds): Limonene 18%, Elemol 13%, \u03b1-Phellandrene 10%, p-Cymene 7%, Bicyclogermacrene 7%, \u03b1-Pinene 7%, Spathulenol 6%, \u03b1-Eudesmol 5%, \u03b2-Eudesmol 5%, \u03b3-Eudesmol 4%, \u03b2-Myrcene 4%, \u03b4-Cadinene 4%, Carotol 2%. Moroccan samples (21 compounds): \u03b2-Myrcene 59%, \u03b1-Phellandrene 11%, Limonene 10%, \u03b2-Phellandrene 9%, \u03b1-Pinene 3%. Linalool and geraniol documented at lower levels across multiple sources.",
+      "compounds": [
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "dominant in many Ethiopian samples; displaced by \u03b2-myrcene in Moroccan samples"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "dominant in Moroccan samples (~59%); minor in Ethiopian samples (~4%)"
+        },
+        {
+          "compound_id": "alpha-phellandrene",
+          "percentage": null,
+          "notes": "consistently present at 10-11% across origins"
+        },
+        {
+          "compound_id": "beta-phellandrene",
+          "percentage": null,
+          "notes": "significant in Moroccan samples (~9%); lower in Ethiopian"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "3-7% across origins"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "~7% in Ethiopian samples"
+        },
+        {
+          "compound_id": "elemol",
+          "percentage": null,
+          "notes": "~13% in Ethiopian samples; sesquiterpene alcohol contributing woody-fresh notes"
+        },
+        {
+          "compound_id": "spathulenol",
+          "percentage": null,
+          "notes": "~6% in Ethiopian samples"
+        },
+        {
+          "compound_id": "alpha-eudesmol",
+          "percentage": null,
+          "notes": "~5% in Ethiopian samples"
+        },
+        {
+          "compound_id": "beta-eudesmol",
+          "percentage": null,
+          "notes": "~5% in Ethiopian samples"
+        },
+        {
+          "compound_id": "gamma-eudesmol",
+          "percentage": null,
+          "notes": "~4% in Ethiopian samples"
+        },
+        {
+          "compound_id": "bicyclogermacrene",
+          "percentage": null,
+          "notes": "~7% in Ethiopian samples"
+        },
+        {
+          "compound_id": "delta-cadinene",
+          "percentage": null,
+          "notes": "~4% in Ethiopian samples"
+        },
+        {
+          "compound_id": "carotol",
+          "percentage": null,
+          "notes": "~2% in Ethiopian samples"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "documented across sources; levels variable"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "documented across sources; levels variable"
+        }
+      ],
+      "warnings": "Not a true peppercorn (Piper nigrum); lacks piperine \u2014 no significant heat. Related to cashew/mango (Anacardiaceae); may cause allergic reactions in tree nut-sensitive individuals.",
+      "sources": [
+        "https://www.derpharmachemica.com/pharma-chemica/chemical-composition-of-the-essential-oil-from-schinus-molle-l-peruvian-pepper-15390.html",
+        "https://pharmacologyonline.silae.it/files/archives/2021/vol2/PhOL_2021_2_A056_ESSABIRI.pdf",
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=pink-peppercorn"
+      ]
+    },
+    "cherry-tomatoes": {
+      "id": "cherry-tomatoes",
+      "name": "Cherry tomatoes",
+      "scientific_name": "Solanum lycopersicum var. cerasiforme",
+      "variety": null,
+      "gcms_summary": "VOC profile from FlavorDB (entity_id: 446). 75 compounds identified spanning aldehydes, ketones, alcohols, esters, phenolics, terpenoids, flavonoids, alkaloids, and sulfur compounds. Key character-impact volatiles: cis-3-hexenal (green/tomato), hexanal (green/grassy), 6-methyl-5-hepten-2-one (lycopene oxidation product, citrus/fatty), 3-(methylthio)propionaldehyde/methional (cooked/brothy), 2-methylbutyraldehyde (malty/sweet), isobutyraldehyde (sharp/fruity), and phenylacetaldehyde (honey/rose).",
+      "compounds": [
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "daidzin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylbutyraldehyde",
+          "percentage": null,
+          "notes": "malty/sweet character impact"
+        },
+        {
+          "compound_id": "3-methylthiopropanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "citral",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-hexanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-maltose",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-ethyl-4-hydroxy-5-methyl-3-furanone",
+          "percentage": null,
+          "notes": "HEMF; sweet/caramel/strawberry note"
+        },
+        {
+          "compound_id": "phlorizin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-jasmonate",
+          "percentage": null,
+          "notes": "plant stress signal; floral note"
+        },
+        {
+          "compound_id": "3-4-dihydroxybenzoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nicotine",
+          "percentage": null,
+          "notes": "trace alkaloid; natural to Solanaceae"
+        },
+        {
+          "compound_id": "kaempferol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methanethiol",
+          "percentage": null,
+          "notes": "highly volatile sulfur compound; gas at room temp"
+        },
+        {
+          "compound_id": "daidzein",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-l-sorbopyranose",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dl-liquiritigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cid-644104",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "taxifolin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-mannitol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "indole-3-acetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phloretin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-pyrroline",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "menthone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "green/grassy character impact"
+        },
+        {
+          "compound_id": "geranyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "linamarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "salicylic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "z-cinnamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-vinyl-ketone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "allyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hydrogen-peroxide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoeugenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "betaine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyraldehyde",
+          "percentage": null,
+          "notes": "sharp/pungent; very volatile"
+        },
+        {
+          "compound_id": "naringenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenal",
+          "percentage": null,
+          "notes": "green/leafy/tomato character impact \u2014 highly volatile"
+        },
+        {
+          "compound_id": "cinnamaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "sinapic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "6-methyl-5-hepten-2-one",
+          "percentage": null,
+          "notes": "lycopene oxidation product; citrus/fatty character impact"
+        },
+        {
+          "compound_id": "cyclopentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-isopropyl-5-methylcyclohexanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "quercetin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylthio-propionaldehyde",
+          "percentage": null,
+          "notes": "methional; cooked/brothy/tomato character impact"
+        },
+        {
+          "compound_id": "phenethyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "neomenthol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "succinic-acid",
+          "percentage": null,
+          "notes": "contributes sourness/acidity"
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nsc5112",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "apigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": "honey/rose character note"
+        },
+        {
+          "compound_id": "hydrogen-cyanide",
+          "percentage": null,
+          "notes": "trace; extremely volatile and toxic; not retained in processed products"
+        },
+        {
+          "compound_id": "benzyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-hexen-1-ol",
+          "percentage": null,
+          "notes": "green/leafy"
+        },
+        {
+          "compound_id": "trans-3-hexen-1-ol",
+          "percentage": null,
+          "notes": "green/leafy"
+        },
+        {
+          "compound_id": "3-phenylpropanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propionaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hexen-3-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "neral",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-2-butenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-pentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-4-hydroxyphenyl-ethanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "acrolein",
+          "percentage": null,
+          "notes": "lipid oxidation product; very volatile and reactive"
+        }
+      ],
+      "warnings": "Contains trace nicotine (natural to Solanaceae); trace hydrogen cyanide (extremely volatile, not food-safety concern in whole fruit). Acrolein is a reactive lipid oxidation product not typically relevant in fresh fruit.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=446"
+      ]
+    },
+    "blueberry": {
+      "id": "blueberry",
+      "name": "Blueberry",
+      "scientific_name": "Vaccinium corymbosum / Vaccinium angustifolium",
+      "variety": "Highbush (V. corymbosum) and lowbush (V. angustifolium) \u2014 volatile profile differs significantly by variety",
+      "gcms_summary": "15 VOCs identified across GC-MS and GC-olfactometry studies. Dominant compound class varies by variety: lowbush is ester-dominant (~48% esters, 29% aldehydes, 4% monoterpenoids); highbush is aldehyde-dominant (~48% aldehydes, 26% monoterpenoids, 3% esters). Key aroma-impact compounds consistent across varieties: linalool and (E)-2-hexenal. Eight terpene volatiles (p-cymene, myrtenal, linalool, L-carvenol, geranyl acetone, geranyl acetate, D-limonene, \u03b2-myrcene) identified as primary terpene metabolic group.",
+      "compounds": [
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Major aroma-active compound in southern highbush; GC-O ranked highest in many cultivars"
+        },
+        {
+          "compound_id": "e-2-hexenal",
+          "percentage": null,
+          "notes": "Major aroma-active compound; dominant in highbush aldehydes fraction"
+        },
+        {
+          "compound_id": "z-3-hexenal",
+          "percentage": null,
+          "notes": "Green note; contributes to fresh berry character"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "C6 aldehyde; grass/hay note; part of highbush aldehyde fraction"
+        },
+        {
+          "compound_id": "hexyl-acetate",
+          "percentage": null,
+          "notes": "Fruity ester; more prominent in lowbush"
+        },
+        {
+          "compound_id": "z-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": "Fresh green-fruity ester; part of lowbush ester fraction"
+        },
+        {
+          "compound_id": "methyl-3-methylbutanoate",
+          "percentage": null,
+          "notes": "Sweet fruity ester; reported as aroma-active in some cultivars"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "Eucalyptol note; present in both varieties, more prominent in highbush"
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": "Floral terpene alcohol; part of highbush monoterpenoid fraction"
+        },
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "Citrus terpene; part of terpene group"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Herbaceous terpene; one of the 8 primary terpene volatiles"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "One of the 8 primary terpene volatiles"
+        },
+        {
+          "compound_id": "geranyl-acetate",
+          "percentage": null,
+          "notes": "Floral terpene ester; one of the 8 primary terpene volatiles"
+        },
+        {
+          "compound_id": "geranyl-acetone",
+          "percentage": null,
+          "notes": "Rose-peach ketone; one of the 8 primary terpene volatiles"
+        },
+        {
+          "compound_id": "myrtenal",
+          "percentage": null,
+          "notes": "Piney terpene aldehyde; one of the 8 primary terpene volatiles"
+        },
+        {
+          "compound_id": "l-carvenol",
+          "percentage": null,
+          "notes": "Minty terpene alcohol; one of the 8 primary terpene volatiles"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9407621/",
+        "https://www.biorxiv.org/content/10.1101/2021.12.24.474137.full.pdf"
+      ]
+    }
+  }
+}
