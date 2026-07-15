@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import rawIngredients from './data/ingredients.json';
 import rawCompounds from './data/compounds.json';
 import type { Ingredient, Compound } from './lib/types';
@@ -6,6 +7,7 @@ import { useSelection } from './lib/SelectionContext';
 import { IngredientList } from './components/shared/IngredientList';
 import { DetailView } from './components/detail/DetailView';
 import { CompareView } from './components/compare/CompareView';
+import { ComposerPage } from './components/composer/ComposerPage';
 
 const ingredients = (Object.values(rawIngredients.ingredients) as Ingredient[]).sort((a, b) =>
   a.name.localeCompare(b.name),
@@ -13,6 +15,18 @@ const ingredients = (Object.values(rawIngredients.ingredients) as Ingredient[]).
 const compounds = rawCompounds.compounds as Record<string, Compound>;
 
 export function App() {
+  return (
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <Routes>
+        <Route path="/" element={<Navigate to="/flavor-explorer" replace />} />
+        <Route path="/flavor-explorer" element={<ExplorerPage />} />
+        <Route path="/flavor-explorer/composer" element={<ComposerPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+function ExplorerPage() {
   const { selectedIds } = useSelection();
 
   const selected = selectedIds

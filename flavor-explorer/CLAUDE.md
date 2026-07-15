@@ -1,0 +1,1 @@
+This application deploys to GitHub pages and is intentionally limited to a frontend without a backend
