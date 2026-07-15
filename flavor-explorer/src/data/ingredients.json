@@ -2248,50 +2248,6 @@
         "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=167"
       ]
     },
-    "peach": {
-      "id": "peach",
-      "name": "Peach",
-      "scientific_name": "Prunus persica",
-      "variety": "Yellow/white freestone; variety and ripeness strongly affect lactone content",
-      "gcms_summary": "Gamma-decalactone and delta-decalactone are the signature 'peach' compounds; linalool and beta-ionone add floral depth; hexanal and (E)-2-hexenal give fresh-green character in less-ripe fruit; benzaldehyde (from pits) adds almond note in some preparations. Lactone content peaks at full ripeness; green C6 aldehydes dominate unripe fruit.",
-      "compounds": [
-        {
-          "compound_id": "gamma-decalactone",
-          "percentage": null,
-          "notes": "Primary peach-character lactone; peaks at full ripeness"
-        },
-        {
-          "compound_id": "delta-decalactone",
-          "percentage": null,
-          "notes": "Creamy peach-sweet; co-present with gamma form"
-        },
-        {
-          "compound_id": "linalool",
-          "percentage": null,
-          "notes": "Floral; prominent in white peach varieties"
-        },
-        {
-          "compound_id": "beta-ionone",
-          "percentage": null,
-          "notes": "Violet/fruity trace; potent odorant"
-        },
-        {
-          "compound_id": "hexanal",
-          "percentage": null,
-          "notes": "Green note; high in unripe fruit, declines with ripening"
-        },
-        {
-          "compound_id": "trans-2-hexenal",
-          "percentage": null,
-          "notes": "Sharp green-leafy; fades as lactones develop"
-        }
-      ],
-      "warnings": null,
-      "sources": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9957197/",
-        "https://link.springer.com/article/10.1007/s00217-018-3145-x"
-      ]
-    },
     "orange": {
       "id": "orange",
       "name": "Orange",
@@ -3250,6 +3206,2081 @@
       "sources": [
         "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9407621/",
         "https://www.biorxiv.org/content/10.1101/2021.12.24.474137.full.pdf"
+      ]
+    },
+    "white-nectarine": {
+      "id": "white-nectarine",
+      "name": "White Nectarine",
+      "scientific_name": "Prunus persica var. nucipersica",
+      "variety": "white-fleshed",
+      "gcms_summary": "White-fleshed nectarines are characterized by higher total volatile content and elevated levels of phenols and terpenes compared to yellow-fleshed cultivars. Key discriminating compounds include benzaldehyde, trans-2-hexenyl acetate, methyl benzoate, linalool, and \u03b3-heptalactone. Lactones (particularly \u03b3-decalactone and \u03b4-decalactone) drive the core peach character; white flesh types show significantly higher \u03b4-decalactone and \u03b3-heptalactone vs. yellow. The compound theaspirane (a spirocyclic terpenoid) is elevated in white-fleshed germplasms. GC-MS studies on 114 peach/nectarine germplasms (Oxford Academic 2025) and review by Li et al. (Int. J. Food Sci. Tech. 2023) provide the basis for this profile.",
+      "compounds": [
+        {
+          "compound_id": "gamma-decalactone",
+          "percentage": null,
+          "notes": "defining peach-lactone note; elevated at full ripeness"
+        },
+        {
+          "compound_id": "delta-decalactone",
+          "percentage": null,
+          "notes": "significantly higher in white-fleshed vs. yellow-fleshed cultivars"
+        },
+        {
+          "compound_id": "gamma-heptalactone",
+          "percentage": null,
+          "notes": "significantly higher in white-fleshed vs. yellow-fleshed cultivars"
+        },
+        {
+          "compound_id": "gamma-nonalactone",
+          "percentage": null,
+          "notes": "sweet coconut-peach note; increases with ripening"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "significantly elevated in white-fleshed types; increases with maturation"
+        },
+        {
+          "compound_id": "trans-2-hexenyl-acetate",
+          "percentage": null,
+          "notes": "top discriminating compound between white and other flesh types"
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": "key discriminating compound for white-fleshed germplasms"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "floral terpenol; present in most nectarines, higher in white types"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "green C6 aldehyde from lipoxygenase pathway; decreases post-harvest"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "green/leafy; lipoxygenase-derived; decreases post-harvest"
+        },
+        {
+          "compound_id": "trans-2-heptenal",
+          "percentage": null,
+          "notes": "significantly higher in white-fleshed types; fatty-green note"
+        },
+        {
+          "compound_id": "hexyl-acetate",
+          "percentage": null,
+          "notes": "fruity ester; key discriminating compound"
+        },
+        {
+          "compound_id": "theaspirane",
+          "percentage": null,
+          "notes": "spirocyclic terpenoid elevated in white-fleshed types; characteristic peach-tea note"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "C13 norisoprenoid; violet-floral; trace amounts with high impact"
+        },
+        {
+          "compound_id": "beta-damascenone",
+          "percentage": null,
+          "notes": "C13 norisoprenoid; rose-honey; trace amounts with high impact"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "waxy-fatty aldehyde; detected across cultivars"
+        },
+        {
+          "compound_id": "2-ethylhexanol",
+          "percentage": null,
+          "notes": "minor alcohol; discriminating compound in white vs. yellow flesh classification"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://academic.oup.com/fqs/article/doi/10.1093/fqsafe/fyaf031/8198432",
+        "https://academic.oup.com/ijfst/article/58/10/4965/7808083",
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=201"
+      ]
+    },
+    "corn": {
+      "id": "corn",
+      "name": "Corn (Sweet Corn / Maize)",
+      "scientific_name": "Zea mays",
+      "variety": "sweet corn (Zea mays var. saccharata/rugosa); profile below is dominated by cooked/heat-generated compounds, with raw lipid-oxidation volatiles as a secondary layer",
+      "gcms_summary": "Dimethyl sulfide (DMS) is the primary aroma-impact compound of cooked sweet corn, giving the characteristic sweet, creamed/canned-corn note; it forms during heating from a non-volatile precursor and is essentially absent raw. Hydrogen sulfide, methanethiol, and ethanethiol are secondary sulfur volatiles with very low odor thresholds that reinforce the cooked-corn character. Acetaldehyde and ethanol are also abundant in cooked corn headspace. Separately, raw and minimally processed corn carries a lipid-oxidation-derived aldehyde/furan profile: hexanal, trans-2-octenal, nonanal, trans-2-nonenal, and decanal (sweet-floral and fatty notes), plus 1-octen-3-ol and 2-pentylfuran (green-bean, earthy, mushroom notes). All of these together define corn's dual character: green/raw vegetal on the fresh cob, sulfurous-sweet once cooked.",
+      "compounds": [
+        {
+          "compound_id": "dimethyl-sulfide",
+          "percentage": null,
+          "notes": "Primary cooked-corn aroma-impact compound; heat-generated, absent in raw corn; requires closed-vessel cooking (e.g. sous vide) to retain in an extraction"
+        },
+        {
+          "compound_id": "hydrogen-sulfide",
+          "percentage": null,
+          "notes": "Secondary sulfur note in cooked corn; extremely volatile, lost on any open exposure"
+        },
+        {
+          "compound_id": "ethanethiol",
+          "percentage": null,
+          "notes": "Minor sulfur contributor to cooked corn aroma"
+        },
+        {
+          "compound_id": "acetaldehyde",
+          "percentage": null,
+          "notes": "Abundant in cooked sweet corn headspace alongside ethanol"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Lipid-oxidation aldehyde; fresh-cut/green note from raw or minimally processed corn"
+        },
+        {
+          "compound_id": "trans-2-octenal",
+          "percentage": null,
+          "notes": "Odor activity value \u22651; fatty-green-cucumber note"
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": "Contributes sweet-floral note alongside decanal and phenylacetaldehyde"
+        },
+        {
+          "compound_id": "trans-2-nonenal",
+          "percentage": null,
+          "notes": "One of the highest-OAV aldehydes measured in corn; cardboard/fatty note, very low odor threshold"
+        },
+        {
+          "compound_id": "decanal",
+          "percentage": null,
+          "notes": "Sweet-floral note contributor"
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": "Earthy-mushroom note from lipid oxidation"
+        },
+        {
+          "compound_id": "2-pentylfuran",
+          "percentage": null,
+          "notes": "Green-bean/earthy background note, lipid-oxidation derived"
+        },
+        {
+          "compound_id": "2-heptanone",
+          "percentage": null,
+          "notes": "Minor ketone reported in some corn volatile profiles"
+        }
+      ],
+      "warnings": "DMS, H2S, methanethiol, ethanethiol, and acetaldehyde are all gases or near-gases at room temperature \u2014 an open-pot simmer or steep will lose nearly all of the characteristic cooked-corn sulfur aroma. To capture true \"creamed corn\" flavor, cook corn in a sealed system (sous vide bag, pressure cooker, or covered infusion directly in the dairy base) rather than an open saucepan.",
+      "sources": [
+        "https://pubs.acs.org/doi/abs/10.1021/jf60158a029",
+        "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2621.1974.tb17976.x",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9290320/"
+      ]
+    },
+    "tarragon": {
+      "id": "tarragon",
+      "name": "Tarragon",
+      "scientific_name": "Artemisia dracunculus",
+      "variety": "French tarragon (estragole-dominant, culinary standard) vs. Russian tarragon (higher thujone/camphor, more bitter/less sweet-anise) - profile below reflects French tarragon unless noted",
+      "gcms_summary": "Estragole (methyl chavicol) is overwhelmingly dominant (60-75% of essential oil in French tarragon), giving the characteristic sweet anise/licorice flavor. Ocimene, elemicin, and limonene are notable secondary terpenes. A broad monoterpene background (sabinene, alpha/beta-pinene, myrcene, gamma-terpinene, alpha/beta-phellandrene, camphene, p-cymene, 3-carene, linalool, eucalyptol) contributes green-herbaceous-piney depth. Genus-marker Artemisia ketones (artemisia ketone, alpha-thujone, D-camphor) are present at low levels in French tarragon, much higher in Russian tarragon and other Artemisia species. Coumarin and dihydrocoumarin give a hay-like background note characteristic of dried tarragon. cis-3-Hexenal, trans-2/3-hexenol, and cis-3-hexenyl acetate contribute fresh-cut-grass green-leaf top notes. Data compiled from FlavorDB (entity_id: 268).",
+      "compounds": [
+        {
+          "compound_id": "estragole",
+          "percentage": 0.65,
+          "notes": "Dominant compound in French tarragon (60-75% of EO); defines the characteristic sweet anise/licorice flavor"
+        },
+        {
+          "compound_id": "cis-beta-ocimene",
+          "percentage": null,
+          "notes": "Notable secondary terpene"
+        },
+        {
+          "compound_id": "elemicin",
+          "percentage": null,
+          "notes": "Notable secondary phenylpropanoid, more prominent in some tarragon chemotypes"
+        },
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "Citrus-fresh background note"
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": "Spicy-woody monoterpene background"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "Piney monoterpene background"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": null,
+          "notes": "Piney-resinous monoterpene background"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Herbaceous monoterpene background"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": null,
+          "notes": "Minor monoterpene background"
+        },
+        {
+          "compound_id": "alpha-phellandrene",
+          "percentage": null,
+          "notes": "Minor monoterpene background"
+        },
+        {
+          "compound_id": "beta-phellandrene",
+          "percentage": null,
+          "notes": "Minor monoterpene background"
+        },
+        {
+          "compound_id": "camphene",
+          "percentage": null,
+          "notes": "Minor camphoraceous monoterpene"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "Minor spicy-herbaceous monoterpene"
+        },
+        {
+          "compound_id": "delta-3-carene",
+          "percentage": null,
+          "notes": "Minor sweet-piney monoterpene"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Minor floral-woody note"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "Minor camphoraceous note (eucalyptol)"
+        },
+        {
+          "compound_id": "artemisia-ketone",
+          "percentage": null,
+          "notes": "Genus-marker Artemisia terpene ketone; low in French tarragon, higher in Russian tarragon"
+        },
+        {
+          "compound_id": "alpha-thujone",
+          "percentage": null,
+          "notes": "Genus-marker Artemisia terpene ketone; low in French tarragon, much higher in Russian tarragon and true wormwood - regulated as a flavoring substance in some jurisdictions at high intake, not a practical concern at herb-infusion levels"
+        },
+        {
+          "compound_id": "d-camphor",
+          "percentage": null,
+          "notes": "Genus-marker Artemisia terpene ketone, minor in French tarragon"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Minor clove-spice phenylpropanoid"
+        },
+        {
+          "compound_id": "methyleugenol",
+          "percentage": null,
+          "notes": "Minor clove-carnation phenylpropanoid, structurally related to estragole"
+        },
+        {
+          "compound_id": "isoeugenol",
+          "percentage": null,
+          "notes": "Minor clove-spice note"
+        },
+        {
+          "compound_id": "trans-anethole",
+          "percentage": null,
+          "notes": "Minor sweet anise note, structurally related to estragole"
+        },
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": "Hay-like background note, more pronounced in dried tarragon"
+        },
+        {
+          "compound_id": "dihydrocoumarin",
+          "percentage": null,
+          "notes": "Hay-like, coconut background note alongside coumarin"
+        },
+        {
+          "compound_id": "cis-3-hexenal",
+          "percentage": null,
+          "notes": "Fresh-cut-grass green top note from fresh leaf"
+        },
+        {
+          "compound_id": "trans-2-hexen-1-ol",
+          "percentage": null,
+          "notes": "Green leaf top note"
+        },
+        {
+          "compound_id": "trans-3-hexen-1-ol",
+          "percentage": null,
+          "notes": "Green leaf top note"
+        },
+        {
+          "compound_id": "z-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": "Green leaf top note"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Fresh-cut grass note"
+        },
+        {
+          "compound_id": "heptanal",
+          "percentage": null,
+          "notes": "Fatty-green aldehyde note"
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": "Minor fruity-fatty aldehyde"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Minor almond note"
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": "Strecker aldehyde; warm, herbaceous, nutty at low levels"
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": "Minor honey-floral note"
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": "Minor fruity-cherry ester note"
+        },
+        {
+          "compound_id": "geranyl-acetate",
+          "percentage": null,
+          "notes": "Minor sweet-floral-fruity ester note"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Minor rose-floral note"
+        },
+        {
+          "compound_id": "nerol",
+          "percentage": null,
+          "notes": "Minor rose-citrus note"
+        },
+        {
+          "compound_id": "farnesol",
+          "percentage": null,
+          "notes": "Minor delicate floral sesquiterpene alcohol, heat-stable"
+        },
+        {
+          "compound_id": "phenethyl-alcohol",
+          "percentage": null,
+          "notes": "Minor rose note"
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": "Minor faint aromatic note"
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "Minor floral-woody sesquiterpene"
+        },
+        {
+          "compound_id": "spathulenol",
+          "percentage": null,
+          "notes": "Minor sesquiterpene alcohol"
+        },
+        {
+          "compound_id": "p-cresol",
+          "percentage": null,
+          "notes": "Minor phenolic note, trace level"
+        },
+        {
+          "compound_id": "o-cresol",
+          "percentage": null,
+          "notes": "Minor phenolic note, trace level"
+        },
+        {
+          "compound_id": "2-3-butanedione",
+          "percentage": null,
+          "notes": "Trace buttery note (diacetyl); very volatile, lost readily on open cooking"
+        },
+        {
+          "compound_id": "2-heptanone",
+          "percentage": null,
+          "notes": "Minor musty-fruity-banana ketone note"
+        },
+        {
+          "compound_id": "tributyrin",
+          "percentage": null,
+          "notes": "Trace fruity-buttery note"
+        }
+      ],
+      "warnings": "Estragole and methyleugenol are both regulated flavoring substances in the EU (Regulation EC 1334/2008 sets maximum levels in foodstuffs) due to genotoxicity/carcinogenicity data in rodent studies at high doses - not a practical concern at normal culinary tarragon-infusion levels, but avoid using tarragon essential oil or concentrated extracts in large quantities. Alpha-thujone is a GABA-antagonist convulsant at high doses and is regulated in alcoholic beverages (e.g. absinthe) in the US and EU; French tarragon's thujone content is low and not a practical concern, but this rises significantly in Russian tarragon and other Artemisia species (wormwood) - do not substitute those varieties without accounting for thujone load.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=268"
+      ]
+    },
+    "white-peach": {
+      "id": "white-peach",
+      "name": "Peach (White-Fleshed)",
+      "scientific_name": "Prunus persica",
+      "variety": "white-fleshed cultivars (e.g. 'Hu Jing Mi Lu'); lower acid, higher perceived sweetness than yellow-fleshed peach",
+      "gcms_summary": "Shares the core peach lactone/aldehyde profile with yellow-fleshed peach (gamma/delta-decalactone, hexanal, trans-2-hexenal, benzaldehyde, 1-hexanol) but is distinguished by furan and ether volatiles found exclusively in white-fleshed fruit: linalool oxide, 2-pentylfuran, and theaspirane. Citral, longifolene, and dihydro-beta-ionone are also reported exclusively in white-fleshed cultivars. White-fleshed peaches generally trend toward higher linalool concentration than yellow-fleshed cultivars, though cultivar-specific studies show this can invert (e.g. white cultivar 'Hu Jing Mi Lu' had the higher beta-ionone OAV of the pair, while yellow cultivar 'Jin Yuan' had the higher linalool OAV) - varietal comparisons should not be taken as absolute across all cultivars.",
+      "compounds": [
+        {
+          "compound_id": "gamma-decalactone",
+          "percentage": null,
+          "notes": "Primary peach-character lactone; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "delta-decalactone",
+          "percentage": null,
+          "notes": "Creamy peach-sweet; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Generally higher concentration than yellow-fleshed peach, though cultivar-dependent"
+        },
+        {
+          "compound_id": "linalool-oxide",
+          "percentage": null,
+          "notes": "Reported exclusively in white-fleshed peach cultivars; softer, more herbal-tea note than linalool"
+        },
+        {
+          "compound_id": "2-pentylfuran",
+          "percentage": null,
+          "notes": "Furan volatile reported exclusively in white-fleshed peach cultivars"
+        },
+        {
+          "compound_id": "theaspirane",
+          "percentage": null,
+          "notes": "Ether/norisoprenoid volatile reported exclusively in white-fleshed peach cultivars; peach-coconut-tea note"
+        },
+        {
+          "compound_id": "citral",
+          "percentage": null,
+          "notes": "Reported exclusively in white-fleshed peach cultivars; strong lemon top note"
+        },
+        {
+          "compound_id": "longifolene",
+          "percentage": null,
+          "notes": "Reported exclusively in white-fleshed peach cultivars; sesquiterpene background, high odor threshold, minor sensory impact"
+        },
+        {
+          "compound_id": "dihydro-beta-ionone",
+          "percentage": null,
+          "notes": "Reported exclusively in white-fleshed peach cultivars; muted woody-fruity ionone character"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "Violet-fruity trace odorant; can be higher OAV in white-fleshed cultivars depending on variety"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Green note; high in unripe fruit, declines with ripening; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Sharp green-leafy; fades as lactones develop; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Almond note from pits; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "hexanol",
+          "percentage": null,
+          "notes": "Mild green-woody background note; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "Citrus background note; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": "Earthy-mushroom background note; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": "Floral-lilac background note; shared with yellow-fleshed peach"
+        },
+        {
+          "compound_id": "geranyl-acetone",
+          "percentage": null,
+          "notes": "Rose-floral, peach-like background note; shared with yellow-fleshed peach"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://www.mdpi.com/2311-7524/8/3/245",
+        "https://www.sciencedirect.com/science/article/abs/pii/S030881462403930X",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5876536/"
+      ]
+    },
+    "yellow-peach": {
+      "id": "yellow-peach",
+      "name": "Peach (Yellow-Fleshed)",
+      "scientific_name": "Prunus persica",
+      "variety": "yellow-fleshed cultivars (e.g. 'Jin Yuan'); higher acid, more tart-forward than white-fleshed peach",
+      "gcms_summary": "Shares the core peach lactone/aldehyde profile with white-fleshed peach (gamma/delta-decalactone, hexanal, trans-2-hexenal, benzaldehyde, 1-hexanol) but is distinguished by terpenes reported exclusively in yellow-fleshed cultivars: D-camphor, beta-myrcene, hotrienol, campholenal, and pinocarvone. In cultivar-specific comparisons, yellow-fleshed peach can show a higher linalool odor activity value than white-fleshed peach (e.g. cultivar 'Jin Yuan' linalool OAV up to 104.68), though this is cultivar-dependent and not a fixed rule across all yellow vs. white comparisons.",
+      "compounds": [
+        {
+          "compound_id": "gamma-decalactone",
+          "percentage": null,
+          "notes": "Primary peach-character lactone; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "delta-decalactone",
+          "percentage": null,
+          "notes": "Creamy peach-sweet; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Can reach higher OAV than white-fleshed peach in some cultivars (e.g. up to 104.68 in 'Jin Yuan')"
+        },
+        {
+          "compound_id": "d-camphor",
+          "percentage": null,
+          "notes": "Reported exclusively in yellow-fleshed peach cultivars"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Reported exclusively in yellow-fleshed peach cultivars; herbaceous-balsamic note, highly volatile"
+        },
+        {
+          "compound_id": "hotrienol",
+          "percentage": null,
+          "notes": "Reported exclusively in yellow-fleshed peach cultivars; sweet, floral, hay-like note"
+        },
+        {
+          "compound_id": "campholenal",
+          "percentage": null,
+          "notes": "Reported exclusively in yellow-fleshed peach cultivars; green, camphoraceous-woody minor note"
+        },
+        {
+          "compound_id": "pinocarvone",
+          "percentage": null,
+          "notes": "Reported exclusively in yellow-fleshed peach cultivars; camphoraceous, minty-green minor note"
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": "Violet-fruity trace odorant; shared with white-fleshed peach, OAV can vary by cultivar"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Green note; high in unripe fruit, declines with ripening; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "trans-2-hexenal",
+          "percentage": null,
+          "notes": "Sharp green-leafy; fades as lactones develop; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Almond note from pits; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "hexanol",
+          "percentage": null,
+          "notes": "Mild green-woody background note; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "Citrus background note; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": "Earthy-mushroom background note; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": "Floral-lilac background note; shared with white-fleshed peach"
+        },
+        {
+          "compound_id": "geranyl-acetone",
+          "percentage": null,
+          "notes": "Rose-floral, peach-like background note; shared with white-fleshed peach"
+        }
+      ],
+      "warnings": null,
+      "sources": [
+        "https://www.mdpi.com/2311-7524/8/3/245",
+        "https://www.sciencedirect.com/science/article/abs/pii/S030881462403930X",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5876536/"
+      ]
+    },
+    "black-peppercorn": {
+      "id": "black-peppercorn",
+      "name": "Peppercorn (Black)",
+      "scientific_name": "Piper nigrum",
+      "variety": "dried whole unripe berry, sun-dried with skin intact (the skin darkens and contributes tannin/phenolic depth absent in white pepper)",
+      "gcms_summary": "Piperine is the defining pungency compound - a non-volatile alkaloid responsible for black pepper's characteristic heat/bite, essentially odorless itself but the primary taste-active flavor compound. Beta-caryophyllene is the dominant aroma sesquiterpene (often 20-40% of the essential oil), giving warm, woody, slightly peppery depth. A very broad monoterpene background (limonene, sabinene, alpha/beta-pinene, beta-myrcene, delta-3-carene, alpha/beta-phellandrene, gamma-terpinene, camphene, p-cymene, terpinolene, eucalyptol) contributes fresh, piney, citrus-green top notes characteristic of freshly cracked pepper. Terpene alcohols (linalool, terpinen-4-ol, alpha-terpineol, borneol, D-camphor, cedrol, citronellol) and sesquiterpene alcohols (spathulenol, nerolidol, farnesol) add floral-woody depth. Minor phenylpropanoids (eugenol, methyleugenol, isoeugenol, safrole) and phenolics (carvacrol, thymol) contribute clove-spice complexity shared with many other spices.",
+      "compounds": [
+        {
+          "compound_id": "piperine",
+          "percentage": null,
+          "notes": "Defining pungency/heat alkaloid; essentially odorless, taste-active not aroma-active; non-volatile, extracts into fat"
+        },
+        {
+          "compound_id": "beta-caryophyllene",
+          "percentage": null,
+          "notes": "Dominant aroma sesquiterpene, often 20-40% of essential oil; warm, woody, peppery"
+        },
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "Fresh citrus top note from cracked pepper"
+        },
+        {
+          "compound_id": "sabinene",
+          "percentage": null,
+          "notes": "Fresh woody-spicy monoterpene"
+        },
+        {
+          "compound_id": "alpha-pinene",
+          "percentage": null,
+          "notes": "Fresh piney monoterpene, first to escape on heating"
+        },
+        {
+          "compound_id": "beta-pinene",
+          "percentage": null,
+          "notes": "Piney-turpentine monoterpene"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Herbaceous-balsamic monoterpene, highly volatile"
+        },
+        {
+          "compound_id": "delta-3-carene",
+          "percentage": null,
+          "notes": "Sweet-earthy-piney monoterpene"
+        },
+        {
+          "compound_id": "alpha-phellandrene",
+          "percentage": null,
+          "notes": "Peppery-citrus monoterpene, a direct contributor to pepper's characteristic top note"
+        },
+        {
+          "compound_id": "beta-phellandrene",
+          "percentage": null,
+          "notes": "Peppery-minty monoterpene"
+        },
+        {
+          "compound_id": "gamma-terpinene",
+          "percentage": null,
+          "notes": "Sweet piney-citrus monoterpene"
+        },
+        {
+          "compound_id": "camphene",
+          "percentage": null,
+          "notes": "Camphoraceous-piney monoterpene"
+        },
+        {
+          "compound_id": "p-cymene",
+          "percentage": null,
+          "notes": "Warm woody-herbaceous monoterpene"
+        },
+        {
+          "compound_id": "terpinolene",
+          "percentage": null,
+          "notes": "Fresh sweet piney-citrus monoterpene"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "Camphoraceous-cooling note (eucalyptol)"
+        },
+        {
+          "compound_id": "linalool",
+          "percentage": null,
+          "notes": "Floral-lavender background note"
+        },
+        {
+          "compound_id": "terpinen-4-ol",
+          "percentage": null,
+          "notes": "Spicy-earthy-peppery terpene alcohol, directly reinforces pepper character"
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": "Floral-lilac background note"
+        },
+        {
+          "compound_id": "borneol",
+          "percentage": null,
+          "notes": "Piney camphor-like note"
+        },
+        {
+          "compound_id": "d-camphor",
+          "percentage": null,
+          "notes": "Fragrant penetrating aromatic note"
+        },
+        {
+          "compound_id": "cedrol",
+          "percentage": null,
+          "notes": "Woody-earthy sesquiterpene alcohol"
+        },
+        {
+          "compound_id": "citronellol",
+          "percentage": null,
+          "notes": "Fresh rosy-citrus minor note"
+        },
+        {
+          "compound_id": "citronellal",
+          "percentage": null,
+          "notes": "Fresh sweet rose-lemon minor aldehyde note"
+        },
+        {
+          "compound_id": "spathulenol",
+          "percentage": null,
+          "notes": "Woody-earthy-spicy sesquiterpene alcohol"
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": "Woody, softly floral sesquiterpene alcohol"
+        },
+        {
+          "compound_id": "farnesol",
+          "percentage": null,
+          "notes": "Delicate floral sesquiterpene alcohol, heat-stable"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Warm clove-spice note"
+        },
+        {
+          "compound_id": "methyleugenol",
+          "percentage": null,
+          "notes": "Mild spicy-clove note"
+        },
+        {
+          "compound_id": "isoeugenol",
+          "percentage": null,
+          "notes": "Spice-clove note"
+        },
+        {
+          "compound_id": "safrole",
+          "percentage": null,
+          "notes": "Sassafras, sweet-spicy note"
+        },
+        {
+          "compound_id": "carvacrol",
+          "percentage": null,
+          "notes": "Thymol-like, medicinal-smoky note"
+        },
+        {
+          "compound_id": "thymol",
+          "percentage": null,
+          "notes": "Spicy-herbal medicinal thyme note"
+        },
+        {
+          "compound_id": "estragole",
+          "percentage": null,
+          "notes": "Sweet green-anise note"
+        },
+        {
+          "compound_id": "trans-anethole",
+          "percentage": null,
+          "notes": "Sweet anise-licorice note"
+        },
+        {
+          "compound_id": "piperidine",
+          "percentage": null,
+          "notes": "Amine-like note, biosynthetically related to piperine"
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": "Fresh-cut grass green note"
+        },
+        {
+          "compound_id": "heptanal",
+          "percentage": null,
+          "notes": "Fatty-green aldehyde note"
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": "Citrus-fatty aldehyde note"
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": "Malty Strecker-degradation note"
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": "Almond note, trace"
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": "Rose-honey trace note"
+        },
+        {
+          "compound_id": "cinnamaldehyde",
+          "percentage": null,
+          "notes": "Pungent spicy-cinnamon trace note"
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": "Sweet creamy trace note"
+        },
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": "Hay-like bittersweet trace note"
+        },
+        {
+          "compound_id": "acetophenone",
+          "percentage": null,
+          "notes": "Sweet acacia-jasmine trace note"
+        },
+        {
+          "compound_id": "piperonal",
+          "percentage": null,
+          "notes": "Sweet floral cherry-vanilla trace note"
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": "Rose-floral trace note"
+        }
+      ],
+      "warnings": "Piperine (the pungency compound) is non-volatile and extracts almost entirely into fat, not water or steam - infuse cracked black pepper directly in warm cream/dairy fat for maximum heat transfer. The volatile terpene fraction (which gives fresh cracked-pepper aroma rather than heat) is easily lost to open-vessel heating; toasting whole peppercorns briefly before infusing develops depth but sacrifices top-note freshness - crack pepper fresh and add near the end of a warm (not boiling) infusion if fresh aroma is the goal.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=339"
+      ]
+    },
+    "white-peppercorn": {
+      "id": "white-peppercorn",
+      "name": "Peppercorn (White)",
+      "scientific_name": "Piper nigrum",
+      "variety": "same species/berry as black pepper, but harvested fully ripe and processed by retting (soaking in water for ~1-2 weeks to ferment and loosen the skin, which is then rubbed off before drying) - the fermentation step is what distinguishes its VOC profile from black pepper",
+      "gcms_summary": "Shares black pepper's core pungency compound, piperine, and a reduced version of its terpene background (limonene, sabinene, beta-myrcene, alpha-phellandrene, eucalyptol, eugenol) - reduced because the retting/soaking process leaches out some volatile terpenes that survive intact in whole sun-dried black peppercorns. The defining difference is a set of fermentation-derived compounds produced by microbial activity during retting: 3-methylindole (skatole, a fecal-at-high/floral-at-trace compound), and short-chain fatty acids (hexanoic, valeric, butyric, isovaleric acids) that give white pepper its characteristic \"barnyard\"/fermented, slightly cheesy-goaty undertone beneath the shared pepper-terpene top notes. This is why white pepper reads as muskier and less bright than black pepper despite coming from the same fruit.",
+      "compounds": [
+        {
+          "compound_id": "piperine",
+          "percentage": null,
+          "notes": "Defining pungency/heat alkaloid, shared with black pepper; essentially odorless, taste-active, non-volatile"
+        },
+        {
+          "compound_id": "3-methylindole",
+          "percentage": null,
+          "notes": "Skatole; the primary fermentation marker distinguishing white pepper from black - fecal at high concentration, pleasant/floral at trace level, produced during retting"
+        },
+        {
+          "compound_id": "hexanoic-acid",
+          "percentage": null,
+          "notes": "Goat-like fermentation marker from retting"
+        },
+        {
+          "compound_id": "valeric-acid",
+          "percentage": null,
+          "notes": "Unpleasant fermentation marker from retting"
+        },
+        {
+          "compound_id": "butyric-acid",
+          "percentage": null,
+          "notes": "Rancid fermentation marker from retting"
+        },
+        {
+          "compound_id": "isovaleric-acid",
+          "percentage": null,
+          "notes": "Rancid-cheese fermentation marker from retting"
+        },
+        {
+          "compound_id": "p-cresol",
+          "percentage": null,
+          "notes": "Phenolic, tarry note associated with fermentation"
+        },
+        {
+          "compound_id": "limonene",
+          "percentage": null,
+          "notes": "Citrus top note, reduced vs. black pepper due to retting/leaching"
+        },
+        {
+          "compound_id": "beta-myrcene",
+          "percentage": null,
+          "notes": "Herbaceous-balsamic note, shared with black pepper"
+        },
+        {
+          "compound_id": "alpha-phellandrene",
+          "percentage": null,
+          "notes": "Peppery-citrus note, shared with black pepper"
+        },
+        {
+          "compound_id": "1-8-cineole",
+          "percentage": null,
+          "notes": "Camphoraceous-cooling note (eucalyptol), shared with black pepper"
+        },
+        {
+          "compound_id": "eugenol",
+          "percentage": null,
+          "notes": "Warm clove-spice note, shared with black pepper"
+        },
+        {
+          "compound_id": "isobutyraldehyde",
+          "percentage": null,
+          "notes": "Extremely sharp, pungent fruity note"
+        },
+        {
+          "compound_id": "methyl-butanoate",
+          "percentage": null,
+          "notes": "Fruity apple-strawberry top note"
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": "Malty Strecker-degradation note, shared with black pepper"
+        },
+        {
+          "compound_id": "piperonal",
+          "percentage": null,
+          "notes": "Sweet floral cherry-vanilla trace note"
+        }
+      ],
+      "warnings": "The fermentation-marker acids (hexanoic, valeric, butyric, isovaleric) and skatole are potent at low concentration and can read as unpleasant/barnyard if white pepper is over-dosed - the same compounds that give white pepper its characteristic depth become off-putting in excess. Piperine is non-volatile and extracts almost entirely into fat, same handling as black pepper.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=399"
+      ]
+    },
+    "pistachio": {
+      "id": "pistachio",
+      "name": "Pistachio",
+      "scientific_name": "Pistacia vera",
+      "variety": null,
+      "gcms_summary": "VOC profile from FlavorDB (entity_id: 439)",
+      "compounds": [
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "daidzin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylbutyraldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylthiopropanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "citral",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-hexanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-maltose",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-ethyl-4-hydroxy-5-methyl-3-furanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phlorizin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-jasmonate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-4-dihydroxybenzoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nicotine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epigallocatechin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "kaempferol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methanethiol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "daidzein",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-l-sorbopyranose",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dl-liquiritigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cid-644104",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "taxifolin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-mannitol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "indole-3-acetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phloretin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-pyrroline",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "menthone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "resveratrol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geranyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "linamarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "heptanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "salicylic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "z-cinnamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-vinyl-ketone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "allyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cianidanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hydrogen-peroxide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoeugenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "betaine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyraldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "naringenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epicatechin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "sinapic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "6-methyl-5-hepten-2-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cyclopentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-isopropyl-5-methylcyclohexanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epigallocatechin-gallate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epicatechin-gallate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "quercetin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylthio-propionaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "neomenthol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "succinic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nsc5112",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "thiamine-hydrochloride",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "apigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hydrogen-cyanide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-hexen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-3-hexen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "thiamine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-phenylpropanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propionaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hexen-3-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "neral",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "gallocatechin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-2-butenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-pentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-4-hydroxyphenyl-ethanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "acrolein",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "indole",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "tributyrin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "heptanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "calcium-lactate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geranyl-acetone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-butanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-3-butanedione",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-lactic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoliquiritigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hydroxybenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "farnesal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "luteolin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-4-dihydroxybenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "p-coumaric-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "farnesol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "delta-cadinene",
+          "percentage": null,
+          "notes": null
+        }
+      ],
+      "warnings": "Contains hydrogen cyanide and nicotine as trace natural constituents (typical of many plant-derived flavor profiles at trace levels); not a practical safety concern at normal usage levels.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=439"
+      ]
+    },
+    "macadamia-nut": {
+      "id": "macadamia-nut",
+      "name": "Macadamia Nut",
+      "scientific_name": "Macadamia",
+      "variety": null,
+      "gcms_summary": "VOC profile from FlavorDB (entity_id: 294)",
+      "compounds": [
+        {
+          "compound_id": "coumarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "daidzin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylbutyraldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylthiopropanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "citral",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-hexanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geraniol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-maltose",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-ethyl-4-hydroxy-5-methyl-3-furanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phlorizin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-jasmonate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-4-dihydroxybenzoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nicotine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epigallocatechin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "kaempferol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methanethiol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "daidzein",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-heptanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-l-sorbopyranose",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dl-liquiritigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cid-644104",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "taxifolin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-phenyl-2-butenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-mannitol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "indole-3-acetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phloretin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propiophenone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-pyrroline",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "menthone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isophorone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geranyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "linamarin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "heptanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "salicylic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dimethyl-disulfide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "z-cinnamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-3-pentanedione",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trimethylpyrazine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-vinyl-ketone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "allyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cianidanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hydrogen-peroxide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoeugenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dimethyl-sulfide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "betaine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyraldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "naringenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epicatechin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "sinapic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "6-methyl-5-hepten-2-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cyclopentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-isopropyl-5-methylcyclohexanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epigallocatechin-gallate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "epicatechin-gallate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "quercetin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylthio-propionaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "neomenthol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "succinic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "octanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-3-dimethylpyrazine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nsc5112",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "apigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hydrogen-cyanide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "benzyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-hexen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-3-hexen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "thiamine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-phenylpropanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propionaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hexen-3-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "neral",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "gallocatechin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-2-butenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-pentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-4-hydroxyphenyl-ethanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "acrolein",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "indole",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "tributyrin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "heptanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "calcium-lactate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geranyl-acetone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-butanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-3-butanedione",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-lactic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoliquiritigenin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hydroxybenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "farnesal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "luteolin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-4-dihydroxybenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "p-coumaric-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "farnesol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "delta-cadinene",
+          "percentage": null,
+          "notes": null
+        }
+      ],
+      "warnings": "Contains hydrogen cyanide and nicotine as trace natural constituents (typical of many plant-derived flavor profiles at trace levels); not a practical safety concern at normal usage levels.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=294"
       ]
     }
   }
