@@ -14,6 +14,8 @@ Usage:
 
   vocs.py pubchem '<json-array>'
 
+  vocs.py fetch-annotations <heading> [--max-pages N] [--dump-first-page]
+
   vocs.py flavordb <ingredient-name>
   vocs.py flavordb <entity_id>
 
@@ -40,6 +42,26 @@ pubchem
   of compound entries ready for `vocs.py insert compounds`.
   Note: auto-parsed values should be reviewed — the LLM should correct any misinterpretations
   before inserting.
+  Checks pubchem_annotations/{solubility,boiling-point}.json first (see fetch-annotations)
+  and only makes a live per-compound request for CIDs not covered by that cache.
+  Self-throttles to PubChem's ~5 req/s limit. If a response's X-Throttling-Control
+  header reports Yellow/Red — even on an otherwise-successful request — the command
+  stops immediately rather than continuing to hammer a congested endpoint, printing
+  whatever it already fetched and exiting 1. If PubChem returns ServerBusy while
+  throttle status is all-Green, that's PubChem's separate temporary IP block, not
+  congestion — retrying doesn't help either, so the same stop-and-report behavior
+  applies.
+
+fetch-annotations
+  One-time bulk harvest of a PUG-View annotation heading (e.g. "Solubility",
+  "Boiling Point") across all of PubChem via the paginated
+  /rest/pug_view/annotations/heading endpoint, saved locally as
+  pubchem_annotations/<heading-slug>.json ({cid: [text, ...]}). `pubchem` reads this
+  cache first, so a completed harvest means future ingredient lookups rarely need
+  live per-compound PubChem calls at all.
+  This endpoint's response schema has not been live-verified against this parser —
+  run with --dump-first-page first, inspect the raw JSON, and confirm it matches
+  before trusting a full harvest. Same self-throttling/blocked-detection as `pubchem`.
 
 flavordb
   If argument is a name: searches FlavorDB for the ingredient.
@@ -53,6 +75,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -61,7 +84,9 @@ DATA_DIR = Path(__file__).parent.parent.parent.parent / "flavor-explorer" / "src
 INGREDIENTS_FILE = DATA_DIR / "ingredients.json"
 COMPOUNDS_FILE = DATA_DIR / "compounds.json"
 
-PUBCHEM_DELAY = 0.2  # seconds between requests
+ANNOTATIONS_DIR = Path(__file__).parent / "pubchem_annotations"
+
+PUBCHEM_MIN_INTERVAL = 5.0  # 1 req/5s, well under PubChem's documented 5 req/s cap
 
 
 # ── shared helpers ─────────────────────────────────────────────────────────────
@@ -149,20 +174,25 @@ def cmd_lookup(args: list[str]) -> None:
     kind, *queries = args
 
     if kind == "ingredient":
+        print(f"[lookup] searching ingredients for {queries[0]!r}...", file=sys.stderr)
         data = json.loads(INGREDIENTS_FILE.read_text())
         result = _search_collection(data["ingredients"], queries[0])
         if result is None:
+            print("[lookup] not found", file=sys.stderr)
             sys.exit(1)
         print(json.dumps(result, indent=2))
 
     elif kind == "compound":
+        print(f"[lookup] searching compounds for {queries[0]!r}...", file=sys.stderr)
         data = json.loads(COMPOUNDS_FILE.read_text())
         result = _search_collection(data["compounds"], queries[0])
         if result is None:
+            print("[lookup] not found", file=sys.stderr)
             sys.exit(1)
         print(json.dumps(result, indent=2))
 
     elif kind == "compounds":
+        print(f"[lookup] checking {len(queries)} compound(s) against local cache...", file=sys.stderr)
         data = json.loads(COMPOUNDS_FILE.read_text())
         compounds = data["compounds"]
         found: dict = {}
@@ -173,6 +203,7 @@ def cmd_lookup(args: list[str]) -> None:
                 found[q] = result
             else:
                 missing.append(q)
+        print(f"[lookup] {len(found)} found, {len(missing)} missing", file=sys.stderr)
         print(json.dumps({"found": found, "missing": missing}, indent=2))
 
     else:
@@ -183,6 +214,7 @@ def cmd_lookup(args: list[str]) -> None:
 # ── insert ─────────────────────────────────────────────────────────────────────
 
 def _insert_batch(file: Path, collection_key: str, entries: list[dict]) -> None:
+    print(f"[insert] writing {len(entries)} entry(s) into {file.name}...", file=sys.stderr)
     data = json.loads(file.read_text())
     collection = data[collection_key]
     inserted = skipped = 0
@@ -233,6 +265,115 @@ def _fetch_json(url: str) -> dict | list | None:
             return json.loads(r.read())
     except Exception:
         return None
+
+
+class PubChemBlocked(RuntimeError):
+    """Raised when PubChem keeps refusing requests for reasons a client can't fix by retrying.
+
+    PubChem reports two independent things on every response: the rolling usage-window
+    status (X-Throttling-Control header, Green/Yellow/Red) and whether the request
+    actually succeeded. PubChem also enforces a separate temporary IP block for bursty
+    clients — that shows a Fault body while the header still reports all-Green,
+    because the block isn't part of the rolling window at all. Retrying doesn't help
+    in that case, so callers should stop and surface this rather than loop.
+    """
+
+
+class PubChemCongested(RuntimeError):
+    """Raised the moment X-Throttling-Control reports Yellow/Red, even on a successful request.
+
+    Waiting for an actual failure before backing off risks tipping into PubChem's harder
+    temporary IP block (see PubChemBlocked). So rather than sleeping and retrying, we stop
+    as soon as the header shows rising congestion and let the caller report progress so far.
+    """
+
+
+_last_pubchem_request_at = 0.0
+
+
+def _pubchem_throttle_wait() -> None:
+    global _last_pubchem_request_at
+    now = time.monotonic()
+    wait = _last_pubchem_request_at + PUBCHEM_MIN_INTERVAL - now
+    if wait > 0:
+        time.sleep(wait)
+    _last_pubchem_request_at = time.monotonic()
+
+
+def _parse_throttle_header(header_value: str) -> dict[str, str]:
+    """'Request Count status: Green (0%), Service status: Green (0%), ...' -> {'Request Count': 'Green', ...}"""
+    out = {}
+    for part in header_value.split(","):
+        m = re.search(r"(.+?) status:\s*(Green|Yellow|Red)", part.strip(), re.I)
+        if m:
+            out[m.group(1).strip()] = m.group(2).capitalize()
+    return out
+
+
+def _pubchem_get(url: str, max_retries: int = 3) -> dict | list | None:
+    """Fetch a PubChem PUG-REST/PUG-View URL with self-throttling and backoff.
+
+    Raises PubChemBlocked (rather than retrying forever) when the throttle header
+    reports all-Green but the request still fails — see PubChemBlocked docstring.
+    """
+    backoff = 1.0
+    for attempt in range(max_retries + 1):
+        _pubchem_throttle_wait()
+        req = urllib.request.Request(url, headers={"User-Agent": "ice-cream-vocs-skill/1.0"})
+        header_val = ""
+        body = None
+        try:
+            with urllib.request.urlopen(req, timeout=15) as r:
+                header_val = r.headers.get("X-Throttling-Control", "")
+                body = json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            # PubChem sends busy/blocked faults as HTTP 503 on some endpoints (raises
+            # HTTPError) and as a 200-with-Fault-body JSON on others — normalize both.
+            header_val = e.headers.get("X-Throttling-Control", "") if e.headers else ""
+            try:
+                body = json.loads(e.read())
+            except Exception:
+                body = {"Fault": {"Message": f"HTTP {e.code}: {e.reason}"}}
+        except Exception as e:
+            if attempt >= max_retries:
+                raise
+            print(f"  [pubchem] request error (attempt {attempt + 1}/{max_retries + 1}): {e}", file=sys.stderr)
+            time.sleep(backoff)
+            backoff = min(backoff * 2, 30)
+            continue
+
+        is_fault = isinstance(body, dict) and "Fault" in body
+        fault_msg = body.get("Fault", {}).get("Message", "") if is_fault else ""
+        is_busy = is_fault and ("busy" in fault_msg.lower() or "too many requests" in fault_msg.lower())
+
+        if not is_busy:
+            status = _parse_throttle_header(header_val)
+            if status and any(v != "Green" for v in status.values()):
+                raise PubChemCongested(
+                    f"PubChem throttle status is {header_val!r} — stopping now instead of "
+                    f"continuing to hammer a congested endpoint. Wait before retrying."
+                )
+            return body
+
+        status = _parse_throttle_header(header_val)
+        if status and all(v == "Green" for v in status.values()):
+            raise PubChemBlocked(
+                f"PubChem returned {fault_msg!r} while throttle status was all-Green "
+                f"({header_val!r}) — this is PubChem's separate temporary IP block, "
+                f"not rate congestion. Retrying will not help; wait and try again later."
+            )
+
+        if attempt >= max_retries:
+            raise PubChemBlocked(
+                f"PubChem still busy after {max_retries + 1} attempts (throttle status: {header_val!r})."
+            )
+
+        print(f"  [pubchem] throttled ({header_val or 'no header'}), retrying in {backoff:.1f}s "
+              f"(attempt {attempt + 1}/{max_retries + 1})", file=sys.stderr)
+        time.sleep(backoff)
+        backoff = min(backoff * 2, 30)
+
+    return None
 
 
 def _extract_l3(data: dict | None, heading: str) -> list[str]:
@@ -375,6 +516,13 @@ def _make_logp_str(val) -> str:
     return f"LogP {v:.2g}{tag}"
 
 
+def _load_annotation_cache(slug: str) -> dict[str, list[str]]:
+    f = ANNOTATIONS_DIR / f"{slug}.json"
+    if f.exists():
+        return json.loads(f.read_text())
+    return {}
+
+
 def cmd_pubchem(args: list[str]) -> None:
     if not args:
         print("Usage: vocs.py pubchem '<json-array>'", file=sys.stderr)
@@ -389,48 +537,208 @@ def cmd_pubchem(args: list[str]) -> None:
     if not isinstance(items, list):
         items = [items]
 
-    results = []
-    for item in items:
+    # Bulk-harvested local cache (see `fetch-annotations`) takes priority over live
+    # per-compound calls — skips the network entirely for any CID already covered.
+    sol_cache = _load_annotation_cache("solubility")
+    bp_cache = _load_annotation_cache("boiling-point")
+
+    total = len(items)
+
+    def _cid_str(item: dict) -> str | None:
         cid = item.get("pubchem_cid") or item.get("pubchem_id")
-        name = item.get("name") or item.get("common_name") or str(cid)
-        odor = item.get("odor")
-        taste = item.get("taste")
-        fat_logp = item.get("fat_logp") if item.get("fat_logp") is not None else item.get("xlogp")
+        return str(cid) if cid else None
 
-        sol_data = _fetch_json(
-            f"https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/{cid}/JSON?heading=Solubility"
+    # Precompute how many live requests this run actually needs (each compound
+    # needs 0-2, depending on cache coverage) so we can report an ETA up front
+    # and count it down as live requests are made.
+    live_needed = sum(
+        (0 if _cid_str(item) in sol_cache else 1) + (0 if _cid_str(item) in bp_cache else 1)
+        for item in items
+    )
+    live_done = 0
+
+    print(
+        f"[pubchem] {total} compound(s) queued — {live_needed} live PubChem request(s) needed "
+        f"({total * 2 - live_needed} served from local cache); ETA ~{live_needed * PUBCHEM_MIN_INTERVAL:.0f}s "
+        f"at 1 request/{PUBCHEM_MIN_INTERVAL:.0f}s",
+        file=sys.stderr,
+    )
+
+    results = []
+    remaining = list(items)
+    try:
+        while remaining:
+            idx = total - len(remaining) + 1
+            item = remaining[0]
+            cid = item.get("pubchem_cid") or item.get("pubchem_id")
+            name = item.get("name") or item.get("common_name") or str(cid)
+            odor = item.get("odor")
+            taste = item.get("taste")
+            fat_logp = item.get("fat_logp") if item.get("fat_logp") is not None else item.get("xlogp")
+            cid_str = str(cid) if cid else None
+
+            print(f"[pubchem] ({idx}/{total}) {name} (CID {cid})", file=sys.stderr)
+
+            if cid_str and cid_str in sol_cache:
+                sol_vals = sol_cache[cid_str]
+                print("  [pubchem] solubility: cache hit", file=sys.stderr)
+            else:
+                print("  [pubchem] solubility: live request...", file=sys.stderr)
+                sol_data = _pubchem_get(
+                    f"https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/{cid}/JSON?heading=Solubility"
+                )
+                sol_vals = _extract_l3(sol_data, "Solubility")
+                live_done += 1
+
+            if cid_str and cid_str in bp_cache:
+                bp_vals = bp_cache[cid_str]
+                print("  [pubchem] boiling point: cache hit", file=sys.stderr)
+            else:
+                print("  [pubchem] boiling point: live request...", file=sys.stderr)
+                bp_data = _pubchem_get(
+                    f"https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/{cid}/JSON?heading=Boiling+Point"
+                )
+                bp_vals = _extract_l3(bp_data, "Boiling Point")
+                live_done += 1
+
+            bp_c, bp_str = _parse_bp(bp_vals)
+
+            results.append({
+                "id": to_compound_id(name),
+                "name": name,
+                "aliases": [],
+                "pubchem_cid": int(cid) if cid else None,
+                "flavor_smell": _make_flavor_smell(odor, taste),
+                "solubility": {
+                    "water": _pick_water(sol_vals),
+                    "alcohol": _pick_alcohol(sol_vals),
+                    "fat_logp": _make_logp_str(fat_logp),
+                },
+                "temp_notes": _bp_to_temp_notes(bp_c, bp_str),
+                "sources": [f"https://pubchem.ncbi.nlm.nih.gov/compound/{cid}"],
+            })
+            remaining.pop(0)
+
+            eta = (live_needed - live_done) * PUBCHEM_MIN_INTERVAL
+            print(
+                f"  [pubchem] ({idx}/{total}) done — {live_done}/{live_needed} live requests used, "
+                f"ETA ~{eta:.0f}s remaining",
+                file=sys.stderr,
+            )
+    except (PubChemBlocked, PubChemCongested) as e:
+        print(json.dumps(results, indent=2))
+        print(
+            f"\nStopped after {len(results)}/{len(items)} compounds — {e}\n"
+            f"{len(remaining)} compound(s) not yet fetched: "
+            f"{[i.get('name') for i in remaining]}",
+            file=sys.stderr,
         )
-        bp_data = _fetch_json(
-            f"https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/{cid}/JSON?heading=Boiling+Point"
-        )
-        time.sleep(PUBCHEM_DELAY)
-
-        sol_vals = _extract_l3(sol_data, "Solubility")
-        bp_vals = _extract_l3(bp_data, "Boiling Point")
-
-        bp_c, bp_str = _parse_bp(bp_vals)
-
-        results.append({
-            "id": to_compound_id(name),
-            "name": name,
-            "aliases": [],
-            "pubchem_cid": int(cid) if cid else None,
-            "flavor_smell": _make_flavor_smell(odor, taste),
-            "solubility": {
-                "water": _pick_water(sol_vals),
-                "alcohol": _pick_alcohol(sol_vals),
-                "fat_logp": _make_logp_str(fat_logp),
-            },
-            "temp_notes": _bp_to_temp_notes(bp_c, bp_str),
-            "sources": [f"https://pubchem.ncbi.nlm.nih.gov/compound/{cid}"],
-        })
+        sys.exit(1)
 
     print(json.dumps(results, indent=2))
+
+
+def cmd_fetch_annotations(args: list[str]) -> None:
+    if not args:
+        print(
+            "Usage: vocs.py fetch-annotations <heading> [--max-pages N] [--dump-first-page]\n"
+            "  heading: e.g. 'Solubility' or 'Boiling Point'\n"
+            "  --dump-first-page: write the raw page-1 JSON to _raw_sample_<slug>.json for\n"
+            "    schema inspection before trusting the parser on a full harvest — this "
+            "endpoint's\n    exact response shape has not been live-verified against this parser yet.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+
+    heading = args[0]
+    max_pages = None
+    if "--max-pages" in args:
+        i = args.index("--max-pages")
+        max_pages = int(args[i + 1])
+    dump_first = "--dump-first-page" in args
+
+    slug = to_compound_id(heading)
+    ANNOTATIONS_DIR.mkdir(parents=True, exist_ok=True)
+    out_file = ANNOTATIONS_DIR / f"{slug}.json"
+
+    heading_q = urllib.parse.quote(heading)
+    page = 1
+    total_pages = None
+    completed = False
+    # Merge into whatever's already cached — a partial harvest interrupted by a
+    # block and resumed later should accumulate, not stomp prior progress.
+    index: dict[str, list[str]] = _load_annotation_cache(slug)
+
+    while True:
+        url = f"https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/annotations/heading/JSON?heading={heading_q}&page={page}"
+        try:
+            data = _pubchem_get(url)
+        except (PubChemBlocked, PubChemCongested) as e:
+            print(f"Stopped at page {page}/{total_pages or '?'}: {e}", file=sys.stderr)
+            break
+
+        if dump_first and page == 1:
+            raw_out = ANNOTATIONS_DIR / f"_raw_sample_{slug}.json"
+            raw_out.write_text(json.dumps(data, indent=2))
+            print(f"Dumped raw page 1 to {raw_out} for schema inspection.", file=sys.stderr)
+
+        ann_root = (data or {}).get("Annotations", {})
+        if total_pages is None:
+            total_pages = ann_root.get("TotalPages") or ann_root.get("TotalPage")
+        annotations = ann_root.get("Annotation", [])
+        if not annotations:
+            print(
+                f"No 'Annotation' list found on page {page} — response schema may differ from "
+                f"what this parser expects. Top-level keys seen: {list((data or {}).keys())}. "
+                f"Re-run with --dump-first-page and inspect the raw JSON before retrying. Stopping.",
+                file=sys.stderr,
+            )
+            break
+
+        for entry in annotations:
+            cids = (entry.get("LinkedRecords") or {}).get("CID") or []
+            texts = []
+            for d in entry.get("Data", []):
+                for v in d.get("Value", {}).get("StringWithMarkup", []):
+                    s = v.get("String", "").strip()
+                    if s:
+                        texts.append(s)
+            for cid in cids:
+                index.setdefault(str(cid), []).extend(texts)
+
+        eta_str = ""
+        if total_pages:
+            eta = (total_pages - page) * PUBCHEM_MIN_INTERVAL
+            eta_str = f", ETA ~{eta:.0f}s remaining"
+        print(
+            f"  page {page}/{total_pages or '?'}: {len(annotations)} annotations, "
+            f"{len(index)} unique CIDs so far{eta_str}",
+            file=sys.stderr,
+        )
+
+        if max_pages and page >= max_pages:
+            print(f"Stopping at --max-pages {max_pages} (of {total_pages or '?'} total).", file=sys.stderr)
+            break
+        if total_pages and page >= total_pages:
+            completed = True
+            break
+        page += 1
+
+    if not index:
+        print(f"No annotations collected — leaving {out_file} untouched.", file=sys.stderr)
+        sys.exit(1)
+
+    out_file.write_text(json.dumps(index, indent=2))
+    status = "complete" if completed else "PARTIAL (interrupted — re-run to continue)"
+    print(f"Wrote {len(index)} CIDs to {out_file} [{status}]")
+    if not completed:
+        sys.exit(1)
 
 
 # ── flavordb ───────────────────────────────────────────────────────────────────
 
 def _flavordb_fetch_entity(entity_id: int) -> None:
+    print(f"[flavordb] fetching entity {entity_id}...", file=sys.stderr)
     url = f"https://cosylab.iiitd.edu.in/flavordb2/entities_json?id={entity_id}"
     data = _fetch_json(url)
     if not data or not isinstance(data, dict):
@@ -451,6 +759,7 @@ def _flavordb_fetch_entity(entity_id: int) -> None:
             "taste": m.get("taste") or None,
             "fat_logp": m.get("xlogp"),
         })
+    print(f"[flavordb] found {entity['name']!r} with {len(molecules)} molecule(s)", file=sys.stderr)
     print(json.dumps({"status": "found", "entity": entity, "molecules": molecules}, indent=2))
 
 
@@ -482,16 +791,20 @@ def cmd_flavordb(args: list[str]) -> None:
         _flavordb_fetch_entity(int(query))
         return
 
+    print(f"[flavordb] searching for {query!r}...", file=sys.stderr)
     results = _fetch_flavordb_search(query)
 
     if not results or len(results) == 0:
+        print("[flavordb] not found", file=sys.stderr)
         print(json.dumps({"status": "not_found"}))
         return
 
     if len(results) == 1:
+        print("[flavordb] 1 match, auto-fetching", file=sys.stderr)
         _flavordb_fetch_entity(results[0]["entity_id"])
         return
 
+    print(f"[flavordb] {len(results)} matches, letting caller pick", file=sys.stderr)
     matches = [
         {
             "entity_id": m["entity_id"],
@@ -520,6 +833,8 @@ def main() -> None:
         cmd_insert(args)
     elif cmd == "pubchem":
         cmd_pubchem(args)
+    elif cmd == "fetch-annotations":
+        cmd_fetch_annotations(args)
     elif cmd == "flavordb":
         cmd_flavordb(args)
     else:

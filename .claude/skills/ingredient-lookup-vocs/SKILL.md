@@ -35,6 +35,7 @@ python3 .claude/skills/ingredient-lookup-vocs/vocs.py <command> [args]
 | `insert compounds '<json-array>'` | Batch insert; skips existing ids; prints summary |
 | `insert ingredients '<json-array>'` | Batch insert; skips existing ids; prints summary |
 | `pubchem '<json-array>'` | Batch-fetch PubChem data; outputs compound entry array |
+| `fetch-annotations <heading> [--max-pages N] [--dump-first-page]` | One-time bulk harvest of a PubChem annotation heading (e.g. `Solubility`, `Boiling Point`) into a local cache that `pubchem` reads before making live calls |
 | `flavordb <ingredient>` | Search FlavorDB; auto-fetches entity on single match |
 | `flavordb <entity_id>` | Fetch FlavorDB entity directly by numeric id |
 
@@ -163,7 +164,9 @@ Each array element should contain the FlavorDB fields:
 ]
 ```
 
-The script fetches solubility and boiling point for each CID, parses the PubChem JSON structure, and outputs a complete compound entry array.
+The script fetches solubility and boiling point for each CID, parses the PubChem JSON structure, and outputs a complete compound entry array. It self-throttles to PubChem's rate limit and checks the local `pubchem_annotations/` cache (see `fetch-annotations`) before each live call.
+
+**If the script exits 1 with a "temporary IP block" message:** stop — do not re-run in a loop or retry aggressively, that's what causes the block in the first place. Report the block to the user and wait; there's no client-side fix for an active block. Any compounds already fetched are still printed before the error, so nothing already-cached is lost.
 
 **Review the output before inserting.** The script applies heuristics to parse raw PubChem text — check that:
 - `solubility.water` is a water value, not an alcohol or other-solvent value
@@ -264,3 +267,4 @@ Confirm to the user: **"Saved [Ingredient] to ingredients.json; added [N] new co
 | Forgetting volatilization | Low-boiling-point compounds escape during cooking — this is the most practically important temperature effect for ice cream |
 | Adding a summary or extraction guide | Save data only — no synthesis section, no output table |
 | Running one `pubchem` call per compound | Pass the full missing-compounds array in one call |
+| Retrying `pubchem`/`fetch-annotations` repeatedly after a block message | It's a temporary IP-level block, not congestion — retrying doesn't clear it faster and risks extending it. Stop and tell the user. |
