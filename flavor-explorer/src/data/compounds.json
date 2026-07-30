@@ -5333,6 +5333,1516 @@
       "sources": [
         "https://pubchem.ncbi.nlm.nih.gov/compound/6544"
       ]
+    },
+    "sabinene-hydrate": {
+      "id": "sabinene-hydrate",
+      "name": "Sabinene Hydrate",
+      "aliases": [
+        "thujan-4-ol"
+      ],
+      "pubchem_cid": 62367,
+      "flavor_smell": "fresh, woody-herbal, marjoram-like; herbal, slightly camphoraceous",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 196\u00b0C (384.8\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F) in an open vessel",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/62367"
+      ]
+    },
+    "alpha-thujene": {
+      "id": "alpha-thujene",
+      "name": "alpha-Thujene",
+      "aliases": [
+        "3-thujene"
+      ],
+      "pubchem_cid": 17868,
+      "flavor_smell": "woody, green, herbal, slightly spicy; minor top-note terpene",
+      "solubility": {
+        "water": "Insoluble (monoterpene hydrocarbon)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 152\u00b0C (305.6\u00b0F); volatile top note \u2014 significant loss during open simmering; steep covered",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/17868"
+      ]
+    },
+    "eugenyl-acetate": {
+      "id": "eugenyl-acetate",
+      "name": "Eugenyl Acetate",
+      "aliases": [
+        "acetyleugenol",
+        "eugenol acetate"
+      ],
+      "pubchem_cid": 7136,
+      "flavor_smell": "sweet, clove-spice, less sharp than eugenol, balsamic; sweet spicy clove",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 282\u00b0C (539.6\u00b0F); heat-stable through custard processing; non-volatile at cooking temps",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7136"
+      ]
+    },
+    "1-4-cineole": {
+      "id": "1-4-cineole",
+      "name": "1,4-Cineole",
+      "aliases": [
+        "1,4-epoxy-p-menthane"
+      ],
+      "pubchem_cid": 10106,
+      "flavor_smell": "minty lime oil odor, camphoraceous-fresh; cooling minty; minor isomer alongside the dominant 1,8-cineole",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "PubChem lists 65\u00b0C (149\u00b0F) at 16 mmHg (reduced pressure); atmospheric BP approximately 173\u00b0C (343\u00b0F); volatile \u2014 steep covered",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10106"
+      ]
+    },
+    "filbertone": {
+      "id": "filbertone",
+      "name": "Filbertone",
+      "aliases": [
+        "5-methyl-(E)-2-hepten-4-one",
+        "5-methylhept-2-en-4-one"
+      ],
+      "pubchem_cid": 5362588,
+      "flavor_smell": "intense nutty-roasted hazelnut, buttery-chocolate in the (E,R) isomer; the character-impact compound of hazelnut; odor threshold 0.05 ug/L",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Miscible at room temperature",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "PubChem lists 86\u201387\u00b0C (186.8\u2013188.6\u00b0F) at 60 mmHg (reduced pressure); atmospheric BP approximately 175\u00b0C (347\u00b0F); concentration rises ~80% with roasting or boiling versus raw nuts",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5362588",
+        "https://www.chm.bris.ac.uk/motm/filbertone/filbertoneh.htm"
+      ]
+    },
+    "2-acetyl-1-pyrroline": {
+      "id": "2-acetyl-1-pyrroline",
+      "name": "2-Acetyl-1-Pyrroline",
+      "aliases": [
+        "2-AP"
+      ],
+      "pubchem_cid": 522834,
+      "flavor_smell": "popcorn, roasty, basmati-rice, freshly baked bread; roasty, cracker-like; extremely low odor threshold",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 0.4 \u2014 extracts into both water and fat phases"
+      },
+      "temp_notes": "BP 183\u00b0C (361.4\u00b0F); Maillard-generated during roasting; chemically unstable and degrades on storage \u2014 roast close to use",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/522834"
+      ]
+    },
+    "2-3-diethyl-5-methylpyrazine": {
+      "id": "2-3-diethyl-5-methylpyrazine",
+      "name": "2,3-Diethyl-5-Methylpyrazine",
+      "aliases": [],
+      "pubchem_cid": 28905,
+      "flavor_smell": "roasted, earthy, nutty, potato-like; very low odor threshold; roast-marker odorant in nuts and coffee",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Miscible at room temperature",
+        "fat_logp": "LogP 2.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 203\u00b0C (397.4\u00b0F); heat-stable through custard processing; only formed by roasting (Maillard), absent in raw nuts",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/28905"
+      ]
+    },
+    "homofuraneol": {
+      "id": "homofuraneol",
+      "name": "Homofuraneol",
+      "aliases": [
+        "2-ethyl-4-hydroxy-5-methyl-3(2H)-furanone"
+      ],
+      "pubchem_cid": 33931,
+      "flavor_smell": "sweet, caramellic, burnt sugar, cotton candy; sweet caramel; Maillard-derived sweetness enhancer",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.2 \u2014 extracts into both water and fat phases"
+      },
+      "temp_notes": "PubChem lists 103\u00b0C (217.4\u00b0F) at 15 mmHg (reduced pressure); atmospheric BP approximately 215\u00b0C (419\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/33931"
+      ]
+    },
+    "3-methyl-4-heptanone": {
+      "id": "3-methyl-4-heptanone",
+      "name": "3-Methyl-4-Heptanone",
+      "aliases": [],
+      "pubchem_cid": 27470,
+      "flavor_smell": "nutty, roasted, green-fatty; hazelnut key odorant alongside filbertone",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "Atmospheric BP approximately 160\u00b0C (320\u00b0F) (no PubChem value); volatile \u2014 losses during prolonged open-vessel heating",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/27470"
+      ]
+    },
+    "citronellyl-acetate": {
+      "id": "citronellyl-acetate",
+      "name": "Citronellyl Acetate",
+      "aliases": [
+        "3,7-dimethyl-6-octenyl acetate"
+      ],
+      "pubchem_cid": 9017,
+      "flavor_smell": "fresh, fruity-rosy, slightly green; softer and sweeter than citronellal; sweet floral, fruity",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble; also soluble in most fixed oils",
+        "fat_logp": "LogP 4.0 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 229\u00b0C (444.2\u00b0F); heat-stable through custard processing; ester, slowly hydrolyses to citronellol under prolonged acidic heat",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/9017"
+      ]
+    },
+    "isopulegol": {
+      "id": "isopulegol",
+      "name": "Isopulegol",
+      "aliases": [
+        "p-menth-8-en-3-ol"
+      ],
+      "pubchem_cid": 170833,
+      "flavor_smell": "minty, cooling, herbal-menthol with a faint citrus edge; cooling minty",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 3.0 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 218\u00b0C (424.4\u00b0F); heat-stable through custard processing; forms from citronellal by acid-catalysed cyclisation, so it accumulates during long or acidic steeping",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/170833"
+      ]
+    },
+    "octyl-2-furoate": {
+      "id": "octyl-2-furoate",
+      "name": "Octyl 2-furoate",
+      "aliases": [],
+      "pubchem_cid": 62901,
+      "flavor_smell": "faint sweet, fruity, balsamic",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 4.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "126-127\u00b0C (258.8-260.6\u00b0F) @ 1.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/62901"
+      ]
+    },
+    "methyl-2-furoate": {
+      "id": "methyl-2-furoate",
+      "name": "Methyl 2-furoate",
+      "aliases": [],
+      "pubchem_cid": 11902,
+      "flavor_smell": "sweet, fruity, mushroom, balsamic",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1"
+      },
+      "temp_notes": "BP 182.0\u00b0C (359.6\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11902"
+      ]
+    },
+    "dihydro-alpha-ionone": {
+      "id": "dihydro-alpha-ionone",
+      "name": "Dihydro-alpha-ionone",
+      "aliases": [],
+      "pubchem_cid": 35821,
+      "flavor_smell": "woody, floral, violet, slightly fruity",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble (1 ml in 1 ml 80% ethanol)",
+        "fat_logp": "LogP 2.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 234.0\u00b0C (453.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/35821"
+      ]
+    },
+    "undecanal": {
+      "id": "undecanal",
+      "name": "Undecanal",
+      "aliases": [],
+      "pubchem_cid": 8186,
+      "flavor_smell": "waxy, soapy, aldehydic, citrus-peel",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (1 ml in 5 ml 70% ethanol); soluble in fixed oils",
+        "fat_logp": "LogP 4.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 223.0\u00b0C (433.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8186"
+      ]
+    },
+    "methyl-octanoate": {
+      "id": "methyl-octanoate",
+      "name": "Methyl octanoate",
+      "aliases": [],
+      "pubchem_cid": 8091,
+      "flavor_smell": "powerful, winey, fruity, and orange-like odor; oily, somewhat orange taste",
+      "solubility": {
+        "water": "In water, 64.4 mg/l @ 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 3.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 192.9\u00b0C (379.2\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8091"
+      ]
+    },
+    "methyl-nonanoate": {
+      "id": "methyl-nonanoate",
+      "name": "Methyl Nonanoate",
+      "aliases": [],
+      "pubchem_cid": 15606,
+      "flavor_smell": "fruity, winey, coconut, nutty",
+      "solubility": {
+        "water": "0.0229 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 214.0\u00b0C (417.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/15606"
+      ]
+    },
+    "methyl-tetradecanoate": {
+      "id": "methyl-tetradecanoate",
+      "name": "Methyl tetradecanoate",
+      "aliases": [],
+      "pubchem_cid": 31284,
+      "flavor_smell": "honey & orris-like (iris florentina) odor; honey & orris-like flavor at trace levels",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 6.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 323.0\u00b0C (613.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/31284"
+      ]
+    },
+    "4-methylacetophenone": {
+      "id": "4-methylacetophenone",
+      "name": "4'-Methylacetophenone",
+      "aliases": [],
+      "pubchem_cid": 8500,
+      "flavor_smell": "sweet, floral, almond, hawthorn",
+      "solubility": {
+        "water": "0.372 mg/mL at 15\u00b0C (59.0\u00b0F)",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 2.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 226.0\u00b0C (438.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8500"
+      ]
+    },
+    "massoia-lactone": {
+      "id": "massoia-lactone",
+      "name": "Massoia lactone",
+      "aliases": [],
+      "pubchem_cid": 642793,
+      "flavor_smell": "creamy, coconut, lactonic, milky",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "112\u00b0C (233.6\u00b0F) (1.4 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/642793"
+      ]
+    },
+    "pentanal": {
+      "id": "pentanal",
+      "name": "Pentanal",
+      "aliases": [],
+      "pubchem_cid": 8063,
+      "flavor_smell": "powerful, acrid, pungent odor; warm, slightly fruity, & nut-like at low levels",
+      "solubility": {
+        "water": "In water, 1.17X10+4 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.1"
+      },
+      "temp_notes": "BP 102.8\u00b0C (217.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8063"
+      ]
+    },
+    "methyl-propionate": {
+      "id": "methyl-propionate",
+      "name": "Methyl Propionate",
+      "aliases": [],
+      "pubchem_cid": 11124,
+      "flavor_smell": "sweet, fruity, rum-like odor; sweet, rum taste",
+      "solubility": {
+        "water": "In water, 62,370 mg/l @ 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.8"
+      },
+      "temp_notes": "BP 79.7\u00b0C (175.5\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11124"
+      ]
+    },
+    "tetradecanal": {
+      "id": "tetradecanal",
+      "name": "Tetradecanal",
+      "aliases": [],
+      "pubchem_cid": 31291,
+      "flavor_smell": "waxy, fatty, honey, orris",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (1 ml in 1 ml 80% ethanol)",
+        "fat_logp": "LogP 6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 260.0\u00b0C (500.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/31291"
+      ]
+    },
+    "1-1-dimethoxyethane": {
+      "id": "1-1-dimethoxyethane",
+      "name": "1,1-Dimethoxyethane",
+      "aliases": [],
+      "pubchem_cid": 10795,
+      "flavor_smell": "strongly aromatic odor; fruity taste",
+      "solubility": {
+        "water": "1000 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.5"
+      },
+      "temp_notes": "BP 65.0\u00b0C (149.0\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10795"
+      ]
+    },
+    "2-ethylhexan-1-ol": {
+      "id": "2-ethylhexan-1-ol",
+      "name": "2-Ethylhexan-1-ol",
+      "aliases": [],
+      "pubchem_cid": 7720,
+      "flavor_smell": "mild, oily, sweet, slightly floral odor reminiscent of rose; sweet, fatty-floral taste with fruital note",
+      "solubility": {
+        "water": "In water, 880 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 185.0\u00b0C (365.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7720"
+      ]
+    },
+    "5-methylfurfural": {
+      "id": "5-methylfurfural",
+      "name": "5-Methylfurfural",
+      "aliases": [],
+      "pubchem_cid": 12097,
+      "flavor_smell": "caramel, almond, burnt sugar, spicy",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.7"
+      },
+      "temp_notes": "BP 187.0\u00b0C (368.6\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12097"
+      ]
+    },
+    "methyl-heptanoate": {
+      "id": "methyl-heptanoate",
+      "name": "Methyl Heptanoate",
+      "aliases": [],
+      "pubchem_cid": 7826,
+      "flavor_smell": "fruity, green, orris, winey",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 174.0\u00b0C (345.2\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7826"
+      ]
+    },
+    "perillaldehyde": {
+      "id": "perillaldehyde",
+      "name": "Perillaldehyde",
+      "aliases": [],
+      "pubchem_cid": 16441,
+      "flavor_smell": "sweet, spicy, cumin-like, citrus; character note of shiso",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble in ethanol and fixed oils",
+        "fat_logp": "LogP 2.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 240.0\u00b0C (464.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/16441"
+      ]
+    },
+    "isoborneol": {
+      "id": "isoborneol",
+      "name": "Isoborneol",
+      "aliases": [],
+      "pubchem_cid": 6321405,
+      "flavor_smell": "piney, camphoraceous odor",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6321405"
+      ]
+    },
+    "myrtenol": {
+      "id": "myrtenol",
+      "name": "Myrtenol",
+      "aliases": [],
+      "pubchem_cid": 10582,
+      "flavor_smell": "minty, camphoraceous, woody, pine-needle",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 1.6"
+      },
+      "temp_notes": "BP 222.0\u00b0C (431.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10582"
+      ]
+    },
+    "alpha-ionone": {
+      "id": "alpha-ionone",
+      "name": "Alpha-Ionone",
+      "aliases": [],
+      "pubchem_cid": 5282108,
+      "flavor_smell": "it has a warm, woody, floral odor with balsamic and sweet tones and is strongly reminiscent of violet flowers; woody, floral, berry, fruity with powdery nuances",
+      "solubility": {
+        "water": "In water, 106 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 237.0\u00b0C (458.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5282108"
+      ]
+    },
+    "propionic-acid": {
+      "id": "propionic-acid",
+      "name": "propionic acid",
+      "aliases": [],
+      "pubchem_cid": 1032,
+      "flavor_smell": "slightly pungent disagreeable, rancid odor; sour & mildly cheese-like",
+      "solubility": {
+        "water": "In water, 1.0X10+6 mg/L at 25\u00b0C (77.0\u00b0F) /miscible/",
+        "alcohol": "Sol in alcohol, ether, chloroform.",
+        "fat_logp": "LogP 0.3"
+      },
+      "temp_notes": "BP 140.7\u00b0C (285.3\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1032"
+      ]
+    },
+    "3-phenylpropan-1-ol": {
+      "id": "3-phenylpropan-1-ol",
+      "name": "3-Phenylpropan-1-ol",
+      "aliases": [],
+      "pubchem_cid": 31234,
+      "flavor_smell": "floral odor; sweet and pungent taste suggestive of apricot",
+      "solubility": {
+        "water": "In water, 5,680 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.9"
+      },
+      "temp_notes": "BP 236.0\u00b0C (456.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/31234"
+      ]
+    },
+    "3-octanol": {
+      "id": "3-octanol",
+      "name": "3-Octanol",
+      "aliases": [],
+      "pubchem_cid": 11527,
+      "flavor_smell": "mushroom, earthy, herbaceous, fatty",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 175.0\u00b0C (347.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11527"
+      ]
+    },
+    "gamma-undecalactone": {
+      "id": "gamma-undecalactone",
+      "name": "Gamma-undecalactone",
+      "aliases": [],
+      "pubchem_cid": 7714,
+      "flavor_smell": "peach, creamy, coconut, fruity-lactonic",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble; also soluble in most fixed oils",
+        "fat_logp": "LogP 3.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 297.0\u00b0C (566.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7714"
+      ]
+    },
+    "gamma-dodecalactone": {
+      "id": "gamma-dodecalactone",
+      "name": "gamma-Dodecalactone",
+      "aliases": [],
+      "pubchem_cid": 16821,
+      "flavor_smell": "peach, fatty, creamy, musky",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/16821"
+      ]
+    },
+    "2-pentanone": {
+      "id": "2-pentanone",
+      "name": "2-Pentanone",
+      "aliases": [],
+      "pubchem_cid": 7895,
+      "flavor_smell": "characteristic acetone-like odor",
+      "solubility": {
+        "water": "In water, 4.3X10+4 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.9"
+      },
+      "temp_notes": "BP 101.1\u00b0C (214.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7895"
+      ]
+    },
+    "butyl-pentanoate": {
+      "id": "butyl-pentanoate",
+      "name": "Butyl pentanoate",
+      "aliases": [],
+      "pubchem_cid": 61137,
+      "flavor_smell": "fruity, apple, green, sweet",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 185.8\u00b0C (366.4\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61137"
+      ]
+    },
+    "delta-undecalactone": {
+      "id": "delta-undecalactone",
+      "name": "delta-Undecalactone",
+      "aliases": [],
+      "pubchem_cid": 61204,
+      "flavor_smell": "creamy, coconut, peach, milky",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble (1 ml in 1 ml 95% ethanol)",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "152-155\u00b0C (305.6-311\u00b0F) @ 10.50 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61204"
+      ]
+    },
+    "methyl-dodecanoate": {
+      "id": "methyl-dodecanoate",
+      "name": "Methyl Dodecanoate",
+      "aliases": [],
+      "pubchem_cid": 8139,
+      "flavor_smell": "fatty, floral odor reminiscent of wine; fatty taste",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 5.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 267.0\u00b0C (512.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8139"
+      ]
+    },
+    "methyl-valerate": {
+      "id": "methyl-valerate",
+      "name": "Methyl Valerate",
+      "aliases": [],
+      "pubchem_cid": 12206,
+      "flavor_smell": "fruity, pineapple, ethereal, green",
+      "solubility": {
+        "water": "less than 1 mg/mL at 72\u00b0F (22.2\u00b0C) (NTP, 1992)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2"
+      },
+      "temp_notes": "BP 126.5\u00b0C (259.7\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12206"
+      ]
+    },
+    "2-pentyl-acetate": {
+      "id": "2-pentyl-acetate",
+      "name": "2-Pentyl Acetate",
+      "aliases": [],
+      "pubchem_cid": 12278,
+      "flavor_smell": "mild, nonresidual",
+      "solubility": {
+        "water": "In water, 1700 ppm at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Sol in alcohol, ether",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "BP 133.0\u00b0C (271.4\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12278"
+      ]
+    },
+    "3-octanone": {
+      "id": "3-octanone",
+      "name": "3-Octanone",
+      "aliases": [],
+      "pubchem_cid": 246728,
+      "flavor_smell": "mild fruity odor",
+      "solubility": {
+        "water": "In water, 2.6X10+3 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 168.0\u00b0C (334.4\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/246728"
+      ]
+    },
+    "p-cymen-8-ol": {
+      "id": "p-cymen-8-ol",
+      "name": "p-Cymen-8-ol",
+      "aliases": [
+        "2-(4-methylphenyl)propan-2-ol"
+      ],
+      "pubchem_cid": 14529,
+      "flavor_smell": "citrus, herbal, woody, slightly medicinal",
+      "solubility": {
+        "water": "1 to 10 mg/mL at 68.9\u00b0F (20.5\u00b0C) (NTP, 1992)",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 2"
+      },
+      "temp_notes": "147\u00b0F (63.9\u00b0C) at 0.6 mmHg (NTP, 1992) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/14529"
+      ]
+    },
+    "2-undecanone": {
+      "id": "2-undecanone",
+      "name": "2-Undecanone",
+      "aliases": [],
+      "pubchem_cid": 8163,
+      "flavor_smell": "strong odor",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 232.0\u00b0C (449.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8163"
+      ]
+    },
+    "trans-trans-2-4-heptadienal": {
+      "id": "trans-trans-2-4-heptadienal",
+      "name": "trans,trans-2,4-Heptadienal",
+      "aliases": [],
+      "pubchem_cid": 5283321,
+      "flavor_smell": "fatty, green, oxidized-oil, nutty",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.6"
+      },
+      "temp_notes": "84\u00b0C (183.2\u00b0F) (1 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5283321"
+      ]
+    },
+    "ethyl-lactate": {
+      "id": "ethyl-lactate",
+      "name": "Ethyl Lactate",
+      "aliases": [],
+      "pubchem_cid": 7344,
+      "flavor_smell": "buttery odor; sweet, fruity, creamy and pineapple like taste",
+      "solubility": {
+        "water": "1000 mg/mL at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.2"
+      },
+      "temp_notes": "BP 153.9\u00b0C (309.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7344"
+      ]
+    },
+    "pulegone": {
+      "id": "pulegone",
+      "name": "(+)-Pulegone",
+      "aliases": [],
+      "pubchem_cid": 442495,
+      "flavor_smell": "pleasant odor, midway between peppermint and camphor",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 2.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 222.0\u00b0C (431.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/442495"
+      ]
+    },
+    "2-phenylethyl-formate": {
+      "id": "2-phenylethyl-formate",
+      "name": "2-Phenylethyl formate",
+      "aliases": [],
+      "pubchem_cid": 7711,
+      "flavor_smell": "rose, floral, green, fruity",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 226.0\u00b0C (438.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7711"
+      ]
+    },
+    "gamma-nonanolactone": {
+      "id": "gamma-nonanolactone",
+      "name": "gamma-Nonanolactone",
+      "aliases": [],
+      "pubchem_cid": 7710,
+      "flavor_smell": "strong odor reminiscent of coconut; taste characteristics at 10 ppm: coconut, creamy, waxy with fatty milky notes",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP: 134\u00b0C (273.2\u00b0F) at 12 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7710"
+      ]
+    },
+    "ethyl-cinnamate": {
+      "id": "ethyl-cinnamate",
+      "name": "Ethyl Cinnamate",
+      "aliases": [],
+      "pubchem_cid": 637758,
+      "flavor_smell": "sweet, balsamic, cinnamon, honey, plum",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible in ethanol",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 272.0\u00b0C (521.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/637758"
+      ]
+    },
+    "4-isopropylbenzyl-alcohol": {
+      "id": "4-isopropylbenzyl-alcohol",
+      "name": "4-isopropylbenzyl alcohol",
+      "aliases": [],
+      "pubchem_cid": 325,
+      "flavor_smell": "cumin-like, herbal, spicy",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 248.0\u00b0C (478.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/325"
+      ]
+    },
+    "npc307011-sesquiterpene": {
+      "id": "npc307011-sesquiterpene",
+      "name": "Unidentified sesquiterpene (PubChem CID 442355)",
+      "aliases": [],
+      "pubchem_cid": 442355,
+      "flavor_smell": "unassigned sesquiterpene; no reliable odor description",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/442355"
+      ]
+    },
+    "m-xylene": {
+      "id": "m-xylene",
+      "name": "M-Xylene",
+      "aliases": [],
+      "pubchem_cid": 7929,
+      "flavor_smell": "sweet odor; taste threshold: 0.3 ppm",
+      "solubility": {
+        "water": "In water, 1.61X10+2 mg/L at 25\u00b0C (77.0\u00b0F).",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 3.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 139.1\u00b0C (282.4\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7929"
+      ]
+    },
+    "t-cadinol": {
+      "id": "t-cadinol",
+      "name": "T-Cadinol",
+      "aliases": [
+        "tau-cadinol"
+      ],
+      "pubchem_cid": 5315594,
+      "flavor_smell": "woody, herbal, spicy",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5315594"
+      ]
+    },
+    "1-3-5-undecatriene": {
+      "id": "1-3-5-undecatriene",
+      "name": "1,3,5-Undecatriene",
+      "aliases": [],
+      "pubchem_cid": 5367412,
+      "flavor_smell": "green, galbanum, fresh, pineapple-like; potent trace odorant of parsley and galbanum",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5367412"
+      ]
+    },
+    "toluene": {
+      "id": "toluene",
+      "name": "toluene",
+      "aliases": [],
+      "pubchem_cid": 1140,
+      "flavor_smell": "sweet, pungent, benzene-like odor",
+      "solubility": {
+        "water": "In water, 526 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 110.6\u00b0C (231.1\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1140"
+      ]
+    },
+    "butylphthalide": {
+      "id": "butylphthalide",
+      "name": "Butylphthalide",
+      "aliases": [],
+      "pubchem_cid": 61361,
+      "flavor_smell": "celery, lovage, warm herbal; character-impact of celery",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "177-178\u00b0C (350.6-352.4\u00b0F) @ 15.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61361"
+      ]
+    },
+    "dl-tartaric-acid": {
+      "id": "dl-tartaric-acid",
+      "name": "DL-Tartaric acid",
+      "aliases": [],
+      "pubchem_cid": 875,
+      "flavor_smell": "pleasant acidulous taste",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP -1.9 \u2014 prefers water"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/875"
+      ]
+    },
+    "dillapiole": {
+      "id": "dillapiole",
+      "name": "Dillapiole",
+      "aliases": [],
+      "pubchem_cid": 10231,
+      "flavor_smell": "dill, spicy, sweet-phenolic, parsley-like",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 292.0\u00b0C (557.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10231"
+      ]
+    },
+    "tangeretin": {
+      "id": "tangeretin",
+      "name": "Tangeretin",
+      "aliases": [],
+      "pubchem_cid": 68077,
+      "flavor_smell": "non-volatile polymethoxyflavone; bitter taste, no aroma",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/68077"
+      ]
+    },
+    "sedanenolide": {
+      "id": "sedanenolide",
+      "name": "Sedanenolide",
+      "aliases": [],
+      "pubchem_cid": 173843,
+      "flavor_smell": "celery, warm herbal, spicy; potent celery-character phthalide",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/173843"
+      ]
+    },
+    "methoxsalen": {
+      "id": "methoxsalen",
+      "name": "methoxsalen",
+      "aliases": [],
+      "pubchem_cid": 4114,
+      "flavor_smell": "odorless; bitter taste",
+      "solubility": {
+        "water": "In water, 47.6 mg/L at 30\u00b0C (86.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.9"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/4114"
+      ]
+    },
+    "beta-selinene": {
+      "id": "beta-selinene",
+      "name": "beta-Selinene",
+      "aliases": [
+        "eudesma-4(14),11-diene"
+      ],
+      "pubchem_cid": 519361,
+      "flavor_smell": "herbaceous, woody, celery-like",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 5.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/519361"
+      ]
+    },
+    "falcarindiol": {
+      "id": "falcarindiol",
+      "name": "Falcarindiol",
+      "aliases": [],
+      "pubchem_cid": 5317309,
+      "flavor_smell": "non-volatile polyacetylene; bitter, pungent taste",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5317309"
+      ]
+    },
+    "crypton": {
+      "id": "crypton",
+      "name": "Crypton",
+      "aliases": [],
+      "pubchem_cid": 92780,
+      "flavor_smell": "herbal, woody, minty",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2"
+      },
+      "temp_notes": "BP 198.0\u00b0C (388.4\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/92780"
+      ]
+    },
+    "isorhamnetin": {
+      "id": "isorhamnetin",
+      "name": "Isorhamnetin",
+      "aliases": [],
+      "pubchem_cid": 5281654,
+      "flavor_smell": "non-volatile flavonol; bitter, astringent",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.9"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5281654"
+      ]
+    },
+    "alpha-cubebene": {
+      "id": "alpha-cubebene",
+      "name": ".alpha.-Cubebene",
+      "aliases": [],
+      "pubchem_cid": 86609,
+      "flavor_smell": "woody, herbal, waxy, dry",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/86609"
+      ]
+    },
+    "l-alpha-cadinol": {
+      "id": "l-alpha-cadinol",
+      "name": "l-.alpha.-Cadinol",
+      "aliases": [],
+      "pubchem_cid": 519662,
+      "flavor_smell": "woody, herbal, dry",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/519662"
+      ]
+    },
+    "styrene": {
+      "id": "styrene",
+      "name": "Styrene",
+      "aliases": [],
+      "pubchem_cid": 7501,
+      "flavor_smell": "extremely penetrating",
+      "solubility": {
+        "water": "In water, 300 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 146.1\u00b0C (295.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7501"
+      ]
+    },
+    "beta-bisabolene": {
+      "id": "beta-bisabolene",
+      "name": "beta-Bisabolene",
+      "aliases": [],
+      "pubchem_cid": 403919,
+      "flavor_smell": "balsamic, woody, spicy, citrus-peel",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 5.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/403919"
+      ]
+    },
+    "isocaryophyllene": {
+      "id": "isocaryophyllene",
+      "name": "Isocaryophyllene",
+      "aliases": [],
+      "pubchem_cid": 21159022,
+      "flavor_smell": "woody, spicy, clove-like, dry",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 268.0\u00b0C (514.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/21159022"
+      ]
+    },
+    "apiole": {
+      "id": "apiole",
+      "name": "Apiole",
+      "aliases": [],
+      "pubchem_cid": 10659,
+      "flavor_smell": "parsley, sweet-phenolic, spicy, warm; character-impact of flat-leaf parsley",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 295.0\u00b0C (563.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10659"
+      ]
+    },
+    "p-mentha-1-3-8-triene": {
+      "id": "p-mentha-1-3-8-triene",
+      "name": "p-Mentha-1,3,8-triene",
+      "aliases": [
+        "1,3,8-p-menthatriene"
+      ],
+      "pubchem_cid": 176983,
+      "flavor_smell": "fresh green parsley, herbal, terpenic; the defining parsley-leaf odorant",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/176983"
+      ]
+    },
+    "alloaromadendrene": {
+      "id": "alloaromadendrene",
+      "name": "Alloaromadendrene",
+      "aliases": [],
+      "pubchem_cid": 92116,
+      "flavor_smell": "woody, dry, slightly spicy",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/92116"
+      ]
+    },
+    "3-methylnonane-2-4-dione": {
+      "id": "3-methylnonane-2-4-dione",
+      "name": "3-methylnonane-2,4-dione",
+      "aliases": [],
+      "pubchem_cid": 529481,
+      "flavor_smell": "hay, geranium-metallic, strawberry-like; extremely potent trace odorant",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 236.0\u00b0C (456.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/529481"
+      ]
+    },
+    "beta-cis-farnesene": {
+      "id": "beta-cis-farnesene",
+      "name": "beta-cis-farnesene",
+      "aliases": [],
+      "pubchem_cid": 5317319,
+      "flavor_smell": "green, woody, citrus, slightly floral",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 6.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5317319"
+      ]
+    },
+    "gamma-cadinene": {
+      "id": "gamma-cadinene",
+      "name": "(+)-gamma-cadinene",
+      "aliases": [],
+      "pubchem_cid": 6432404,
+      "flavor_smell": "woody, herbal, dry",
+      "solubility": {
+        "water": "Practically insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6432404"
+      ]
+    },
+    "1-p-menthen-9-al": {
+      "id": "1-p-menthen-9-al",
+      "name": "1-p-Menthen-9-al",
+      "aliases": [],
+      "pubchem_cid": 520440,
+      "flavor_smell": "cumin-like, green, herbal, spicy",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "95\u00b0C (203.0\u00b0F) (10 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/520440"
+      ]
+    },
+    "4-isopropylbenzaldehyde": {
+      "id": "4-isopropylbenzaldehyde",
+      "name": "4-isopropylbenzaldehyde",
+      "aliases": [],
+      "pubchem_cid": 326,
+      "flavor_smell": "cumin, spicy, green; character-impact of cumin",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 235.5\u00b0C (455.9\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/326"
+      ]
+    },
+    "p-alpha-dimethylstyrene": {
+      "id": "p-alpha-dimethylstyrene",
+      "name": "p,alpha-Dimethylstyrene",
+      "aliases": [
+        "4-isopropenyltoluene"
+      ],
+      "pubchem_cid": 62385,
+      "flavor_smell": "citrus, herbal, woody; abundant in flat-leaf parsley leaf oil",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 3.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 189.0\u00b0C (372.2\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/62385"
+      ]
+    },
+    "shisool": {
+      "id": "shisool",
+      "name": "Shisool",
+      "aliases": [
+        "dihydroperillyl alcohol",
+        "(4-(prop-1-en-2-yl)cyclohexyl)methanol"
+      ],
+      "pubchem_cid": 519954,
+      "flavor_smell": "faint herbal, green, woody, mild minty-herbal; marker compound of purple/red shiso (PA chemotype)",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 2.9; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; monoterpene alcohol)",
+        "fat_logp": "LogP 2.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "No experimental atmospheric BP published; monoterpene alcohol of this mass typically boils near 220\u2013230\u00b0C (428\u2013446\u00b0F). Less volatile than perillaldehyde, so it survives cooking better and persists as a background herbal note.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/519954"
+      ]
+    },
+    "perilla-ketone": {
+      "id": "perilla-ketone",
+      "name": "Perilla Ketone",
+      "aliases": [
+        "1-(3-furyl)-4-methyl-1-pentanone",
+        "egoma ketone"
+      ],
+      "pubchem_cid": 68381,
+      "flavor_smell": "pungent green, herbal, mushroom-like, musty, earthy; dominant volatile of green perilla/egoma (PK chemotype)",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 2.6; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; furyl ketone)",
+        "fat_logp": "LogP 2.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 225.0\u00b0C (437.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/68381"
+      ]
+    },
+    "isoegomaketone": {
+      "id": "isoegomaketone",
+      "name": "Isoegomaketone",
+      "aliases": [],
+      "pubchem_cid": 5318556,
+      "flavor_smell": "herbal, green, slightly spicy, perilla-like; co-marker with perilla ketone in green perilla",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 2.2; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; furyl enone)",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "No experimental BP published; conjugated enone, more prone to oxidation and heat degradation than perilla ketone. Add late or off-heat.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5318556"
+      ]
+    },
+    "perillene": {
+      "id": "perillene",
+      "name": "Perillene",
+      "aliases": [
+        "3-(4-methyl-3-pentenyl)furan"
+      ],
+      "pubchem_cid": 68316,
+      "flavor_smell": "fresh citrus, herbal, slightly floral, lemon-woody",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 3.0; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; furan monoterpenoid)",
+        "fat_logp": "LogP 3.0 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "No experimental atmospheric BP published; low-mass furan terpenoid, highly volatile and readily lost to steam during open cooking. Infuse covered.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/68316"
+      ]
+    },
+    "beta-farnesene": {
+      "id": "beta-farnesene",
+      "name": "beta-Farnesene",
+      "aliases": [
+        "(E)-beta-farnesene",
+        "trans-beta-farnesene"
+      ],
+      "pubchem_cid": 5281517,
+      "flavor_smell": "green, woody, citrus, faintly floral, fresh herbal",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 6.4; no experimental value on PubChem)",
+        "alcohol": "Sparingly soluble; fully soluble in oils and fats",
+        "fat_logp": "LogP 6.4 \u2014 extremely fat-soluble; will partition almost entirely into the cream phase"
+      },
+      "temp_notes": "No experimental atmospheric BP published; sesquiterpene hydrocarbons of this class boil around 260\u2013270\u00b0C (500\u2013518\u00b0F). Heat-stable but oxidation-prone on long storage.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5281517"
+      ]
+    },
+    "perillyl-alcohol": {
+      "id": "perillyl-alcohol",
+      "name": "Perillyl Alcohol",
+      "aliases": [
+        "p-mentha-1,8-dien-7-ol"
+      ],
+      "pubchem_cid": 10819,
+      "flavor_smell": "fresh floral, citrus, lilac-like, sweet herbal",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble in alcohols and oils",
+        "fat_logp": "LogP 3.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 119\u00b0C (246.2\u00b0F) at 11 mm Hg (reduced pressure); atmospheric BP not established on PubChem. Oxidises readily to perillaldehyde.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10819"
+      ]
+    },
+    "galangal-acetate": {
+      "id": "galangal-acetate",
+      "name": "Galangal Acetate",
+      "aliases": [
+        "1'-acetoxychavicol acetate",
+        "ACA",
+        "acetoxychavicol acetate",
+        "(4-(1-acetyloxyprop-2-enyl)phenyl) acetate"
+      ],
+      "pubchem_cid": 119104,
+      "flavor_smell": "fruity, pungent, cool woody, ginger-like, galanga-spicy; pungent and faintly bitter on the palate. Second-highest OAV odorant in fresh galangal rhizome (OAV ~44,000); only the (S)-enantiomer carries the characteristic cool woody ginger note",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 2.2; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; diacetate ester)",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "No experimental BP published. Diacetate ester \u2014 hydrolyses under prolonged heat and in acidic or alkaline conditions, losing the fruity-pungent top note. Keep infusions short and near-neutral pH.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/119104"
+      ]
+    },
+    "chavicol-acetate": {
+      "id": "chavicol-acetate",
+      "name": "Chavicol Acetate",
+      "aliases": [
+        "4-allylphenyl acetate",
+        "p-allylphenyl acetate"
+      ],
+      "pubchem_cid": 523825,
+      "flavor_smell": "mushroom-like, earthy, phenolic, faintly sweet-spicy; OAV ~980 in fresh galangal rhizome",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 2.6; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; phenolic acetate ester)",
+        "fat_logp": "LogP 2.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "No experimental BP published. Acetate ester \u2014 hydrolyses on prolonged heating to free chavicol, shifting the note from mushroom toward raw phenolic.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/523825"
+      ]
+    },
+    "zingiberenol": {
+      "id": "zingiberenol",
+      "name": "Zingiberenol",
+      "aliases": [],
+      "pubchem_cid": 13213649,
+      "flavor_smell": "woody, ginger-like, faintly spicy, warm balsamic",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 4.3; no experimental value on PubChem)",
+        "alcohol": "Sparingly soluble; soluble in oils and fats",
+        "fat_logp": "LogP 4.3 \u2014 very strongly fat-soluble"
+      },
+      "temp_notes": "No experimental BP published; sesquiterpene alcohol, low volatility and heat-stable. Survives cooking and contributes lingering woody-ginger depth.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/13213649"
+      ]
+    },
+    "trans-2-acetoxy-1-8-cineole": {
+      "id": "trans-2-acetoxy-1-8-cineole",
+      "name": "trans-2-Acetoxy-1,8-cineole",
+      "aliases": [
+        "2-acetoxy-1,8-cineole"
+      ],
+      "pubchem_cid": 91748023,
+      "flavor_smell": "woody, galanga-like, cooling eucalyptus, spicy; identified as the single most characteristic odor constituent of galangal among the eight acetoxy-1,8-cineole isomers",
+      "solubility": {
+        "water": "Practically insoluble (estimated from LogP 2.3; no experimental value on PubChem)",
+        "alcohol": "Soluble (estimated; cyclic ether acetate)",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "No experimental BP published. Acetate ester on a cineole skeleton \u2014 susceptible to hydrolysis under prolonged heat or acid, which would release 2-hydroxy-1,8-cineole and dull the galanga character.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/91748023"
+      ]
     }
   }
 }
