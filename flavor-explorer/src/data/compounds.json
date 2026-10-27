@@ -6843,6 +6843,1846 @@
       "sources": [
         "https://pubchem.ncbi.nlm.nih.gov/compound/91748023"
       ]
+    },
+    "octan-2-ol": {
+      "id": "octan-2-ol",
+      "name": "Octan-2-ol",
+      "aliases": [],
+      "pubchem_cid": 20083,
+      "flavor_smell": "characteristically disagreeable, but aromatic",
+      "solubility": {
+        "water": "In water, 1120 mg/L at 25 C",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 181.0\u00b0C (357.8\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/20083"
+      ]
+    },
+    "2-methylbutyl-acetate": {
+      "id": "2-methylbutyl-acetate",
+      "name": "2-Methylbutyl Acetate",
+      "aliases": [],
+      "pubchem_cid": 12209,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 2.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "138.00\u00b0C (280.4\u00b0F). @ 741.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12209"
+      ]
+    },
+    "cycloionone": {
+      "id": "cycloionone",
+      "name": "Cycloionone",
+      "aliases": [],
+      "pubchem_cid": 110664,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "soluble (in ethanol)",
+        "fat_logp": "LogP 3.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 240.0\u00b0C (464.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/110664"
+      ]
+    },
+    "2-methyl-1-propanol": {
+      "id": "2-methyl-1-propanol",
+      "name": "2-Methyl-1-propanol",
+      "aliases": [],
+      "pubchem_cid": 6560,
+      "flavor_smell": "sweet, musty odor; sweet whiskey taste",
+      "solubility": {
+        "water": "In water, 66.5-90.9 g/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "For more Solubility (Complete) data for ISOBUTYL ALCOHOL (6 total), please visit the HSDB record page.",
+        "fat_logp": "LogP 0.8"
+      },
+      "temp_notes": "BP 107.2\u00b0C (225.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6560"
+      ]
+    },
+    "formic-acid": {
+      "id": "formic-acid",
+      "name": "formic acid",
+      "aliases": [],
+      "pubchem_cid": 284,
+      "flavor_smell": "pungent, penetrating odor; sour",
+      "solubility": {
+        "water": "greater than or equal to 100 mg/mL at 70\u00b0F (21.1\u00b0C) (NTP, 1992)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP -0.2 \u2014 prefers water"
+      },
+      "temp_notes": "BP 100.7\u00b0C (213.3\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/284"
+      ]
+    },
+    "propyl-formate": {
+      "id": "propyl-formate",
+      "name": "Propyl Formate",
+      "aliases": [],
+      "pubchem_cid": 8073,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "22 mg/mL at 22\u00b0C (71.6\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.8"
+      },
+      "temp_notes": "BP 82.0\u00b0C (179.6\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8073"
+      ]
+    },
+    "palmitic-acid": {
+      "id": "palmitic-acid",
+      "name": "palmitic acid",
+      "aliases": [],
+      "pubchem_cid": 985,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "In water, 0.04 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 6.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 351.5\u00b0C (664.7\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/985"
+      ]
+    },
+    "isobutyric-acid": {
+      "id": "isobutyric-acid",
+      "name": "Isobutyric Acid",
+      "aliases": [],
+      "pubchem_cid": 6590,
+      "flavor_smell": "pungent odor like that of butyric acid, but not as unpleasant; cheesy taste",
+      "solubility": {
+        "water": "In water, 1.67X10+5 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.8"
+      },
+      "temp_notes": "BP 153.9\u00b0C (309.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6590"
+      ]
+    },
+    "hexyl-butyrate": {
+      "id": "hexyl-butyrate",
+      "name": "Hexyl Butyrate",
+      "aliases": [],
+      "pubchem_cid": 17525,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "(in ethanol)",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 3.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 206.0\u00b0C (402.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/17525"
+      ]
+    },
+    "methyl-acetate": {
+      "id": "methyl-acetate",
+      "name": "Methyl Acetate",
+      "aliases": [],
+      "pubchem_cid": 6584,
+      "flavor_smell": "pleasant odor; fleeting, fruity taste",
+      "solubility": {
+        "water": "In water, 2.43X10+5 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.2"
+      },
+      "temp_notes": "BP 56.9\u00b0C (134.4\u00b0F); gas or extremely volatile at room temperature, lost immediately upon heating",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6584"
+      ]
+    },
+    "2-nonanone": {
+      "id": "2-nonanone",
+      "name": "2-Nonanone",
+      "aliases": [],
+      "pubchem_cid": 13187,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "0.371 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 194.0\u00b0C (381.2\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/13187"
+      ]
+    },
+    "ethyl-pyruvate": {
+      "id": "ethyl-pyruvate",
+      "name": "Ethyl Pyruvate",
+      "aliases": [],
+      "pubchem_cid": 12041,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 0.4"
+      },
+      "temp_notes": "BP 144.0\u00b0C (291.2\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12041"
+      ]
+    },
+    "isopentyl-formate": {
+      "id": "isopentyl-formate",
+      "name": "Isopentyl formate",
+      "aliases": [],
+      "pubchem_cid": 8052,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "3.5 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "BP 124.0\u00b0C (255.2\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8052"
+      ]
+    },
+    "2-6-dimethyl-4-heptanol": {
+      "id": "2-6-dimethyl-4-heptanol",
+      "name": "2,6-Dimethyl-4-heptanol",
+      "aliases": [],
+      "pubchem_cid": 7957,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "0.445 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 177.8\u00b0C (352.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7957"
+      ]
+    },
+    "nerol-oxide": {
+      "id": "nerol-oxide",
+      "name": "Nerol oxide",
+      "aliases": [],
+      "pubchem_cid": 61275,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "soluble (in ethanol)",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 202.0\u00b0C (395.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61275"
+      ]
+    },
+    "isobutyl-heptanoate": {
+      "id": "isobutyl-heptanoate",
+      "name": "Isobutyl heptanoate",
+      "aliases": [],
+      "pubchem_cid": 24516,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "soluble in most organic solvents",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 3.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 209.0\u00b0C (408.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/24516"
+      ]
+    },
+    "tiglic-aldehyde": {
+      "id": "tiglic-aldehyde",
+      "name": "Tiglic aldehyde",
+      "aliases": [],
+      "pubchem_cid": 5321950,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "\u2014",
+        "alcohol": "\u2014",
+        "fat_logp": "LogP 0.9"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5321950"
+      ]
+    },
+    "cis-2-hexen-1-ol": {
+      "id": "cis-2-hexen-1-ol",
+      "name": "cis-2-Hexen-1-ol",
+      "aliases": [],
+      "pubchem_cid": 5324489,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 1.4"
+      },
+      "temp_notes": "65\u00b0C (149.0\u00b0F) (0.5 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5324489"
+      ]
+    },
+    "1-phenylethanol": {
+      "id": "1-phenylethanol",
+      "name": "1-Phenylethanol",
+      "aliases": [],
+      "pubchem_cid": 7409,
+      "flavor_smell": "mild floral odor",
+      "solubility": {
+        "water": "In water, 1,950 mg/l @ 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.4"
+      },
+      "temp_notes": "BP 204.0\u00b0C (399.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7409"
+      ]
+    },
+    "propyl-acetate": {
+      "id": "propyl-acetate",
+      "name": "Propyl acetate",
+      "aliases": [],
+      "pubchem_cid": 7997,
+      "flavor_smell": "pleasant odor; pleasant, bittersweet flavor reminiscent of pear on dilution",
+      "solubility": {
+        "water": "In water, 1.89X10+4 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.2"
+      },
+      "temp_notes": "BP 101.6\u00b0C (214.9\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7997"
+      ]
+    },
+    "octan-2-one": {
+      "id": "octan-2-one",
+      "name": "Octan-2-one",
+      "aliases": [],
+      "pubchem_cid": 8093,
+      "flavor_smell": "fatty, green cheese aroma; camphor taste",
+      "solubility": {
+        "water": "In water, 899 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 2.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 175.0\u00b0C (347.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8093"
+      ]
+    },
+    "pyridine": {
+      "id": "pyridine",
+      "name": "Pyridine",
+      "aliases": [],
+      "pubchem_cid": 1049,
+      "flavor_smell": "sharp, nauseating; amine taste",
+      "solubility": {
+        "water": "greater than or equal to 100 mg/mL at 70.7\u00b0F (21.5\u00b0C) (NTP, 1992)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.7"
+      },
+      "temp_notes": "BP 115.0\u00b0C (239.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1049"
+      ]
+    },
+    "4-methyl-5-thiazoleethanol": {
+      "id": "4-methyl-5-thiazoleethanol",
+      "name": "4-Methyl-5-Thiazoleethanol",
+      "aliases": [],
+      "pubchem_cid": 1136,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 0.8"
+      },
+      "temp_notes": "135.00\u00b0C (275.0\u00b0F). @ 7.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1136"
+      ]
+    },
+    "beta-terpineol": {
+      "id": "beta-terpineol",
+      "name": "Beta-Terpineol",
+      "aliases": [],
+      "pubchem_cid": 8748,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 210.0\u00b0C (410.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8748"
+      ]
+    },
+    "trans-trans-2-4-nonadienal": {
+      "id": "trans-trans-2-4-nonadienal",
+      "name": "trans,trans-2,4-Nonadienal",
+      "aliases": [],
+      "pubchem_cid": 5283339,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "soluble (in ethanol)",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "97\u00b0C (206.6\u00b0F) (10 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5283339"
+      ]
+    },
+    "ethyl-phenylacetate": {
+      "id": "ethyl-phenylacetate",
+      "name": "Ethyl Phenylacetate",
+      "aliases": [],
+      "pubchem_cid": 7590,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "In water, 1,478 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 229.0\u00b0C (444.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7590"
+      ]
+    },
+    "13679-86-2": {
+      "id": "13679-86-2",
+      "name": "13679-86-2",
+      "aliases": [],
+      "pubchem_cid": 61665,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "\u2014",
+        "alcohol": "\u2014",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61665"
+      ]
+    },
+    "cis-3-hexenyl-lactate": {
+      "id": "cis-3-hexenyl-lactate",
+      "name": "cis-3-Hexenyl lactate",
+      "aliases": [],
+      "pubchem_cid": 5364231,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 1.6"
+      },
+      "temp_notes": "71.00\u00b0C (159.8\u00b0F). @ 0.70 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5364231"
+      ]
+    },
+    "ethyl-isovalerate": {
+      "id": "ethyl-isovalerate",
+      "name": "Ethyl Isovalerate",
+      "aliases": [],
+      "pubchem_cid": 7945,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "2 mg/mL at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.7"
+      },
+      "temp_notes": "BP 133.0\u00b0C (271.4\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7945"
+      ]
+    },
+    "2-heptanol": {
+      "id": "2-heptanol",
+      "name": "2-Heptanol",
+      "aliases": [],
+      "pubchem_cid": 10976,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 160.0\u00b0C (320.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10976"
+      ]
+    },
+    "isobutyl-formate": {
+      "id": "isobutyl-formate",
+      "name": "Isobutyl Formate",
+      "aliases": [],
+      "pubchem_cid": 10957,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "10.2 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.5"
+      },
+      "temp_notes": "BP 99.0\u00b0C (210.2\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10957"
+      ]
+    },
+    "13679-70-4": {
+      "id": "13679-70-4",
+      "name": "13679-70-4",
+      "aliases": [],
+      "pubchem_cid": 61663,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble in most organic solvents",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "113-114\u00b0C (237.2\u00b0F) (25 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61663"
+      ]
+    },
+    "phenethyl-isobutyrate": {
+      "id": "phenethyl-isobutyrate",
+      "name": "Phenethyl isobutyrate",
+      "aliases": [],
+      "pubchem_cid": 7655,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "1 mL in 3 Ml 80% ethanol (in ethanol)",
+        "fat_logp": "LogP 3.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 230.0\u00b0C (446.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7655"
+      ]
+    },
+    "ethyl-10-undecenoate": {
+      "id": "ethyl-10-undecenoate",
+      "name": "Ethyl 10-Undecenoate",
+      "aliases": [],
+      "pubchem_cid": 12729,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "(in ethanol)",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 4.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 259.0\u00b0C (498.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12729"
+      ]
+    },
+    "delta-nonalactone": {
+      "id": "delta-nonalactone",
+      "name": "Delta-Nonalactone",
+      "aliases": [],
+      "pubchem_cid": 18698,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "1 ml in 1 ml 95% alcohol (in ethanol)",
+        "alcohol": "1 ml in 1 ml 95% alcohol (in ethanol)",
+        "fat_logp": "LogP 2.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 250.0\u00b0C (482.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/18698"
+      ]
+    },
+    "ethyl-3-hydroxyhexanoate": {
+      "id": "ethyl-3-hydroxyhexanoate",
+      "name": "Ethyl 3-hydroxyhexanoate",
+      "aliases": [],
+      "pubchem_cid": 61293,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 1"
+      },
+      "temp_notes": "101.00 to 102.00\u00b0C (215.6\u00b0F). @ 14.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61293"
+      ]
+    },
+    "ethyl-3-propionate": {
+      "id": "ethyl-3-propionate",
+      "name": "Ethyl 3-(methylthio)propionate",
+      "aliases": [],
+      "pubchem_cid": 61592,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "1 mL in 1 mL 95% alcohol (in ethanol)",
+        "alcohol": "1 mL in 1 mL 95% alcohol (in ethanol)",
+        "fat_logp": "LogP 1.1"
+      },
+      "temp_notes": "BP 197.0\u00b0C (386.6\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61592"
+      ]
+    },
+    "isoamyl-laurate": {
+      "id": "isoamyl-laurate",
+      "name": "Isoamyl laurate",
+      "aliases": [],
+      "pubchem_cid": 61386,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 312.0\u00b0C (593.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61386"
+      ]
+    },
+    "ethyl-undecanoate": {
+      "id": "ethyl-undecanoate",
+      "name": "Ethyl Undecanoate",
+      "aliases": [],
+      "pubchem_cid": 12327,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 5.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 255.0\u00b0C (491.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12327"
+      ]
+    },
+    "phenylethyl-isovalerate": {
+      "id": "phenylethyl-isovalerate",
+      "name": "Phenylethyl isovalerate",
+      "aliases": [],
+      "pubchem_cid": 8792,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "1 mL in 3 ml 80% ethanol (in ethanol)",
+        "fat_logp": "LogP 3.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 264.0\u00b0C (507.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8792"
+      ]
+    },
+    "ethyl-stearate": {
+      "id": "ethyl-stearate",
+      "name": "Ethyl Stearate",
+      "aliases": [],
+      "pubchem_cid": 8122,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 8.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 105.0\u00b0C (221.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8122"
+      ]
+    },
+    "3-heptanol": {
+      "id": "3-heptanol",
+      "name": "3-Heptanol",
+      "aliases": [],
+      "pubchem_cid": 11520,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "66\u00b0C (150.8\u00b0F) (20 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11520"
+      ]
+    },
+    "1-octanol": {
+      "id": "1-octanol",
+      "name": "1-octanol",
+      "aliases": [],
+      "pubchem_cid": 957,
+      "flavor_smell": "fresh orange rose odor; oily, sweet, slightly herbaceous taste",
+      "solubility": {
+        "water": "In water, 540 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 195.0\u00b0C (383.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/957"
+      ]
+    },
+    "gamma-caprolactone": {
+      "id": "gamma-caprolactone",
+      "name": "gamma-Caprolactone",
+      "aliases": [],
+      "pubchem_cid": 12756,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "slightly",
+        "alcohol": "1 ml in 1 ml 95% alcohol (in ethanol)",
+        "fat_logp": "LogP 0.7"
+      },
+      "temp_notes": "BP 220.0\u00b0C (428.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12756"
+      ]
+    },
+    "3-hexanol": {
+      "id": "3-hexanol",
+      "name": "3-Hexanol",
+      "aliases": [],
+      "pubchem_cid": 12178,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "16.1 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.7"
+      },
+      "temp_notes": "BP 135.0\u00b0C (275.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12178"
+      ]
+    },
+    "isopropanol": {
+      "id": "isopropanol",
+      "name": "isopropanol",
+      "aliases": [],
+      "pubchem_cid": 3776,
+      "flavor_smell": "pleasant odor; slightly bitter taste",
+      "solubility": {
+        "water": "In water, infinitely soluble at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.3"
+      },
+      "temp_notes": "BP 82.5\u00b0C (180.5\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/3776"
+      ]
+    },
+    "furfuryl-alcohol": {
+      "id": "furfuryl-alcohol",
+      "name": "Furfuryl Alcohol",
+      "aliases": [],
+      "pubchem_cid": 7361,
+      "flavor_smell": "faint burning odor; bitter",
+      "solubility": {
+        "water": "In water, 1.00X10+6 mg/L at 25\u00b0C (77.0\u00b0F) (miscible)",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 0.3"
+      },
+      "temp_notes": "BP 170.0\u00b0C (338.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7361"
+      ]
+    },
+    "tetradecanoic-acid": {
+      "id": "tetradecanoic-acid",
+      "name": "Tetradecanoic acid",
+      "aliases": [],
+      "pubchem_cid": 11005,
+      "flavor_smell": "the odor should be faint with no rancidity",
+      "solubility": {
+        "water": "In water, 22 mg/L at 30\u00b0C (86.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 5.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 326.2\u00b0C (619.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11005"
+      ]
+    },
+    "trans-2-nonen-1-ol": {
+      "id": "trans-2-nonen-1-ol",
+      "name": "trans-2-Nonen-1-ol",
+      "aliases": [],
+      "pubchem_cid": 5364941,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "105.00\u00b0C (221.0\u00b0F). @ 12.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5364941"
+      ]
+    },
+    "methyl-nicotinate": {
+      "id": "methyl-nicotinate",
+      "name": "Methyl Nicotinate",
+      "aliases": [],
+      "pubchem_cid": 7151,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "47.6 mg/mL at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 0.8"
+      },
+      "temp_notes": "BP 209.0\u00b0C (408.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7151"
+      ]
+    },
+    "diethyl-malonate": {
+      "id": "diethyl-malonate",
+      "name": "Diethyl Malonate",
+      "aliases": [],
+      "pubchem_cid": 7761,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "In water, 20 g/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1"
+      },
+      "temp_notes": "BP 200.0\u00b0C (392.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7761"
+      ]
+    },
+    "propyl-hexanoate": {
+      "id": "propyl-hexanoate",
+      "name": "Propyl Hexanoate",
+      "aliases": [],
+      "pubchem_cid": 12293,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 2.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 187.0\u00b0C (368.6\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12293"
+      ]
+    },
+    "butyl-lactate": {
+      "id": "butyl-lactate",
+      "name": "Butyl Lactate",
+      "aliases": [],
+      "pubchem_cid": 8738,
+      "flavor_smell": "mild, transient odor",
+      "solubility": {
+        "water": "In water, 3.846X10+4 mg/L at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 1.1"
+      },
+      "temp_notes": "BP 187.8\u00b0C (370.0\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8738"
+      ]
+    },
+    "carvomenthone": {
+      "id": "carvomenthone",
+      "name": "Carvomenthone",
+      "aliases": [],
+      "pubchem_cid": 10362,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "(in ethanol)",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 2.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 109.0\u00b0C (228.2\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10362"
+      ]
+    },
+    "2-acetylpyridine": {
+      "id": "2-acetylpyridine",
+      "name": "2-Acetylpyridine",
+      "aliases": [],
+      "pubchem_cid": 14286,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble in ether and acids",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 0.9"
+      },
+      "temp_notes": "BP 193.0\u00b0C (379.4\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/14286"
+      ]
+    },
+    "isobutyl-acetate": {
+      "id": "isobutyl-acetate",
+      "name": "Isobutyl Acetate",
+      "aliases": [],
+      "pubchem_cid": 8038,
+      "flavor_smell": "fruit-like odor; characteristic ether-like, slightly bitter flavor",
+      "solubility": {
+        "water": "In water, 6300 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "BP 117.3\u00b0C (243.1\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8038"
+      ]
+    },
+    "13002-09-0": {
+      "id": "13002-09-0",
+      "name": "13002-09-0",
+      "aliases": [],
+      "pubchem_cid": 83036,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 3.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 210.0\u00b0C (410.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/83036"
+      ]
+    },
+    "ethyl-sorbate": {
+      "id": "ethyl-sorbate",
+      "name": "Ethyl Sorbate",
+      "aliases": [],
+      "pubchem_cid": 1550470,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "soluble (in ethanol)",
+        "fat_logp": "LogP 1.9"
+      },
+      "temp_notes": "BP 196.0\u00b0C (384.8\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1550470"
+      ]
+    },
+    "syringaldehyde": {
+      "id": "syringaldehyde",
+      "name": "Syringaldehyde",
+      "aliases": [],
+      "pubchem_cid": 8655,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 0"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8655"
+      ]
+    },
+    "2-methoxy-4-propylphenol": {
+      "id": "2-methoxy-4-propylphenol",
+      "name": "2-Methoxy-4-Propylphenol",
+      "aliases": [],
+      "pubchem_cid": 17739,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 250.0\u00b0C (482.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/17739"
+      ]
+    },
+    "isopentyl-octanoate": {
+      "id": "isopentyl-octanoate",
+      "name": "Isopentyl octanoate",
+      "aliases": [],
+      "pubchem_cid": 16255,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble in propylene glycol, insoluble in glycerol and water",
+        "alcohol": "1ml in 7ml 80% ethanol (in ethanol)",
+        "fat_logp": "LogP 4.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 268.0\u00b0C (514.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/16255"
+      ]
+    },
+    "2-phenylethyl-hexanoate": {
+      "id": "2-phenylethyl-hexanoate",
+      "name": "2-Phenylethyl hexanoate",
+      "aliases": [],
+      "pubchem_cid": 61384,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 4.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 263.0\u00b0C (505.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61384"
+      ]
+    },
+    "4-ethyl-2-methoxyphenol": {
+      "id": "4-ethyl-2-methoxyphenol",
+      "name": "4-Ethyl-2-methoxyphenol",
+      "aliases": [],
+      "pubchem_cid": 62465,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.7"
+      },
+      "temp_notes": "BP 236.0\u00b0C (456.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/62465"
+      ]
+    },
+    "phenethyl-butyrate": {
+      "id": "phenethyl-butyrate",
+      "name": "Phenethyl butyrate",
+      "aliases": [],
+      "pubchem_cid": 7658,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 238.0\u00b0C (460.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7658"
+      ]
+    },
+    "2-pentanol": {
+      "id": "2-pentanol",
+      "name": "2-Pentanol",
+      "aliases": [],
+      "pubchem_cid": 22386,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "44.6 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.2"
+      },
+      "temp_notes": "BP 112.2\u00b0C (234.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/22386"
+      ]
+    },
+    "2-methylhexanoic-acid": {
+      "id": "2-methylhexanoic-acid",
+      "name": "2-Methylhexanoic Acid",
+      "aliases": [],
+      "pubchem_cid": 20653,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "miscible with alcohol, ether and water",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "105\u00b0C (221.0\u00b0F) (5 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/20653"
+      ]
+    },
+    "1-2-dimethoxybenzene": {
+      "id": "1-2-dimethoxybenzene",
+      "name": "1,2-Dimethoxybenzene",
+      "aliases": [],
+      "pubchem_cid": 7043,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "soluble (in ethanol)",
+        "fat_logp": "LogP 1.6"
+      },
+      "temp_notes": "BP 206.0\u00b0C (402.8\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7043"
+      ]
+    },
+    "stearic-acid": {
+      "id": "stearic-acid",
+      "name": "stearic acid",
+      "aliases": [],
+      "pubchem_cid": 5281,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "In water, 0.568 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 7.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 382.8\u00b0C (721.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      ]
+    },
+    "isobutyl-hexanoate": {
+      "id": "isobutyl-hexanoate",
+      "name": "Isobutyl hexanoate",
+      "aliases": [],
+      "pubchem_cid": 7775,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "1 ml in 2 ml 80% alcohol (in ethanol)",
+        "alcohol": "1 ml in 2 ml 80% alcohol (in ethanol)",
+        "fat_logp": "LogP 3.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 200.0\u00b0C (392.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7775"
+      ]
+    },
+    "4-methyl-2-pentanone": {
+      "id": "4-methyl-2-pentanone",
+      "name": "4-Methyl-2-pentanone",
+      "aliases": [],
+      "pubchem_cid": 7909,
+      "flavor_smell": "pleasant odor",
+      "solubility": {
+        "water": "In water, 19,000 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.3"
+      },
+      "temp_notes": "BP 117.8\u00b0C (244.0\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7909"
+      ]
+    },
+    "undecanoic-acid": {
+      "id": "undecanoic-acid",
+      "name": "Undecanoic Acid",
+      "aliases": [],
+      "pubchem_cid": 8180,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "0.0522 mg/mL",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 3.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 284.0\u00b0C (543.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8180"
+      ]
+    },
+    "ethyl-levulinate": {
+      "id": "ethyl-levulinate",
+      "name": "Ethyl Levulinate",
+      "aliases": [],
+      "pubchem_cid": 10883,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 0.1"
+      },
+      "temp_notes": "93.00 to 94.00\u00b0C (201.2\u00b0F). @ 18.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10883"
+      ]
+    },
+    "dimethyl-trisulfide": {
+      "id": "dimethyl-trisulfide",
+      "name": "Dimethyl trisulfide",
+      "aliases": [],
+      "pubchem_cid": 19310,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "very slightly soluble in water; soluble in alcohols, propylene glycol and oils",
+        "fat_logp": "LogP 1.3"
+      },
+      "temp_notes": "165-170\u00b0C (338.0\u00b0F);  41\u00b0C (105.8\u00b0F) (6 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/19310"
+      ]
+    },
+    "geranylacetone": {
+      "id": "geranylacetone",
+      "name": "Geranylacetone",
+      "aliases": [],
+      "pubchem_cid": 1549778,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "\u2014",
+        "alcohol": "\u2014",
+        "fat_logp": "LogP 3.7 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1549778"
+      ]
+    },
+    "1-decanol": {
+      "id": "1-decanol",
+      "name": "1-Decanol",
+      "aliases": [],
+      "pubchem_cid": 8174,
+      "flavor_smell": "sweet odor; slight, characteristic fatty taste",
+      "solubility": {
+        "water": "In water, 37 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 4.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 230.0\u00b0C (446.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8174"
+      ]
+    },
+    "pinocarveol": {
+      "id": "pinocarveol",
+      "name": "Pinocarveol",
+      "aliases": [],
+      "pubchem_cid": 102667,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "BP 210.0\u00b0C (410.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/102667"
+      ]
+    },
+    "2-nonanol": {
+      "id": "2-nonanol",
+      "name": "2-Nonanol",
+      "aliases": [],
+      "pubchem_cid": 12367,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "0.259 mg/mL at 15\u00b0C (59.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 194.0\u00b0C (381.2\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12367"
+      ]
+    },
+    "lauric-acid": {
+      "id": "lauric-acid",
+      "name": "lauric acid",
+      "aliases": [],
+      "pubchem_cid": 3893,
+      "flavor_smell": "characteristic, like oil of bay",
+      "solubility": {
+        "water": "In water, 4.81 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "1 g dissolves in 1 ml alcohol, 2.5 ml propyl alcohol; freely sol in benzene, ether.",
+        "fat_logp": "LogP 4.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 91.4\u00b0C (196.5\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/3893"
+      ]
+    },
+    "4-hydroxybenzoic-acid": {
+      "id": "4-hydroxybenzoic-acid",
+      "name": "4-Hydroxybenzoic Acid",
+      "aliases": [],
+      "pubchem_cid": 135,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "In water, 5000 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Solubility (in 100 g of solution): 99% ethanol 38.75 g (67\u00b0C (152.6\u00b0F)); n-butanol 19.5 g (32.5\u00b0C (90.5\u00b0F))",
+        "fat_logp": "LogP 1.6"
+      },
+      "temp_notes": "BP 335.0\u00b0C (635.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/135"
+      ]
+    },
+    "octanoic-acid": {
+      "id": "octanoic-acid",
+      "name": "octanoic acid",
+      "aliases": [],
+      "pubchem_cid": 379,
+      "flavor_smell": "faint, fruity-acid odor; slightly sour taste",
+      "solubility": {
+        "water": "In water 789 mg/L at 30\u00b0C (86.0\u00b0F)",
+        "alcohol": "Very slightly sol in water (0.068 g/100 g at 20\u00b0C (68.0\u00b0F)); freely sol in alcohol, chloroform, ether, carbon disulfide, petroleum ether, glacial acetic acid",
+        "fat_logp": "LogP 3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 239.7\u00b0C (463.5\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/379"
+      ]
+    },
+    "oleic-acid": {
+      "id": "oleic-acid",
+      "name": "oleic acid",
+      "aliases": [],
+      "pubchem_cid": 445639,
+      "flavor_smell": "peculiar lard-like odor; peculiar lard-like taste",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 6.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 360.0\u00b0C (680.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/445639"
+      ]
+    },
+    "trans-2-octen-1-ol": {
+      "id": "trans-2-octen-1-ol",
+      "name": "trans-2-Octen-1-Ol",
+      "aliases": [],
+      "pubchem_cid": 5318599,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 2.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "88\u00b0C (190.4\u00b0F) (11 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5318599"
+      ]
+    },
+    "ethyl-isobutyrate": {
+      "id": "ethyl-isobutyrate",
+      "name": "Ethyl Isobutyrate",
+      "aliases": [],
+      "pubchem_cid": 7342,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "very soluble in ether",
+        "alcohol": "1 ml in 1 ml 95% alcohol (in ethanol)",
+        "fat_logp": "LogP 1.5"
+      },
+      "temp_notes": "BP 113.0\u00b0C (235.4\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7342"
+      ]
+    },
+    "3-methylbutyl-2-methylbutanoate": {
+      "id": "3-methylbutyl-2-methylbutanoate",
+      "name": "3-Methylbutyl 2-methylbutanoate",
+      "aliases": [],
+      "pubchem_cid": 520326,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 186.0\u00b0C (366.8\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/520326"
+      ]
+    },
+    "1-phenylethyl-isobutyrate": {
+      "id": "1-phenylethyl-isobutyrate",
+      "name": "1-Phenylethyl isobutyrate",
+      "aliases": [],
+      "pubchem_cid": 569214,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "219\u00b0C (426.2\u00b0F); 80\u00b0C (176.0\u00b0F) (3 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/569214"
+      ]
+    },
+    "2-undecanol": {
+      "id": "2-undecanol",
+      "name": "2-Undecanol",
+      "aliases": [],
+      "pubchem_cid": 15448,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "0.197 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 4.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 233.0\u00b0C (451.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/15448"
+      ]
+    },
+    "1-terpineol": {
+      "id": "1-terpineol",
+      "name": "1-Terpineol",
+      "aliases": [],
+      "pubchem_cid": 11468,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Slighly soluble in water; soluble in alcohols and oils",
+        "fat_logp": "LogP 2"
+      },
+      "temp_notes": "BP 210.0\u00b0C (410.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11468"
+      ]
+    },
+    "decanoic-acid": {
+      "id": "decanoic-acid",
+      "name": "Decanoic acid",
+      "aliases": [],
+      "pubchem_cid": 2969,
+      "flavor_smell": "rancid odor",
+      "solubility": {
+        "water": "In water solubility, 61.8 mg/L at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Practically insol in water (0.015 g/100 g at 20\u00b0C (68.0\u00b0F)); sol in ethanol; ether; chloroform; benzene; carbon disulfide; dilute nitric acid",
+        "fat_logp": "LogP 4.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 270.0\u00b0C (518.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/2969"
+      ]
+    },
+    "ethyl-hex-2-enoate": {
+      "id": "ethyl-hex-2-enoate",
+      "name": "Ethyl hex-2-enoate",
+      "aliases": [],
+      "pubchem_cid": 5364778,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 174.0\u00b0C (345.2\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5364778"
+      ]
+    },
+    "ethyl-2-octenoate": {
+      "id": "ethyl-2-octenoate",
+      "name": "Ethyl 2-octenoate",
+      "aliases": [],
+      "pubchem_cid": 5364399,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 3.4 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "93-96\u00b0C (204.8\u00b0F) (10 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5364399"
+      ]
+    },
+    "pentyl-formate": {
+      "id": "pentyl-formate",
+      "name": "Pentyl formate",
+      "aliases": [],
+      "pubchem_cid": 12529,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "miscible with alcohol, ether, most organic solvents",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.9"
+      },
+      "temp_notes": "BP 131.0\u00b0C (267.8\u00b0F); volatile, significant loss during cooking",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12529"
+      ]
+    },
+    "diethyl-malate": {
+      "id": "diethyl-malate",
+      "name": "Diethyl Malate",
+      "aliases": [],
+      "pubchem_cid": 24197,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 0.1"
+      },
+      "temp_notes": "254\u00b0C (489.2\u00b0F); 91-92\u00b0C (197.6\u00b0F) (1 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/24197"
+      ]
+    },
+    "whiskey-lactone": {
+      "id": "whiskey-lactone",
+      "name": "Whiskey lactone",
+      "aliases": [],
+      "pubchem_cid": 62900,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 2.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 94.0\u00b0C (201.2\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/62900"
+      ]
+    },
+    "4-2-methoxyphenol": {
+      "id": "4-2-methoxyphenol",
+      "name": "4-(Ethoxymethyl)-2-methoxyphenol",
+      "aliases": [],
+      "pubchem_cid": 61586,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 0.9"
+      },
+      "temp_notes": "BP 212.0\u00b0C (413.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61586"
+      ]
+    },
+    "2-tridecanone": {
+      "id": "2-tridecanone",
+      "name": "2-Tridecanone",
+      "aliases": [],
+      "pubchem_cid": 11622,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "less than 1 mg/mL at 73\u00b0F (22.8\u00b0C) (NTP, 1992)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 5.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 262.8\u00b0C (505.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11622"
+      ]
+    },
+    "diethyl-succinate": {
+      "id": "diethyl-succinate",
+      "name": "Diethyl Succinate",
+      "aliases": [],
+      "pubchem_cid": 31249,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "19.1 mg/mL at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Miscible",
+        "fat_logp": "LogP 1.2"
+      },
+      "temp_notes": "BP 218.0\u00b0C (424.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/31249"
+      ]
+    },
+    "1-propanol": {
+      "id": "1-propanol",
+      "name": "1-propanol",
+      "aliases": [],
+      "pubchem_cid": 1031,
+      "flavor_smell": "similar to ethanol; characteristic ripe, fruity flavor",
+      "solubility": {
+        "water": "1000.0 mg/mL",
+        "alcohol": "1 ml in 1 ml 95% alcohol (in ethanol)",
+        "fat_logp": "LogP 0.3"
+      },
+      "temp_notes": "BP 97.2\u00b0C (207.0\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1031"
+      ]
+    },
+    "3-acetylpyridine": {
+      "id": "3-acetylpyridine",
+      "name": "3-Acetylpyridine",
+      "aliases": [],
+      "pubchem_cid": 9589,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble in acids,alcohol, ether, and water",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 0.4"
+      },
+      "temp_notes": "BP 230.0\u00b0C (446.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/9589"
+      ]
+    },
+    "decyl-acetate": {
+      "id": "decyl-acetate",
+      "name": "Decyl Acetate",
+      "aliases": [],
+      "pubchem_cid": 8167,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "1 ml in 2 ml 80% alcohol (in ethanol)",
+        "fat_logp": "LogP 4.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 272.0\u00b0C (521.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8167"
+      ]
+    },
+    "methylglyoxal": {
+      "id": "methylglyoxal",
+      "name": "methylglyoxal",
+      "aliases": [],
+      "pubchem_cid": 880,
+      "flavor_smell": "pungent",
+      "solubility": {
+        "water": "greater than or equal to 100 mg/mL at 63\u00b0F (17.2\u00b0C) (NTP, 1992)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP -0.4 \u2014 prefers water"
+      },
+      "temp_notes": "BP 72.2\u00b0C (162.0\u00b0F); very volatile, significant loss at cooking temperatures",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+      ]
+    },
+    "isobutyl-butyrate": {
+      "id": "isobutyl-butyrate",
+      "name": "Isobutyl butyrate",
+      "aliases": [],
+      "pubchem_cid": 10885,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "1 ml in 8 ml 60% alcohol (in ethanol)",
+        "fat_logp": "LogP 2.3 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 156.9\u00b0C (314.4\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10885"
+      ]
+    },
+    "methyl-phenylacetate": {
+      "id": "methyl-phenylacetate",
+      "name": "Methyl Phenylacetate",
+      "aliases": [],
+      "pubchem_cid": 7559,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "BP 217.0\u00b0C (422.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/7559"
+      ]
+    },
+    "2-acetyl-5-methylfuran": {
+      "id": "2-acetyl-5-methylfuran",
+      "name": "2-Acetyl-5-Methylfuran",
+      "aliases": [],
+      "pubchem_cid": 14514,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 1.4"
+      },
+      "temp_notes": "100.00 to 101.00\u00b0C (213.8\u00b0F). @ 25.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/14514"
+      ]
+    },
+    "fenchol": {
+      "id": "fenchol",
+      "name": "Fenchol",
+      "aliases": [],
+      "pubchem_cid": 15406,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 2.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 202.0\u00b0C (395.6\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/15406"
+      ]
+    },
+    "2-4-dimethylbenzaldehyde": {
+      "id": "2-4-dimethylbenzaldehyde",
+      "name": "2,4-Dimethylbenzaldehyde",
+      "aliases": [],
+      "pubchem_cid": 61814,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 215.0\u00b0C (419.0\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61814"
+      ]
+    },
+    "4-methyl-5-vinylthiazole": {
+      "id": "4-methyl-5-vinylthiazole",
+      "name": "4-Methyl-5-Vinylthiazole",
+      "aliases": [],
+      "pubchem_cid": 15654,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Soluble in organic solvents",
+        "alcohol": "Miscible at room temperature (in ethanol)",
+        "fat_logp": "LogP 2.2 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "78-80\u00b0C (176.0\u00b0F) (25 mm Hg) (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/15654"
+      ]
+    },
+    "4-ethylphenol": {
+      "id": "4-ethylphenol",
+      "name": "4-Ethylphenol",
+      "aliases": [],
+      "pubchem_cid": 31242,
+      "flavor_smell": "powerful woody-phenolic, yet somewhat sweet; sweet smokey",
+      "solubility": {
+        "water": "In water, 4.90X10+3 mg/l at 25\u00b0C (77.0\u00b0F)",
+        "alcohol": "Very soluble",
+        "fat_logp": "LogP 2.6 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 219.0\u00b0C (426.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/31242"
+      ]
+    },
+    "2-methyl-2-pentenal": {
+      "id": "2-methyl-2-pentenal",
+      "name": "2-Methyl-2-Pentenal",
+      "aliases": [],
+      "pubchem_cid": 5319754,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "\u2014",
+        "alcohol": "\u2014",
+        "fat_logp": "LogP 1.4"
+      },
+      "temp_notes": "\u2014",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5319754"
+      ]
+    },
+    "2-methylbutanoic-acid": {
+      "id": "2-methylbutanoic-acid",
+      "name": "2-Methylbutanoic acid",
+      "aliases": [],
+      "pubchem_cid": 8314,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "45 mg/mL at 20\u00b0C (68.0\u00b0F)",
+        "alcohol": "1 ml in 1 ml 95% alcohol (in ethanol)",
+        "fat_logp": "LogP 1.2"
+      },
+      "temp_notes": "BP 177.0\u00b0C (350.6\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8314"
+      ]
+    },
+    "3-methyl-1-pentanol": {
+      "id": "3-methyl-1-pentanol",
+      "name": "3-Methyl-1-Pentanol",
+      "aliases": [],
+      "pubchem_cid": 11508,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "(in ethanol)",
+        "alcohol": "(in ethanol)",
+        "fat_logp": "LogP 1.8"
+      },
+      "temp_notes": "BP 152.0\u00b0C (305.6\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/11508"
+      ]
+    },
+    "ethyl-palmitate": {
+      "id": "ethyl-palmitate",
+      "name": "Ethyl Palmitate",
+      "aliases": [],
+      "pubchem_cid": 12366,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 7.8 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 303.0\u00b0C (577.4\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12366"
+      ]
+    },
+    "nonanoic-acid": {
+      "id": "nonanoic-acid",
+      "name": "Nonanoic Acid",
+      "aliases": [],
+      "pubchem_cid": 8158,
+      "flavor_smell": "fatty odor; unpleasant taste",
+      "solubility": {
+        "water": "In water, 284 mg/L at 30\u00b0C (86.0\u00b0F)",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.5 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 254.0\u00b0C (489.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/8158"
+      ]
+    },
+    "1125-21-9": {
+      "id": "1125-21-9",
+      "name": "1125-21-9",
+      "aliases": [],
+      "pubchem_cid": 62374,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "Slightly soluble",
+        "alcohol": "Soluble (in ethanol)",
+        "fat_logp": "LogP 1"
+      },
+      "temp_notes": "92.00 to 94.00\u00b0C (201.2\u00b0F). @ 11.00 mm Hg (reduced pressure; atmospheric BP not established)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/62374"
+      ]
+    },
+    "methyl-linoleate": {
+      "id": "methyl-linoleate",
+      "name": "Methyl Linoleate",
+      "aliases": [],
+      "pubchem_cid": 5284421,
+      "flavor_smell": "\u2014",
+      "solubility": {
+        "water": "\u2014",
+        "alcohol": "\u2014",
+        "fat_logp": "LogP 6.9 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 374.0\u00b0C (705.2\u00b0F); heat-stable through custard processing",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5284421"
+      ]
+    },
+    "3-nonanone": {
+      "id": "3-nonanone",
+      "name": "3-Nonanone",
+      "aliases": [],
+      "pubchem_cid": 61235,
+      "flavor_smell": "fresh, sweet, earthy, herbal",
+      "solubility": {
+        "water": "Insoluble",
+        "alcohol": "Soluble",
+        "fat_logp": "LogP 3.1 \u2014 strongly fat-soluble"
+      },
+      "temp_notes": "BP 188.0\u00b0C (370.4\u00b0F); moderately volatile, some loss above 80\u00b0C (176\u00b0F)",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/61235"
+      ]
     }
   }
 }

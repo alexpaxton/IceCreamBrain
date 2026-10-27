@@ -7546,6 +7546,1019 @@
         "https://link.springer.com/chapter/10.1007/978-1-4615-4783-9_9",
         "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=301"
       ]
+    },
+    "cognac": {
+      "id": "cognac",
+      "name": "Cognac Brandy",
+      "scientific_name": "Vitis",
+      "variety": "Cognac (oak-aged grape brandy)",
+      "gcms_summary": "VOC profile from FlavorDB (entity_id: 17). 204 compounds. Odor-active fraction spans logP -1.3 to 6.5 with a median of 2.1; the flavor-defining cluster sits at logP 0-2 and is water- and alcohol-soluble. Bright character comes from low-boiling ethyl and acetate esters (ethyl butyrate, isoamyl acetate, ethyl propionate) that volatilise readily; oak-derived and aged character comes from higher-boiling vanillin, guaiacol, 4-ethylphenol, gamma-nonanolactone and the alpha/beta-ionones. Practical consequence: reducing cognac over heat preferentially strips the low-boiling esters and concentrates the oak/rancio heavy end.",
+      "compounds": [
+        {
+          "compound_id": "1-1-dimethoxyethane",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-2-dimethoxybenzene",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-decanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-heptanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-octanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-octen-3-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-phenylethanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-phenylethyl-isobutyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-propanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1-terpineol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "1125-21-9",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "13002-09-0",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "13679-70-4",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "13679-86-2",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-3-butanedione",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-3-pentanedione",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-4-dimethylbenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-4-dimethylthiazole",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-6-dimethyl-4-heptanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-acetyl-5-methylfuran",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-acetylpyridine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-ethylhexan-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-heptanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-heptanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methoxy-4-propylphenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methyl-1-propanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methyl-2-pentenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylbutanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylbutyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylbutyraldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-methylhexanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-nonanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-nonanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-pentanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-pentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-phenylethyl-formate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-phenylethyl-hexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-tridecanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-undecanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "2-undecanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-acetylpyridine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-heptanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-hexanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-1-butanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-1-pentanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methyl-2-butenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylbutanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylbutyl-2-methylbutanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-methylthiopropanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-octanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-octanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "3-phenylpropanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-2-methoxyphenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-ethyl-2-methoxyphenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-ethylphenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hydroxybenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-hydroxybenzoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-isopropylbenzaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-isopropylbenzyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-methyl-2-pentanone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-methyl-5-thiazoleethanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-methyl-5-vinylthiazole",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-methylacetophenone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "4-vinylguaiacol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "5-methylfurfural",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "6-methyl-5-hepten-2-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-ionone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "alpha-terpineol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-damascenone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-ionone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "beta-terpineol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "butyl-lactate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "campholenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "carvomenthone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "chavicol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cinnamic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-2-hexen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cis-3-hexenyl-lactate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "cycloionone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "d-lactic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "decanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "decyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "delta-nonalactone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "diethyl-malate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "diethyl-malonate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "diethyl-succinate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dimethyl-disulfide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "dimethyl-trisulfide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-10-undecenoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-2-methylbutanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-2-octenoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-3-hydroxyhexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-3-propionate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-butanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-cinnamate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-decanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-hex-2-enoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-hexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-isobutyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-isovalerate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-lactate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-levulinate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-octanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-palmitate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-phenylacetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-pyruvate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-sorbate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-stearate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "ethyl-undecanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "fenchol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "formic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "furfural",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "furfuryl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-caprolactone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "gamma-nonanolactone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "geranylacetone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "guaiacol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "heptanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "hexyl-butyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoamyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoamyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoamyl-butyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoamyl-laurate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoamyl-propanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isoborneol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyl-butyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyl-formate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyl-heptanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyl-hexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyraldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isobutyric-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isopentyl-formate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isopentyl-hexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isopentyl-octanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isopropanol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isopulegol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "isovaleric-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "lauric-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-2-furoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-benzoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-dodecanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-heptanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-linoleate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-nicotinate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-nonanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-octanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-phenylacetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-propionate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-salicylate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methyl-tetradecanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "methylglyoxal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "myrtenol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nerol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nerol-oxide",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nerolidol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nonanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "nonanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "octan-2-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "octan-2-one",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "octanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "oleic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "p-cymen-8-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "palmitic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "pentanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "pentyl-formate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-alcohol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-butyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenethyl-isobutyrate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylacetic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "phenylethyl-isovalerate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "pinocarveol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propionaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propionic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propyl-acetate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propyl-formate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "propyl-hexanoate",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "pyridine",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "stearic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "syringaldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "tetradecanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "tiglic-aldehyde",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-heptenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-hexen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-nonen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-nonenal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-2-octen-1-ol",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "trans-trans-2-4-nonadienal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "undecanal",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "undecanoic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "vanillic-acid",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "vanillin",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "whiskey-lactone",
+          "percentage": null,
+          "notes": null
+        },
+        {
+          "compound_id": "z-3-hexenyl-acetate",
+          "percentage": null,
+          "notes": null
+        }
+      ],
+      "warnings": "Contains ethanol. In frozen desserts ethanol carries PAC 740 (7.4x sucrose per gram) and dominates freezing-point depression even at small residual quantities; account for it explicitly when balancing.",
+      "sources": [
+        "https://cosylab.iiitd.edu.in/flavordb2/entity_details?id=17"
+      ]
     }
   }
 }

@@ -15,3 +15,23 @@ Ataulfo mango ripe,83.5,0.38,13.7,0,0.82,1.6,https://fdc.nal.usda.gov/food-detai
 Espresso brewed restaurant-prepared,97.80,0.18,0,0,0.12,1.90,https://api.nal.usda.gov/fdc/v1/food/171891
 Strawberry juice 100%,94.0,0.14,3.17,0.39,0.43,1.87,https://www.nutritionvalue.org/Strawberry_juice%2C_100%25_64132500_nutritional_value.html
 Tomato juice canned no salt added,94.24,0.29,2.58,0,0.85,2.04,https://api.nal.usda.gov/fdc/v1/food/170458
+Bone marrow fat rendered,0,100,0,0,0,0,https://fdc.nal.usda.gov/food-details/171400
+Bone marrow raw,7.4,84.4,0,0,6.7,1.5,https://fdc.nal.usda.gov/food-details/169800
+Milk dry nonfat regular,3.16,0.77,51.98,0,36.16,7.93,https://fdc.nal.usda.gov/food-details/172195
+Salt table,0.2,0,0,0,0,99.8,https://fdc.nal.usda.gov/food-details/173468
+Xanthan gum,9.0,0,0,0,0,91.0,https://www.fao.org/gsfaonline/additives/details.html?id=349
+Guar gum,10.0,0.5,0,0,4.6,84.9,https://www.fao.org/gsfaonline/additives/details.html?id=348
+Sugar dark muscovado,4.0,0,93.5,0,0.3,2.2,https://en.wikipedia.org/wiki/Muscovado
+Bone marrow roasted scooped,3.0,89.0,0,0,7.0,1.0,derived-from-fdc-169800-adjusted-for-roasting-water-loss
+Chocolate dark 70-85% cacao solids,1.37,42.63,24.23,0,7.79,23.98,https://fdc.nal.usda.gov/food-search?query=chocolate%20dark%2070-85%25%20cacao%20solids
+Chocolate milk candies,1.50,29.66,51.50,0,7.65,9.69,https://fdc.nal.usda.gov/food-search?query=candies%20chocolate%20milk
+Cocoa dry powder unsweetened,3.00,13.70,1.75,0,19.60,61.95,https://fdc.nal.usda.gov/food-search?query=cocoa%20dry%20powder%20unsweetened
+Allulose crystalline,0,0,100,0,0,0,https://www.fda.gov/food/food-labeling-nutrition/allulose
+Peaches yellow raw,88.87,0.25,8.24,0,0.91,1.73,https://fdc.nal.usda.gov/food-details/169928
+Pineapple raw all varieties,86.00,0.12,9.84,0,0.54,3.50,https://fdc.nal.usda.gov/food-details/169124
+Raspberries raw,85.75,0.65,4.41,0,1.20,7.99,https://fdc.nal.usda.gov/food-details/167755
+Raspberry puree seedless strained,90.06,0.11,5.01,0,1.02,3.80,derived-from-fdc-167755-88pct-yield-seeds-carry-fat-and-fiber
+Coconut milk evaporated Nature's Charm,86.66,6.67,3.33,0,0,3.34,https://tools.myfooddata.com/nutrition-facts/719056/wt1
+Nectarines raw,87.59,0.32,7.89,0,1.06,3.14,https://fdc.nal.usda.gov/food-details/169914
+Camembert cheese,51.8,24.3,0.46,0,19.8,3.64,https://fdc.nal.usda.gov/food-details/172178/nutrients
+Lime juice raw,90.79,0.07,1.69,0,0.42,7.03,https://fdc.nal.usda.gov/food-details/168156

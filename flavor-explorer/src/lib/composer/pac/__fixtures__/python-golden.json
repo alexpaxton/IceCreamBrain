@@ -1,0 +1,278 @@
+[
+  {
+    "name": "sorbet_presets_and_fruit",
+    "cli": "python3 /Users/xx/src/ice-cream/.claude/skills/calculate-pac/pac_calculator.py --ingredient sucrose:150 --ingredient dextrose:30 --ingredient \"mango:300:fructose:0.09:sucrose:0.05:water:0.835\" --ingredient \"water:520:water:1.0\" --type sorbet --serve -12",
+    "inputs": {
+      "ingredients": [
+        "sucrose:150",
+        "dextrose:30",
+        "mango:300:fructose:0.09:sucrose:0.05:water:0.835",
+        "water:520:water:1.0"
+      ],
+      "type": "sorbet",
+      "serveTempC": -12
+    },
+    "expected": {
+      "totalGrams": 1000.0,
+      "waterPct": 77.29,
+      "tsPct": 22.71,
+      "msnfPct": 0.0,
+      "pac": 26.874,
+      "pacn": 34.770345452193034,
+      "freezingPointC": -2.079281241263127,
+      "iceFraction": 0.6249324614545133,
+      "pctWaterFrozen": 80.85553906773364,
+      "servingTempEstC": -10.7496,
+      "saltPac": 0.0,
+      "alcoholPac": 0.0,
+      "breakdown": [
+        {
+          "ingredient": "sucrose",
+          "grams": 150.0,
+          "sugar": "sucrose",
+          "netGrams": 150.0,
+          "contribution": 15.0
+        },
+        {
+          "ingredient": "dextrose",
+          "grams": 30.0,
+          "sugar": "dextrose",
+          "netGrams": 27.6,
+          "contribution": 5.244
+        },
+        {
+          "ingredient": "mango",
+          "grams": 300.0,
+          "sugar": "fructose",
+          "netGrams": 27.0,
+          "contribution": 5.13
+        },
+        {
+          "ingredient": "mango",
+          "grams": 300.0,
+          "sugar": "sucrose",
+          "netGrams": 15.0,
+          "contribution": 1.5
+        }
+      ]
+    }
+  },
+  {
+    "name": "gelato_dairy_msnf",
+    "cli": "python3 /Users/xx/src/ice-cream/.claude/skills/calculate-pac/pac_calculator.py --ingredient milk_whole:400 --ingredient cream_35:200 --ingredient sucrose:120 --type gelato --serve -12",
+    "inputs": {
+      "ingredients": [
+        "milk_whole:400",
+        "cream_35:200",
+        "sucrose:120"
+      ],
+      "type": "gelato",
+      "serveTempC": -12
+    },
+    "expected": {
+      "totalGrams": 720.0,
+      "waterPct": 65.88888888888889,
+      "tsPct": 34.111111111111114,
+      "msnfPct": 5.999999999999999,
+      "pac": 20.166666666666668,
+      "pacn": 30.6070826306914,
+      "freezingPointC": -2.0252200622450034,
+      "iceFraction": 0.5330429380279678,
+      "pctWaterFrozen": 80.90027727237286,
+      "servingTempEstC": -10.083333333333334,
+      "saltPac": 0.0,
+      "alcoholPac": 0.0,
+      "breakdown": [
+        {
+          "ingredient": "milk_whole",
+          "grams": 400.0,
+          "sugar": "lactose",
+          "netGrams": 19.6,
+          "contribution": 2.7222222222222223
+        },
+        {
+          "ingredient": "cream_35",
+          "grams": 200.0,
+          "sugar": "lactose",
+          "netGrams": 5.6000000000000005,
+          "contribution": 0.7777777777777778
+        },
+        {
+          "ingredient": "sucrose",
+          "grams": 120.0,
+          "sugar": "sucrose",
+          "netGrams": 120.0,
+          "contribution": 16.666666666666668
+        }
+      ]
+    }
+  },
+  {
+    "name": "sorbet_salt_and_ethanol",
+    "cli": "python3 /Users/xx/src/ice-cream/.claude/skills/calculate-pac/pac_calculator.py --ingredient sucrose:150 --ingredient \"water:520:water:1.0\" --ingredient salt:2 --ingredient ethanol:20 --type sorbet --serve -12",
+    "inputs": {
+      "ingredients": [
+        "sucrose:150",
+        "water:520:water:1.0",
+        "salt:2",
+        "ethanol:20"
+      ],
+      "type": "sorbet",
+      "serveTempC": -12
+    },
+    "expected": {
+      "totalGrams": 692.0,
+      "waterPct": 75.14450867052022,
+      "tsPct": 24.85549132947977,
+      "msnfPct": 0.0,
+      "pac": 44.7543352601156,
+      "pacn": 59.55769230769231,
+      "freezingPointC": -5.145175555164631,
+      "iceFraction": 0.5825962520614973,
+      "pctWaterFrozen": 77.53011662049157,
+      "servingTempEstC": -17.90173410404624,
+      "saltPac": 1.6907514450867052,
+      "alcoholPac": 21.387283236994218,
+      "breakdown": [
+        {
+          "ingredient": "sucrose",
+          "grams": 150.0,
+          "sugar": "sucrose",
+          "netGrams": 150.0,
+          "contribution": 21.67630057803468
+        },
+        {
+          "ingredient": "salt",
+          "grams": 2.0,
+          "sugar": "salt",
+          "netGrams": 2.0,
+          "contribution": 1.6907514450867052
+        },
+        {
+          "ingredient": "ethanol",
+          "grams": 20.0,
+          "sugar": "ethanol",
+          "netGrams": 20.0,
+          "contribution": 21.387283236994218
+        }
+      ]
+    }
+  },
+  {
+    "name": "serve_above_freezing_point",
+    "cli": "python3 /Users/xx/src/ice-cream/.claude/skills/calculate-pac/pac_calculator.py --ingredient sucrose:150 --ingredient dextrose:30 --ingredient \"mango:300:fructose:0.09:sucrose:0.05:water:0.835\" --ingredient \"water:520:water:1.0\" --type sorbet --serve -1",
+    "inputs": {
+      "ingredients": [
+        "sucrose:150",
+        "dextrose:30",
+        "mango:300:fructose:0.09:sucrose:0.05:water:0.835",
+        "water:520:water:1.0"
+      ],
+      "type": "sorbet",
+      "serveTempC": -1
+    },
+    "expected": {
+      "totalGrams": 1000.0,
+      "waterPct": 77.29,
+      "tsPct": 22.71,
+      "msnfPct": 0.0,
+      "pac": 26.874,
+      "pacn": 34.770345452193034,
+      "freezingPointC": -2.079281241263127,
+      "iceFraction": null,
+      "pctWaterFrozen": null,
+      "servingTempEstC": -10.7496,
+      "saltPac": 0.0,
+      "alcoholPac": 0.0,
+      "breakdown": [
+        {
+          "ingredient": "sucrose",
+          "grams": 150.0,
+          "sugar": "sucrose",
+          "netGrams": 150.0,
+          "contribution": 15.0
+        },
+        {
+          "ingredient": "dextrose",
+          "grams": 30.0,
+          "sugar": "dextrose",
+          "netGrams": 27.6,
+          "contribution": 5.244
+        },
+        {
+          "ingredient": "mango",
+          "grams": 300.0,
+          "sugar": "fructose",
+          "netGrams": 27.0,
+          "contribution": 5.13
+        },
+        {
+          "ingredient": "mango",
+          "grams": 300.0,
+          "sugar": "sucrose",
+          "netGrams": 15.0,
+          "contribution": 1.5
+        }
+      ]
+    }
+  },
+  {
+    "name": "total_override",
+    "cli": "python3 /Users/xx/src/ice-cream/.claude/skills/calculate-pac/pac_calculator.py --ingredient sucrose:150 --ingredient dextrose:30 --ingredient \"mango:300:fructose:0.09:sucrose:0.05:water:0.835\" --ingredient \"water:520:water:1.0\" --total 1100 --type sorbet --serve -12",
+    "inputs": {
+      "ingredients": [
+        "sucrose:150",
+        "dextrose:30",
+        "mango:300:fructose:0.09:sucrose:0.05:water:0.835",
+        "water:520:water:1.0"
+      ],
+      "type": "sorbet",
+      "serveTempC": -12,
+      "totalGrams": 1100
+    },
+    "expected": {
+      "totalGrams": 1100.0,
+      "waterPct": 70.26363636363637,
+      "tsPct": 29.736363636363638,
+      "msnfPct": 0.0,
+      "pac": 24.430909090909093,
+      "pacn": 34.77034545219304,
+      "freezingPointC": -2.0792812412631276,
+      "iceFraction": 0.5681204195041029,
+      "pctWaterFrozen": 80.85553906773362,
+      "servingTempEstC": -9.772363636363638,
+      "saltPac": 0.0,
+      "alcoholPac": 0.0,
+      "breakdown": [
+        {
+          "ingredient": "sucrose",
+          "grams": 150.0,
+          "sugar": "sucrose",
+          "netGrams": 150.0,
+          "contribution": 13.636363636363637
+        },
+        {
+          "ingredient": "dextrose",
+          "grams": 30.0,
+          "sugar": "dextrose",
+          "netGrams": 27.6,
+          "contribution": 4.7672727272727276
+        },
+        {
+          "ingredient": "mango",
+          "grams": 300.0,
+          "sugar": "fructose",
+          "netGrams": 27.0,
+          "contribution": 4.663636363636364
+        },
+        {
+          "ingredient": "mango",
+          "grams": 300.0,
+          "sugar": "sucrose",
+          "netGrams": 15.0,
+          "contribution": 1.3636363636363635
+        }
+      ]
+    }
+  }
+]
